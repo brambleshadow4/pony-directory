@@ -7,10 +7,18 @@ sites:
     description: A popular image board.
     img: 
     updated: 2023-11-08
+  - name: manebooru.art
+    description: A popular alternative with more strict guidelines on controversial content.
+    img:
+    updated: 2023-11-09
   - name: www.horse-news.org
     description: A blog featuring troll-like articles about current events in the MLP fandom.
     img: 
     updated: 2023-11-08
+  - name: www.dailydoseofpony.com
+    description: An all-skill-level content featuring platform for all kinds of pony content.
+    img:
+    updated: 2023-11-09
   - name: www.fimfiction.net
     description: A website dedicated to hosting MLP fanfics.
     img: 
@@ -37,6 +45,10 @@ sites:
     description: MLP convention based in San Francisco
     img: 
     updated: 2023-11-08
+  - name: ponycon.info
+    description: Directory of MLP conventions and events with countdown clocks
+    img:
+    updated: 2023-11-09
   - name: ponyvilleciderfest.com
     description: MLP convention based in Milwaukee 
     img: 
@@ -75,6 +87,26 @@ sites:
     description: Former MLP convention based in Australia
     img: 
     updated: 2023-11-08
+  - name: everfree-encore.eu
+    description: Yearly music festival organised in Germany
+    img:
+    updated: 2023-11-09
+  - name: eponafest.it
+    description: The Italian MLP convention
+    img:
+    updated: 2023-11-09
+  - name: galacon.pony-events.eu
+    description: The largest European MLP convention, Germany
+    img:
+    updated: 2023-11-09
+  - name: www.czequestria.cz
+    description: The Czech MLP convention
+    img:
+    updated: 2023-11-09
+  - name: ponyconholland.com
+    description: Dutch MLP convention
+    img:
+    updated: 2023-11-09
   - name: ponyfest.horse
     description: Online MLP convention
     img: 
@@ -140,6 +172,11 @@ sites:
     description: Celestia-based religion site
     img: 
     updated: 2023-11-08
+  - name: greattobedifferent.com
+    is_dead: True
+    description: Companion site to Forest Rain's song
+    img:
+    updated: 2023-11-09
   - name: www.tsssf.net
     description: Website for playing Twilight Sparkle's secret shipfic folder
     img: 
@@ -193,6 +230,11 @@ sites:
     img: 
     updated: 2023-11-08
 
+  - name: fedi.ponysearch.eu
+    description: A quick start guide and instance list in multiple languages
+    img:
+    updated: 2023-11-09
+
   - name: www.bbbff.net
     is_dead: true
     description: Joke website for the band, Ben, Ben, Ben, Francis and Francis from Friendship is Witchcraft
@@ -229,6 +271,10 @@ sites:
     description: Vylet Pony's secondary site
     img: 
     updated: 2023-11-08
+  - name: www.littleshyfim.com
+    description: LittleshyFiM's personal homepage
+    img:
+    updated: 2023-11-09
   - name: boards.4channel.org/mlp/
     is_adult: true
     description: Anonymous image board. Birthplace of the fandom.
@@ -265,6 +311,7 @@ body: |
   ## Blogs ##
   {{www.equestriadaily.com}}
   {{www.horse-news.org}}
+  {{www.dailydoseofpony.com}}
 
   ## Art ## 
   {{www.derpibooru.org}}
@@ -272,6 +319,8 @@ body: |
   {{boards.4channel.org/mlp/}}
 
   ### Derpibooru Alternates ###
+
+  {{manebooru.art}}
 
   ## Music ##
 
@@ -310,6 +359,8 @@ body: |
 
   # Conventions #
 
+  {{ponycon.info}}
+
   ## North America ##
 
   {{www.babscon.com}}
@@ -320,6 +371,14 @@ body: |
   {{trotcon.net}}
   {{whinnycity.com}}
   {{bronycan.ca}}
+
+  ## Europe ##
+
+  {{everfree-encore.eu}}
+  {{eponafest.it}}
+  {{galacon.pony-events.eu}}
+  {{www.czequestria.cz}}
+  {{ponyconholland.com}}
 
   ## International Cons ##
 
@@ -338,6 +397,7 @@ body: |
   {{canterlotavenue.com}}
   {{www.redlightponyville.com}}
   {{www.canterlot.com}}
+  {{greattobedifferent.com}}
 
   ## Streaming ##
   {{www.bronystate.net}}
@@ -345,13 +405,21 @@ body: |
   {{cinemaquestria.com}}
   {{equestria.tv}}
   {{ponyvillelive.com}}
- 
+
   # Joke Sites #
   {{www.starlightglimmer2020.com}}
   {{celestianism.com}}
   {{www.bbbff.net}}
 
+  # Other Directories #
+
+  ## Fediverse ##
+
+  {{fedi.ponysearch.eu}}
+
   # Personal Sites #
+
+  {{www.littleshyfim.com}}
 
   ## Vylet Pony ##
 
