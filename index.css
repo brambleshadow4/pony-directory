@@ -1,0 +1,79 @@
+@font-face {
+  font-family: Equestria;
+  src: url(./font/Equestria.otf);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./font/Roboto-Regular.ttf);
+}
+
+body {
+	
+	
+}
+
+#background.adult {
+	background-image: url(./img/Canterlot_night.webp);
+}
+
+#background {
+	background-image: url(./img/Map_of_Equestria_2015.webp);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+
+	z-index: -1;
+
+}
+
+.title {
+	font-family: "Equestria";
+	font-size: 4em;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	font-family: "Equestria";
+}
+
+main 
+{
+	font-family: "Roboto";
+	max-width: 800px;
+	margin: auto;
+	background-color: rgba(255, 255, 255, .85);
+	padding: 10px .5in;
+}
+
+div {
+	clear: right;
+}
+
+.updated {
+	float: right;
+	color: #B0B0B0;
+}
+
+.dead {
+	text-decoration: line-through;
+	color: red;
+}
+
+.dead a {
+	color: red;
+}
+
+.dead {
+	display: none;
+}
+
+.show_dead .dead {
+	display: block;
+}
