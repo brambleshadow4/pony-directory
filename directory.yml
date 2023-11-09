@@ -254,7 +254,7 @@ body: |
   {{intro}}
   
   If a website is missing or the link no longer works, please let brambleshadow4 know via Discord or twitter.
-  Better yet, head to our [github](lol) and submit a pull request with the change you'd like to make.
+  Better yet, head to our [github](https://github.com/brambleshadow4/pony-directory) and submit a pull request with the change you'd like to make.
 
   <div>
     <input type="checkbox" id='dead'/><label for="dead">Show dead websites</label>  
