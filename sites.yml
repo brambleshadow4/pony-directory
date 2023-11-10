@@ -27,11 +27,10 @@
   description: France based community
   img: 
   updated: 2023-11-08
-- name: whatisabrony.com
-  is_dead: True
-  description: DEAD, it used to be a thing
+- name: www.whatisabrony.com
+  description: Fun site explaining what a brony is
   img: 
-  updated: 2023-11-08
+  updated: 2023-11-09
 - name: poniverse.net
   description: Gateway site to the various poniverse webistes.
   img: 
@@ -276,7 +275,101 @@
   description: Anonymous image board. Birthplace of the fandom.
   img: 
   updated: 2023-11-08
+- name: pony.community  
+  description: Site used to host the "Share your stuff" panel and renegade stage.
+  img: 
+  updated: 2023-11-09
+- name: www.ministryofimage.net
+  description: Fanfiction print shop
+  img: 
+  updated: 2023-11-09
+- name: sogreatandpowerful.com
+  description: Archival backup of SGAP's music
+  img: 
+  updated: 2023-11-09
+- name: ponies.equestria.horse
+  description: Not sure what kind of community this is
+  img: 
+  updated: 2023-11-09
+- name: equestria.dev
+  description: Repository of various code projects
+  img: 
+  updated: 2023-11-09
+- name: pony.dev
+  description: Community of software developer MLP fans
+  img: 
+  updated: 2023-11-09
+- name: www.ponylatino.com
+  description: Community of Spanish-speaking MLP fans
+  img: 
+  updated: 2023-11-09
+- name: noise.horse
+  description: Former experimental music promotion website
+  img: 
+  updated: 2023-11-09
+- name: ponymusic.wiki
+  description: Wiki of MLP songs, artists, and albums
+  img: 
+  updated: 2023-11-09
+- name: mlp.fandom.com
+  description: Wiki for official MLP content.
+  img: 
+  updated: 2023-11-09
+- name: mlpfanart.fandom.com
+  description: Wiki for MLP fan projects, artists, musicians, and more.
+  img: 
+  updated: 2023-11-09
+- name: www.bronibooru.com
+  description: Former image board.
+  img: 
+  updated: 2023-11-09
+- name: www.roundstable.com
+  description: Forum site
+  img: 
+  updated: 2023-11-09
+- name: marefair.org
+  description: Controversial 18+ MLP convention. Unknown if they will return.
+  img: 
+  updated: 2023-11-09
+- name: ponepaste.org
+  description: MLP text hosting service similar to pastebin
+  img: 
+  updated: 2023-11-09
+- name: projectvinyl.net
+  description: MLP video hosting website
+  img: 
+  updated: 2023-11-09
+- name: mlponies.com
+  description: Redirect to roundstable.com
+  img: 
+  updated: 2023-11-09
+- name: lighttheunicorn.horse 
+  description: Mastodon host for Light the Unicorn
+  img: 
+  updated: 2023-11-09
 - name: 
   description: 
   img: 
-  updated: 2023-11-08
+  updated: 2023-11-09
+- name: 
+  description: 
+  img: 
+  updated: 2023-11-09
+- name: 
+  description: 
+  img: 
+  updated: 2023-11-09
+- name: 
+  description: 
+  img: 
+  updated: 2023-11-09
+
+
+
+
+
+
+
+
+
+  

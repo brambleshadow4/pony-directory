@@ -34,18 +34,26 @@ body: |
   ### Derpibooru Alternates ###
 
   {{manebooru.art}}
+  {{www.bronibooru.com}}
 
   ## Music ##
 
   {{horsemusicherald.com}}
   {{ponyvillefm.com}}
-  {{ponemusic.net}}
+  {{ponymusic.wiki}}
   {{pony.fm}}
+  {{noise.horse}}
+  {{ponemusic.net}}
+
+  {{sogreatandpowerful.com}}
 
   ## Fanfiction ##
 
   {{www.fimfiction.net}}
   {{www.ponyfictionarchive.net}}
+
+  ### Printing ###
+  {{www.ministryofimage.net}}
 
   ## Board + Video Games ##
 
@@ -64,12 +72,18 @@ body: |
   {{www.tsssf.net}}
   {{childrenofkefentse.com}}
 
-  ## Other ##
+  ## Archives ##
 
   {{www.theponyarchive.com}}
-  {{whatisabrony.com}}
-  {{bronyshow.com}}
+  {{projectvinyl.net}}
 
+  ## Other ##
+  {{www.whatisabrony.com}}
+  {{bronyshow.com}}
+  {{ponepaste.org}}
+  {{pony.community}}
+  {{equestria.dev}}
+  
   # Conventions #
 
   {{ponycon.info}}
@@ -84,6 +98,7 @@ body: |
   {{trotcon.net}}
   {{whinnycity.com}}
   {{bronycan.ca}}
+  {{marefair.org}}
 
   ## Europe ##
 
@@ -104,14 +119,10 @@ body: |
 
   # Communities #
 
-  {{mlp-france.com}}
-  {{mlpforums.com}}
-  {{poniverse.net}}
-  {{canterlotavenue.com}}
-  {{www.redlightponyville.com}}
-  {{www.canterlot.com}}
   {{greattobedifferent.com}}
-
+  {{ponies.equestria.horse}}
+  {{pony.dev}}
+  
   ## Streaming ##
   {{www.bronystate.net}}
   {{www.bronytv.net}}
@@ -119,20 +130,41 @@ body: |
   {{equestria.tv}}
   {{ponyvillelive.com}}
 
+  ## Forums + Roleplaying ##
+  {{mlpforums.com}}
+  {{www.roundstable.com}}
+  {{mlponies.com}}
+  {{www.redlightponyville.com}}
+  {{www.canterlot.com}}
+
+  ## Fediverse + Mastodon ##
+
+  {{fedi.ponysearch.eu}}
+
+  ## International ##
+  {{mlp-france.com}}
+  {{www.ponylatino.com}}
+  
+  ## Wikis ##
+
+  {{mlp.fandom.com}}
+  {{mlpfanart.fandom.com}}
+  {{ponymusic.wiki}}
+  
+  ## Poniverse ##
+
+  {{poniverse.net}}
+  {{canterlotavenue.com}}
+
   # Joke Sites #
   {{www.starlightglimmer2020.com}}
   {{celestianism.com}}
   {{www.bbbff.net}}
 
-  # Other Directories #
-
-  ## Fediverse ##
-
-  {{fedi.ponysearch.eu}}
-
   # Personal Sites #
 
   {{www.littleshyfim.com}}
+  {{lighttheunicorn.horse}}
 
   ## Vylet Pony ##
 

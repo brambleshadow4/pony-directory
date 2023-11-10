@@ -8,10 +8,20 @@
   src: url(./font/Roboto-Regular.ttf);
 }
 
-body {
-	
-	
+
+nav {
+	font-family: Roboto;
+	position: fixed;
+	background-color: white;
+	padding: 5px 10px;
 }
+
+
+
+nav a {
+	display: block;
+}
+
 
 #background.adult {
 	background-image: url(./img/Canterlot_night.webp);
@@ -50,6 +60,21 @@ main
 	margin: auto;
 	background-color: rgba(255, 255, 255, .85);
 	padding: 10px .5in;
+
+	position: relative;
+	left: 100px;
+
+}
+
+@media(max-width: 1100px){
+
+	nav {
+		display: none;
+	}
+
+	main {
+		left: 0px;
+	}
 }
 
 div {
