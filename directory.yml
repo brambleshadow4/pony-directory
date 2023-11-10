@@ -24,6 +24,7 @@ body: |
   ## Blogs ##
   {{www.equestriadaily.com}}
   {{www.horse-news.org}}
+  {{www.dailydoseofpony.com}}
 
   ## Art ## 
   {{www.derpibooru.org}}
@@ -31,6 +32,8 @@ body: |
   {{boards.4channel.org/mlp/}}
 
   ### Derpibooru Alternates ###
+
+  {{manebooru.art}}
 
   ## Music ##
 
@@ -69,6 +72,8 @@ body: |
 
   # Conventions #
 
+  {{ponycon.info}}
+
   ## North America ##
 
   {{www.babscon.com}}
@@ -79,6 +84,14 @@ body: |
   {{trotcon.net}}
   {{whinnycity.com}}
   {{bronycan.ca}}
+
+  ## Europe ##
+
+  {{everfree-encore.eu}}
+  {{eponafest.it}}
+  {{galacon.pony-events.eu}}
+  {{www.czequestria.cz}}
+  {{ponyconholland.com}}
 
   ## International Cons ##
 
@@ -97,6 +110,7 @@ body: |
   {{canterlotavenue.com}}
   {{www.redlightponyville.com}}
   {{www.canterlot.com}}
+  {{greattobedifferent.com}}
 
   ## Streaming ##
   {{www.bronystate.net}}
@@ -104,13 +118,21 @@ body: |
   {{cinemaquestria.com}}
   {{equestria.tv}}
   {{ponyvillelive.com}}
- 
+
   # Joke Sites #
   {{www.starlightglimmer2020.com}}
   {{celestianism.com}}
   {{www.bbbff.net}}
 
+  # Other Directories #
+
+  ## Fediverse ##
+
+  {{fedi.ponysearch.eu}}
+
   # Personal Sites #
+
+  {{www.littleshyfim.com}}
 
   ## Vylet Pony ##
 
