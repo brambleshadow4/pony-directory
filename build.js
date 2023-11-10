@@ -2,16 +2,17 @@ import fs from "fs"
 import yaml from "yaml"
 import {marked} from "marked"
 
-let fileText = fs.readFileSync('./directory.yml', 'utf8');
-let data = yaml.parse(fileText);
+
+let directory = yaml.parse(fs.readFileSync('./directory.yml', 'utf8'));
 
 let sites = {};
+let siteList = yaml.parse(fs.readFileSync('./sites.yml', 'utf8'));
 let sitesNotListed = new Set();
 let sitesNotCompiled = new Set();
 
 let adultContent = fs.existsSync("./.ADULT")
 
-for(let site of data.sites)
+for(let site of siteList)
 {
 	if(site.name == "" || site.name == null)
 		continue;
@@ -19,16 +20,18 @@ for(let site of data.sites)
 	if(sites[site.name])
 		throw new Error("Site " + site.name + " was already added.")
 
+	console.log(site)
+
 	sites[site.name] = site;
 	sitesNotListed.add(site.name)
 }
 
-let siteText = data.body;
+let siteText = directory.body;
 
 if(adultContent)
-	siteText = siteText.replace("{{intro}}", data.intro_ad)	
+	siteText = siteText.replace("{{intro}}", directory.intro_ad)	
 else
-	siteText = siteText.replace("{{intro}}", data.intro)	
+	siteText = siteText.replace("{{intro}}", directory.intro)	
 
 
 let siteMatch = /{{(.*?)}}/.exec(siteText)
@@ -69,15 +72,17 @@ fs.writeFileSync('./index.html', html, 'utf8');
 
 function buildSite(siteName)
 {
-	let siteData = sites[siteName]
-
-	if((siteData.is_adult && !adultContent) || (!siteData.is_adult && adultContent))
-		return "";
+	let siteData = sites[siteName];
 
 	if(!siteData)
 	{
 		throw new Error("No data found for site " + siteName)
 	}
+
+	if((siteData.is_adult && !adultContent) || (!siteData.is_adult && adultContent))
+		return "";
+
+	
 	let classes = "";
 
 	if(siteData.is_dead)
