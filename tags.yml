@@ -1,0 +1,70 @@
+- tag: dead
+  name: Dead Site
+  description: Old websites that are no longer available or active.
+- tag: adult
+  name: Adult
+  description: Adults and mature audiences only. NSFW (Not Safe For Work) content.
+- tag: blog
+  name: Blog
+  description: 
+- tag: wiki
+  name: Wiki
+  description: A source of information.
+- tag: art
+  name: Art
+  description: 
+- tag: music
+  name: Music
+  description: 
+- tag: fanfiction
+  name: Fanfiction
+  description: 
+- tag: game
+  name: Gaming
+  description: Board, video and social games.
+- tag: episode
+  name: Episodes
+  description: Hosts MLP episodes.
+- tag: comic
+  name: Comics
+  description: 
+- tag: tech
+  name: Tech
+  description: 
+- tag: archive
+  name: Archive
+  description: 
+- tag: joke
+  name: Joke
+  description: Websites made primarily as a joke.
+- tag: other
+  name: Other
+  description: Other sites that don't fit into general categories.
+- tag: convention
+  name: Conventions, Fairs, Festivals and Meet-ups
+  description: 
+  subtags:
+  - tag: usa
+    name: USA
+  - tag: canada
+    name: Canada
+  - tag: europe
+    name: Europe
+  - tag: international
+    name: International
+  - tag: online
+    name: Online
+  - tag: australia
+    name: Australia
+- tag: forum
+  name: Forum
+  description: 
+- tag: stream
+  name: Streaming
+  description: Online video and audio streaming platforms.
+- tag: directory
+  name: Directory
+  description: Directory websites that list other MLP/Brony content.
+- tag: personal
+  name: Personal
+  description: A website dedicated to a specific or group of individuals.

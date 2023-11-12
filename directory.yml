@@ -1,175 +1,18 @@
+
 intro: |
   <div class='title'>Welcome to the Herd!</div>
 
   The My Little Pony fandom is huge and contains many website dedicated to fan content! 
   Below you'll find an index of many different sites.
-
-intro_ad: |
-  Oh, so you're looking for the other stuff... well you've come to the right place.
-
-  The main list of all MLP websites is [here](https://www.pony.directory). These are the websites in the MLP fandom that are for adult eyes only.
-
-body: |
-  {{intro}}
   
   If a website is missing or the link no longer works, please let brambleshadow4 know via Discord or twitter.
   Better yet, head to our [github](https://github.com/brambleshadow4/pony-directory) and submit a pull request with the change you'd like to make.
 
-  <div>
-    <input type="checkbox" id='dead'/><label for="dead">Show dead websites</label>  
-  </div>
+intro_ad: |
+  <div class='title'>Welcome to the ...</div>
+  Oh, so you're looking for the other stuff... well you've come to the right place.
 
-  # Fan Works #
-
-  ## Blogs ##
-  {{www.equestriadaily.com}}
-  {{www.horse-news.org}}
-  {{www.dailydoseofpony.com}}
-
-  ## Art ## 
-  {{www.derpibooru.org}}
-  {{www.canterlotcomics.com}}
-  {{boards.4channel.org/mlp/}}
-
-  ### Derpibooru Alternates ###
-
-  {{manebooru.art}}
-  {{www.bronibooru.com}}
-
-  ## Music ##
-
-  {{horsemusicherald.com}}
-  {{ponyvillefm.com}}
-  {{ponymusic.wiki}}
-  {{pony.fm}}
-  {{noise.horse}}
-  {{ponemusic.net}}
-
-  {{sogreatandpowerful.com}}
-
-  ## Fanfiction ##
-
-  {{www.fimfiction.net}}
-  {{www.ponyfictionarchive.net}}
-
-  ### Printing ###
-  {{www.ministryofimage.net}}
-
-  ## Board + Video Games ##
-
-  {{pony.town}}
-  {{poniarcade.com}}
-  {{ponytone.online}}
-  {{www.cardsagainstequestria.horse}}
-  {{mylittlegamedev.com}}
-
-  {{www.equestriagaming.net}}
-  {{www.mylittlekaraoke.com}}
-
-  ### Secret Shipfic Folder ###
-
-  {{www.secretshipfic.com}}
-  {{www.tsssf.net}}
-  {{childrenofkefentse.com}}
-
-  ## Archives ##
-
-  {{www.theponyarchive.com}}
-  {{projectvinyl.net}}
-
-  ## Other ##
-  {{www.whatisabrony.com}}
-  {{bronyshow.com}}
-  {{ponepaste.org}}
-  {{pony.community}}
-  {{equestria.dev}}
+  The main list of all MLP websites is [here](https://www.pony.directory). These are the websites in the MLP fandom that are for adult eyes only.
   
-  # Conventions #
-
-  {{ponycon.info}}
-
-  ## North America ##
-
-  {{www.babscon.com}}
-  {{ponyvilleciderfest.com}}
-  {{mlp-msp.com}}
-  {{everfreenw.com}}
-  {{www.harmonycon.org}}
-  {{trotcon.net}}
-  {{whinnycity.com}}
-  {{bronycan.ca}}
-  {{marefair.org}}
-
-  ## Europe ##
-
-  {{everfree-encore.eu}}
-  {{eponafest.it}}
-  {{galacon.pony-events.eu}}
-  {{www.czequestria.cz}}
-  {{ponyconholland.com}}
-
-  ## International Cons ##
-
-  {{seaponycon.com}}
-  {{www.aliconmlp.com}}
-
-  ## Online Cons ##
-
-  {{ponyfest.horse}}
-
-  # Communities #
-
-  {{greattobedifferent.com}}
-  {{ponies.equestria.horse}}
-  {{pony.dev}}
-  
-  ## Streaming ##
-  {{www.bronystate.net}}
-  {{www.bronytv.net}}
-  {{cinemaquestria.com}}
-  {{equestria.tv}}
-  {{ponyvillelive.com}}
-
-  ## Forums + Roleplaying ##
-  {{mlpforums.com}}
-  {{www.roundstable.com}}
-  {{mlponies.com}}
-  {{www.redlightponyville.com}}
-  {{www.canterlot.com}}
-
-  ## Fediverse + Mastodon ##
-
-  {{fedi.ponysearch.eu}}
-
-  ## International ##
-  {{mlp-france.com}}
-  {{www.ponylatino.com}}
-  
-  ## Wikis ##
-
-  {{mlp.fandom.com}}
-  {{mlpfanart.fandom.com}}
-  {{ponymusic.wiki}}
-  
-  ## Poniverse ##
-
-  {{poniverse.net}}
-  {{canterlotavenue.com}}
-
-  # Joke Sites #
-  {{www.starlightglimmer2020.com}}
-  {{celestianism.com}}
-  {{www.bbbff.net}}
-
-  # Personal Sites #
-
-  {{www.littleshyfim.com}}
-  {{lighttheunicorn.horse}}
-
-  ## Vylet Pony ##
-
-  {{www.vyletpony.com}}
-  {{cutiemarks.net}}
-  {{antonymph.com}}
-  {{trixielulamoon.com}}
-  {{starshipponyville.com}}
+  If a website is missing or the link no longer works, please let brambleshadow4 know via Discord or twitter.
+  Better yet, head to our [github](https://github.com/brambleshadow4/pony-directory) and submit a pull request with the change you'd like to make.

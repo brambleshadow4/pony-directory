@@ -8,7 +8,6 @@
   src: url(./font/Roboto-Regular.ttf);
 }
 
-
 nav {
 	font-family: Roboto;
 	position: fixed;
@@ -16,12 +15,13 @@ nav {
 	padding: 5px 10px;
 }
 
-
-
 nav a {
 	display: block;
 }
 
+div {
+	
+}
 
 #background.adult {
 	background-image: url(./img/Canterlot_night.webp);
@@ -77,28 +77,106 @@ main
 	}
 }
 
-div {
-	clear: right;
+.tags-reset-button, .tags-visibility-button {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
-.updated {
+.tag-filters-hide {
+	display: none;
+}
+
+.tag-filters {
+}
+
+.tag-container {
+	display: block;
+}
+
+.tag-description {
+	display: block;
+	padding-left: 25px;
+}
+
+.tag-subtag-container {
+	display: block;
+	padding-left: 25px;
+}
+
+.tag-label {
+	display: inline-block;
+	padding-left: 4px;
+	padding-right: 4px;
+	border: 1px solid #000;
+	border-radius: 4px;
+	margin-right: 4px;
+}
+
+.tag-label-start {
+	margin-right: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-right: 0px;
+}
+
+.tag-label-middle {
+	margin-left: 0px;
+	margin-right: 0px;
+	border-radius: 0px;
+	border-right: 0px;
+}
+
+.tag-label-end {
+	margin-left: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.site-container {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.site-updated {
 	float: right;
 	color: #B0B0B0;
 }
 
-.dead {
+.site-title {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.site-body-container {
+	display: block;
+	padding-left: 10px;
+}
+
+.site-link-container {
+	display: block;
+}
+
+.site-link {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.site-description {
+	display: inline-block;
+}
+
+.hide-site {
+	display: none;
+}
+
+.dead div {
 	text-decoration: line-through;
 	color: red;
 }
 
 .dead a {
+	text-decoration: line-through;
 	color: red;
-}
-
-.dead {
-	display: none;
-}
-
-.show_dead .dead {
-	display: block;
 }
