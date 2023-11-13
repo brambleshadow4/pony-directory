@@ -347,6 +347,14 @@
   description: Mastodon host for Light the Unicorn
   img: 
   updated: 2023-11-09
+- name: fancynoise.net
+  description: Online radio station dedicated to the more extreme side of electronic music.
+  img:
+  updated: 2023-11-13
+- name: www.mylittleremix.com
+  description: Forum dedicated to music production and remixing.
+  img:
+  updated: 2023-11-13
 - name: 
   description: 
   img: 
