@@ -1,175 +1,165 @@
 intro: |
   <div class='title'>Welcome to the Herd!</div>
 
-  The My Little Pony fandom is huge and contains many website dedicated to fan content! 
-  Below you'll find an index of many different sites.
+  <p>The My Little Pony fandom is huge and contains many website dedicated to fan content! 
+  Below you'll find an index of many different sites.</p>
 
 intro_ad: |
-  Oh, so you're looking for the other stuff... well you've come to the right place.
+  <div class='title'>Welcome to the Herd!</div>
 
-  The main list of all MLP websites is [here](https://www.pony.directory). These are the websites in the MLP fandom that are for adult eyes only.
+  <p>The My Little Pony fandom is huge and contains many website dedicated to fan content! 
+  Below you'll find an index of many different sites.</p>
 
-body: |
-  {{intro}}
-  
-  If a website is missing or the link no longer works, please let brambleshadow4 know via Discord or twitter.
-  Better yet, head to our [github](https://github.com/brambleshadow4/pony-directory) and submit a pull request with the change you'd like to make.
+  <p><strong>Please note that some of these sites link to adult content or content some may consider offensive.
+  For this reason, please share the <a href="https://www.pony.directory">mane website</a> unless you know
+  the person you're sharing it with is of the appropriate age.
+  </strong></p>
 
-  <div>
-    <input type="checkbox" id='dead'/><label for="dead">Show dead websites</label>  
-  </div>
-
-  # Fan Works #
-
-  ## Blogs ##
-  {{www.equestriadaily.com}}
-  {{www.horse-news.org}}
-  {{www.dailydoseofpony.com}}
-
-  ## Art ## 
-  {{www.derpibooru.org}}
-  {{www.canterlotcomics.com}}
-  {{boards.4channel.org/mlp/}}
-
-  ### Derpibooru Alternates ###
-
-  {{manebooru.art}}
-  {{www.bronibooru.com}}
-
-  ## Music ##
-
-  {{horsemusicherald.com}}
-  {{ponyvillefm.com}}
-  {{ponymusic.wiki}}
-  {{pony.fm}}
-  {{noise.horse}}
-  {{ponemusic.net}}
-
-  {{sogreatandpowerful.com}}
-
-  ## Fanfiction ##
-
-  {{www.fimfiction.net}}
-  {{www.ponyfictionarchive.net}}
-
-  ### Printing ###
-  {{www.ministryofimage.net}}
-
-  ## Board + Video Games ##
-
-  {{pony.town}}
-  {{poniarcade.com}}
-  {{ponytone.online}}
-  {{www.cardsagainstequestria.horse}}
-  {{mylittlegamedev.com}}
-
-  {{www.equestriagaming.net}}
-  {{www.mylittlekaraoke.com}}
-
-  ### Secret Shipfic Folder ###
-
-  {{www.secretshipfic.com}}
-  {{www.tsssf.net}}
-  {{childrenofkefentse.com}}
-
-  ## Archives ##
-
-  {{www.theponyarchive.com}}
-  {{projectvinyl.net}}
-
-  ## Other ##
-  {{www.whatisabrony.com}}
-  {{bronyshow.com}}
-  {{ponepaste.org}}
-  {{pony.community}}
-  {{equestria.dev}}
-  
-  # Conventions #
-
-  {{ponycon.info}}
-
-  ## North America ##
-
-  {{www.babscon.com}}
-  {{ponyvilleciderfest.com}}
-  {{mlp-msp.com}}
-  {{everfreenw.com}}
-  {{www.harmonycon.org}}
-  {{trotcon.net}}
-  {{whinnycity.com}}
-  {{bronycan.ca}}
-  {{marefair.org}}
-
-  ## Europe ##
-
-  {{everfree-encore.eu}}
-  {{eponafest.it}}
-  {{galacon.pony-events.eu}}
-  {{www.czequestria.cz}}
-  {{ponyconholland.com}}
-
-  ## International Cons ##
-
-  {{seaponycon.com}}
-  {{www.aliconmlp.com}}
-
-  ## Online Cons ##
-
-  {{ponyfest.horse}}
-
-  # Communities #
-
-  {{greattobedifferent.com}}
-  {{ponies.equestria.horse}}
-  {{pony.dev}}
-  
-  ## Streaming ##
-  {{www.bronystate.net}}
-  {{www.bronytv.net}}
-  {{cinemaquestria.com}}
-  {{equestria.tv}}
-  {{ponyvillelive.com}}
-
-  ## Forums + Roleplaying ##
-  {{mlpforums.com}}
-  {{www.roundstable.com}}
-  {{mlponies.com}}
-  {{www.redlightponyville.com}}
-  {{www.canterlot.com}}
-
-  ## Fediverse + Mastodon ##
-
-  {{fedi.ponysearch.eu}}
-
-  ## International ##
-  {{mlp-france.com}}
-  {{www.ponylatino.com}}
-  
-  ## Wikis ##
-
-  {{mlp.fandom.com}}
-  {{mlpfanart.fandom.com}}
-  {{ponymusic.wiki}}
-  
-  ## Poniverse ##
-
-  {{poniverse.net}}
-  {{canterlotavenue.com}}
-
-  # Joke Sites #
-  {{www.starlightglimmer2020.com}}
-  {{celestianism.com}}
-  {{www.bbbff.net}}
-
-  # Personal Sites #
-
-  {{www.littleshyfim.com}}
-  {{lighttheunicorn.horse}}
-
-  ## Vylet Pony ##
-
-  {{www.vyletpony.com}}
-  {{cutiemarks.net}}
-  {{antonymph.com}}
-  {{trixielulamoon.com}}
-  {{starshipponyville.com}}
+body:
+  - html: |
+      <p>If a website is missing or the link no longer works, please let brambleshadow4 know via Discord or twitter.
+      Better yet, head to our <a href="https://github.com/brambleshadow4/pony-directory">github</a> and submit a 
+      pull request with the change you'd like to make.</p>
+  - html: |
+      <div>
+        <input type="checkbox" id='dead'/><label for="dead">Show dead websites</label>  
+      </div>
+  - group: Fan Works
+    children:
+      - group: Blogs
+        children:
+        - site: www.equestriadaily.com
+        - site: www.horse-news.org
+        - site: www.dailydoseofpony.com
+      - group: Art
+        children:
+          - site: derpibooru.org 
+          - site: www.canterlotcomics.com
+          - site: boards.4channel.org/mlp/
+          - group: Derpibooru Alternates
+            children:
+              - site: manebooru.art
+              - site: www.bronibooru.com
+      - group: Music
+        children:
+          - site: horsemusicherald.com
+          - site: ponyvillefm.com
+          - site: ponymusic.wiki
+          - site: pony.fm
+          - site: noise.horse
+          - site: ponemusic.net
+          - site: sogreatandpowerful.com 
+          - site: broniesradio.com
+      - group: Fanfiction
+        children:
+          - site: www.fimfiction.net
+          - site: www.ponyfictionarchive.net
+          - group: Printing
+            children:
+              - site: www.ministryofimage.net
+      - group: Board + Video Games
+        children: 
+          - site: pony.town
+          - site: poniarcade.com
+          - site: www.cardsagainstequestria.horse
+          - site: mylittlegamedev.com
+          - site: www.equestriagaming.net
+          - site: www.mylittlekaraoke.com
+          - site: ponytone.online
+          - group: Secret Shipfic Folder
+            children:              
+            - site: www.secretshipfic.com
+            - site: www.tsssf.net
+            - site: childrenofkefentse.com
+      - group: Archives
+        children:
+          - site: www.theponyarchive.com
+          - site: projectvinyl.net
+      - group: Other
+        children:
+          - site: www.whatisabrony.com
+          - site: bronyshow.com
+          - site: ponepaste.org
+          - site: pony.community
+          - site: equestria.dev
+          - site: equestria.horse
+          - site: ponycule.equestria.horse
+          - site: ponies.equestria.horse
+  - group: Conventions
+    children:
+      - site: ponycon.info
+      - group: North America
+        children:
+          - site: www.babscon.com
+          - site: ponyvilleciderfest.com
+          - site: mlp-msp.com
+          - site: everfreenw.com
+          - site: www.harmonycon.org
+          - site: trotcon.net
+          - site: whinnycity.com
+          - site: bronycan.ca
+          - site: marefair.org
+      - group: Europe
+        children:
+          - site: everfree-encore.eu
+          - site: eponafest.it
+          - site: galacon.pony-events.eu
+          - site: www.czequestria.cz
+          - site: ponyconholland.com
+      - group: International
+        children:
+          - site: seaponycon.com
+          - site: www.aliconmlp.com
+      - group: Online Cons
+        children:
+          - site: ponyfest.horse
+  - group: Communities
+    children:
+      - site: greattobedifferent.com
+      - site: pony.dev
+      - group: Streaming
+        children:
+          - site: www.bronystate.net
+          - site: www.bronytv.net
+          - site: cinemaquestria.com
+          - site: equestria.tv
+          - site: ponyvillelive.com
+      - group: Forums + Roleplaying
+        children:
+          - site: mlpforums.com
+          - site: www.roundstable.com
+          - site: mlponies.com
+          - site: www.redlightponyville.com
+          - site: www.canterlot.com
+      - group: Fediverse + Mastodon
+        children:
+          - site: fedi.ponysearch.eu
+      - group: International
+        children:
+          - site: mlp-france.com
+          - site: www.ponylatino.com
+      - group: Wikis
+        children:
+          - site: mlp.fandom.com
+          - site: mlpfanart.fandom.com
+          - site: ponymusic.wiki
+      - group: Poniverse
+        children:
+          - site: poniverse.net
+          - site: canterlotavenue.com
+  - group: Joke Sites
+    children:
+      - site: www.starlightglimmer2020.com
+      - site: celestianism.com
+      - site: www.bbbff.net
+  - group: Personal Sites
+    children:
+      - site: www.littleshyfim.com
+      - site: lighttheunicorn.horse
+      - group: Vylet Pony
+        children:
+          - site: www.vyletpony.com
+          - site: cutiemarks.net
+          - site: antonymph.com
+          - site: trixielulamoon.com
+          - site: starshipponyville.com

@@ -1,252 +1,203 @@
 import fs from "fs"
 import yaml from "yaml"
-import {marked} from "marked"
+import fse from "fs-extra"
+import dotenv from "dotenv"
+dotenv.config()
 
 
 let directory = yaml.parse(fs.readFileSync('./directory.yml', 'utf8'));
-
-let sites = {};
 let siteList = yaml.parse(fs.readFileSync('./sites.yml', 'utf8'));
-let sitesNotListed = new Set();
-let sitesNotCompiled = new Set();
 
-let adultContent = fs.existsSync("./.ADULT")
+var sites = {}
+let sitesNotListed = new Set();
+
 
 for(let site of siteList)
 {
-	if(site.name == "" || site.name == null)
+	if(site.link == "" || site.link == null)
 		continue;
 
-	if(sites[site.name])
-		throw new Error("Site " + site.name + " was already added.")
+	if(sites[site.link])
+		throw new Error("Site " + site.link + " was already added.")
 
-	sites[site.name] = site;
-	sitesNotListed.add(site.name)
+	sites[site.link] = site;
+	sitesNotListed.add(site.link)
 }
 
-let struct = buildStructure(directory.body);
-
-// Parse TOC
-let siteText = flatten(stripSitelessNodes(buildStructure(directory.body)));
-
-let nav = toTOC(stripSitelessNodes(buildStructure(directory.body)));
-
-if(adultContent)
-	siteText = siteText.replace("{{intro}}", directory.intro_ad)	
-else
-	siteText = siteText.replace("{{intro}}", directory.intro)	
-
-
-let siteMatch = /{{(.*?)}}/.exec(siteText)
-
-while(siteMatch)
-{
-	siteText = siteText.replace(siteMatch[0], buildSite(siteMatch[1]))
-	siteMatch = /{{(.*?)}}/.exec(siteText)
-}
+buildEverything(true);
 
 if(sitesNotListed.size > 0)
 {
 	console.log([...sitesNotListed])
-	throw new Error("Not all registered sites are on the list")
+	throw new Error("Not all sites are included in directory.yml")
 }
 
 
-let html = `
-<!DOCTYPE html>
-<html>
-	<head>
-		<link rel='stylesheet' href="index.css" />
-	</head>
-	<body>
-		<div id='background' class="${adultContent ? "adult" : ""}"></div>
-		<nav>
-			<strong>Table of Contents</strong>
-			${nav}
-		</nav>
-		<main>
-			${marked.parse(siteText)}
-		</main>
-		<script src="index.js"></script>
-	</body>
-</html>
-`;
+buildEverything(false);
 
-
-fs.writeFileSync('./index.html', html, 'utf8');
-
-
-function buildSite(siteName)
+/**
+ * Builds everything to a *.html file and potentially copies it and other assets to an output directory specified in .env
+ * @param {bool} includeRestrictedSites - whether or not to include restricted sites
+ */
+function buildEverything(includeRestrictedSites)
 {
-	let siteData = sites[siteName];
+	let siteText = buildBodyText(directory.body, 1, includeRestrictedSites)
+	let nav = buildTOC(directory.body, 1);
+	let introText = includeRestrictedSites ? directory.intro_ad : directory.intro;
 
-	if(!siteData)
+	let html = `
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel='stylesheet' href="index.css" />
+		</head>
+		<body>
+			<div id='background' class="${includeRestrictedSites ? "adult" : ""}"></div>
+			<nav>
+				<strong>Table of Contents</strong>
+				${nav}
+			</nav>
+			<main>
+				${introText}
+				${siteText}
+			</main>
+			<script src="index.js"></script>
+		</body>
+	</html>
+	`;
+
+
+	if(!includeRestrictedSites && process.env.BUILD_TO_DIRECTORY)
 	{
-		throw new Error("Site " + siteName + " is not included in sites.yml")
+		fse.copySync("./font", process.env.BUILD_TO_DIRECTORY + "/font", { overwrite: true})
+		fse.copySync("./img", process.env.BUILD_TO_DIRECTORY + "/img", { overwrite: true});
+		fse.copyFileSync("./index.css", process.env.BUILD_TO_DIRECTORY + "/index.css");
+		fse.copyFileSync("./index.js", process.env.BUILD_TO_DIRECTORY + "/index.js");
+		fs.writeFileSync(process.env.BUILD_TO_DIRECTORY + '/index.html', html, 'utf8');
+	}
+	if(includeRestrictedSites && process.env.BUILD_ALL_TO_DIRECTORY)
+	{
+		fse.copySync("./font", process.env.BUILD_ALL_TO_DIRECTORY + "/font", { overwrite: true})
+		fse.copySync("./img", process.env.BUILD_ALL_TO_DIRECTORY + "/img", { overwrite: true});
+		fse.copyFileSync("./index.css", process.env.BUILD_ALL_TO_DIRECTORY + "/index.css");
+		fse.copyFileSync("./index.js", process.env.BUILD_ALL_TO_DIRECTORY + "/index.js");
+		fs.writeFileSync(process.env.BUILD_ALL_TO_DIRECTORY + '/index.html', html, 'utf8');
 	}
 
-	if((siteData.is_adult && !adultContent) || (!siteData.is_adult && adultContent))
-		return "";
+	if(includeRestrictedSites)
+		fs.writeFileSync('./all.html', html, 'utf8');
+	else
+		fs.writeFileSync('./index.html', html, 'utf8');
+}
 
+/**
+ * Builds the HTML used to display all info about each website.
+ * @param nodes - a list of group, site, and html nodes (see directory.yml for an example structure)
+ * @param {number} headingLevel - integer representing which tag h1, h2, etc. to use
+ * @param {boolean} includeRestrictedSites - whether or not to incldue sites tagged with 'restricted'
+ */ 
+function buildBodyText(nodes, headingLevel, includeRestrictedSites)
+{
+	return nodes.map(function(x){
+
+		if(x.site)
+		{
+			let site = sites[x.site];
+
+			if(!site)
+				throw new Error("Site missing from sites.yml: " + x.site);
+
+			let tags = site.tags ? site.tags.split(",") : [];
+			let extraClasses = "";
+
+			let isRestricted = tags.indexOf("restricted") > -1;
+			if(isRestricted)
+				tags.splice(tags.indexOf("restricted"),1)
+
+			let isDead = tags.indexOf("dead") > -1
+			if(isDead)
+			{
+				tags.splice(tags.indexOf("dead"),1)
+				extraClasses += " dead"
+			}
+				
+			if(tags.indexOf("redirect") > -1)
+				extraClasses += " redirect"
+
+			
+			sitesNotListed.delete(site.link);
+
+			if(isRestricted && !includeRestrictedSites)
+			{
+				return "";
+			}
+				
+
+			let protocol = site.protocol || "https" 
+
+			return `<div class="site-container ${extraClasses}" data-tags="">
+				
+				${site.name ? `
+					<div>
+						<div class="site-title">${site.name}</div>
+					</div>`
+				: "" }
+				
+				
+				<div class="site-link-container">
+					<a class="site-link" href="${protocol}://${site.link}">${site.link}</a>
+					<div class="site-description">${site.description}</div>
+				</div>
 	
-	let classes = "";
-
-	if(siteData.is_dead)
-		classes += " dead";
-	if(siteData.is_adult)
-		classes += " adult";
-
-	let protocol = "https://"
-	if(siteData.no_https)
-		protocol = "http://"
-
-	return `<div class="${classes}">
-	    <a class='site' href="${protocol + siteName}">${siteName}</a>
-	    <span>${siteData.description}</span>
-	    <span class='updated'>Checked on ${siteData.updated}</span>
-	  </div>`
-}
-
-function buildStructure(text)
-{
-	let lines = text.split("\n")
-
-	let currentStructure = {level:0, children: [], text:""};
-
-	for(let line of lines)
-	{
-		let s = line.trim()
-		if(s.startsWith("#"))
-		{	
-			let level=1
-			while(s[level] == "#")
-				level++;
-
-			let newStructure = {
-				type: "heading",
-				level,
-				text: line,
-				children: []
-			}
-
-			while(currentStructure.level >= level)
-				currentStructure = currentStructure.parent;
-
-			newStructure.parent = currentStructure;
-			currentStructure.children.push(newStructure);
-			currentStructure = newStructure;
+				<div>
+					${tags.map(x => `<div class="tag-label" name=${x}>${x}</div>`).join("")}
+					<span class="site-updated">Checked on ${site.updated}</span>
+				</div>
+			</div>`;
 		}
-		else if (s.startsWith("{"))
+		if(x.group)
 		{
-			let siteName = s.replace(/\{|\}/g,"").trim();
+			if(x.children == null)
+				throw new Error("no children for group " + x.group)
+			
+			return `<h${headingLevel} id=${getHeadingAnchor(x.group)}>${x.group}</h${headingLevel}>\n` + buildBodyText(x.children, headingLevel+1, includeRestrictedSites);
+		}	
+		if(x.html)
+			return x.html + "\n"
 
-			if(!sites[siteName])
-			{
-				currentStructure.children.push({type: "text", text: line})
-				continue;
-			}
-
-			sitesNotListed.delete(siteName)
-
-			if((adultContent && sites[siteName].is_adult) || (!adultContent && !sites[siteName].is_adult))
-			{
-				currentStructure.children.push({type: "site", text: line})
-			}
-		}
-		else
-		{
-			currentStructure.children.push({type: "text", text: line})
-		}
-	}
-
-	while(currentStructure.level != 0)
-		currentStructure = currentStructure.parent;
-
-	return currentStructure;
+	}).join("");
 }
 
-function stripSitelessNodes(node)
+/**
+ * Builds the table of contents
+ * @param nodes - a list of group, site, and html nodes (see directory.yml for an example structure)
+ * @param {number} headingLevel - represents how intented the top-level entries should be in the table of contents. Should start at 1, not 0
+ * @returns HTML text
+ */
+function buildTOC(nodes, headingLevel)
 {
-	if(node.type == "text")
-		return node;
-	if(node.type == "site")
-		return node;
+	return nodes.map(function(x){
 
-	for(let i=0; i < node.children.length; i++)
-	{
-		if(node.children[i].type == "text")
-			continue;
-		if(node.children[i].type == "site")
-			continue;
+		if(!x.group)
+			return "";
+				
+		if(x.children == null)
+			throw new Error("no children for group " + x.group)
 
-		stripSitelessNodes(node.children[i]);
+		let anchor = getHeadingAnchor(x.group);
+		
+		return `<a style="padding-left: ${headingLevel*25-25}px" href="#${anchor}">${x.group}</a>\n` + buildTOC(x.children, headingLevel+1);
 
-		if(!hasSites(node.children[i]))
-		{
-			node.children.splice(i,1);
-			i--
-		}
-	}
-
-	return node;
+	}).join("");
 }
 
-function flatten(node)
-{
-	if(node.type == "text" || node.type == "site")
-		return node.text + "\n";
-
-	let headingHTML = "";
-	if(node.level > 0)
-	{
-		let text = node.text.replace(/#/g,"").trim();
-		let tag = "h"+node.level
-		headingHTML= `<${tag} id="${getHeadingAnchor(node.text)}">${text}</${tag}>`;
-	}
-
-	return headingHTML + node.children.map(x => flatten(x)).join("");
-}
-
+/**
+ * Used to convert arbitrary text into an ID to be used by the table of contexnts
+ * @param {string} text - the text to make an ID for
+ * @returns {string}
+ */
 function getHeadingAnchor(text)
 {
-	text = text.replace(/#/g,"").trim();
+	text = text.trim();
 	return text.replace(/[^A-Za-z0-9 ]/g,"").replace(/ +/g,"_")
-}
-
-function toTOC(node)
-{
-	if(node.type == "text" || node.type == "site")
-		return "";
-
-	let section = node.text.replace(/#/g,"").trim();
-
-	let sectionLink = getHeadingAnchor(node.text);
-
-	let thisNode = node.level == 0 ? "" : `<a style="padding-left: ${node.level*25-20}px" href="#${sectionLink}">${section}</a>\n`
-
-
-	return thisNode+ node.children.map(toTOC).join("")
-
-}
-
-function hasSites(node)
-{
-	if(node.type == "text")
-	{
-		return false;
-	}
-	if(node.type == "site")
-	{
-		return true;
-	}
-
-	for(let k of node.children)
-	{
-		if(hasSites(k))
-		{
-			return true;
-		}
-	}
-
-	return false;
 }
