@@ -116,7 +116,7 @@
 - name: Project SEAPonyCon
   link: seaponycon.com
   description: Former MLP convention which used to take place on cruise ships.
-  tags: convention,online,international
+  tags: convention,international
   updated: 2023-11-08
 
 - name: AliCon
@@ -400,7 +400,7 @@
 - name: pony.community
   link: pony.community
   description: Site used to host the "Share your stuff" panel and renegade stage.
-  tags: blog,convention
+  tags: tech
   updated: 2023-11-09
 
 - name: Pony Books | Ministry of Image
@@ -490,19 +490,16 @@
   tags: redirect
   updated: 2023-11-23
 
-
 - name: Mare Fair
   link: marefair.org
   description: 18+ MLP convention based in Orlando, Florida.
-  links:
-  - link: marefair.horse
-    description: 
-  - link: reg.marefair.org
-    description: 
-  - link: twitter.com/MareFairCon
-    description: Official X/Twitter account.
   tags: restricted,convention,usa
   updated: 2023-11-09
+
+- link: marefair.horse
+  description: alternate to marefair.org
+  tags: redirect,restricted,convention,usa
+  updated: 2023-11-23
 
 - name: PonePaste
   link: ponepaste.org
@@ -519,9 +516,69 @@
 - name: Light's Hay Stash
   link: lighttheunicorn.horse
   description: Mastodon host for Light the Unicorn.
-  tags: tech
+  tags: personal,tech,mastodon
   updated: 2023-11-09
 
 - link: broniesradio.com
   tags: dead
+  updated: 2023-11-23
+
+- name: littlepony.horse
+  link: littlepony.horse
+  description: Tinyfaces and a Matrix instance run by Ebunix.
+  tags: tech,matrix,personal
+  updated: 2023-11-23
+
+- name: Ebu's little space
+  link: itsebu.net
+  description: Ebunix's homepage and blog
+  tags: blog,personal,tech
+  updated: 2023-11-23
+
+- name: Tinyfaces | •ↄ• /) •`c´•
+  link: tinyface.net
+  description: Collection of simple pony face emotes, some animated.
+  tags: tech
+  updated: 2023-11-23
+
+- name: Absolutelyly Everything!
+  link: absolutelyeverything.org
+  description: The official store of the Fallout Equestria Print Project
+  tags: fanfiction,blog,fallout equestria
+  updated: 2023-11-23
+
+- name: Fallout Equestria Discord
+  link: foe.gg
+  description: ""
+  tags: fallout equestria
+  updated: 2023-11-23
+
+- name: "Fallout: Equestria Resource"
+  link: fallout-equestria.com
+  description: Fallout Equestria fan site
+  tags: fallout equestria
+  updated: 2023-11-23
+
+- name: Fallout Equestria Wiki
+  link: falloutequestria.fandom.com
+  description: ""
+  tags: fallout equestria,wiki
+  updated: 2023-11-23
+
+- name: The Overmare Studios
+  link: theovermare.com
+  description: Project website for a fallout equestria game 
+  tags: fallout equestria,game,blog
+  updated: 2023-11-23
+
+- name: Fancy Noise Radio
+  link: fancynoise.net
+  description: Online radio station dedicated to the more hardcore/extreme side of electronic music.
+  tags: music,stream
+  updated: 2023-11-23
+
+- name: My Little Remix
+  link: www.mylittleremix.com
+  description: Forum dedicated to music production and remixing.
+  tags: music,forum
   updated: 2023-11-23

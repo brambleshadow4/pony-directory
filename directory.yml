@@ -44,12 +44,13 @@ body:
         children:
           - site: horsemusicherald.com
           - site: ponyvillefm.com
+          - site: www.mylittleremix.com
           - site: ponymusic.wiki
           - site: pony.fm
           - site: noise.horse
           - site: ponemusic.net
-          - site: sogreatandpowerful.com 
           - site: broniesradio.com
+          - site: fancynoise.net
       - group: Fanfiction
         children:
           - site: www.fimfiction.net
@@ -57,6 +58,7 @@ body:
           - group: Printing
             children:
               - site: www.ministryofimage.net
+              - site: absolutelyeverything.org
       - group: Board + Video Games
         children: 
           - site: pony.town
@@ -71,20 +73,21 @@ body:
             - site: www.secretshipfic.com
             - site: www.tsssf.net
             - site: childrenofkefentse.com
+      - group: Tech
+        children:
+          - site: ponepaste.org
+          - site: tinyface.net
+          - site: equestria.horse
+          - site: ponycule.equestria.horse
+          - site: equestria.dev
+          - site: ponies.equestria.horse
+          - site: bronyshow.com
+          - site: pony.community
       - group: Archives
         children:
           - site: www.theponyarchive.com
           - site: projectvinyl.net
-      - group: Other
-        children:
-          - site: www.whatisabrony.com
-          - site: bronyshow.com
-          - site: ponepaste.org
-          - site: pony.community
-          - site: equestria.dev
-          - site: equestria.horse
-          - site: ponycule.equestria.horse
-          - site: ponies.equestria.horse
+          
   - group: Conventions
     children:
       - site: ponycon.info
@@ -99,6 +102,7 @@ body:
           - site: whinnycity.com
           - site: bronycan.ca
           - site: marefair.org
+          - site: marefair.horse
       - group: Europe
         children:
           - site: everfree-encore.eu
@@ -115,6 +119,7 @@ body:
           - site: ponyfest.horse
   - group: Communities
     children:
+      - site: www.whatisabrony.com
       - site: greattobedifferent.com
       - site: pony.dev
       - group: Streaming
@@ -131,6 +136,7 @@ body:
           - site: mlponies.com
           - site: www.redlightponyville.com
           - site: www.canterlot.com
+          - site: www.mylittleremix.com
       - group: Fediverse + Mastodon
         children:
           - site: fedi.ponysearch.eu
@@ -147,6 +153,12 @@ body:
         children:
           - site: poniverse.net
           - site: canterlotavenue.com
+      - group: Fallout Equestria
+        children:
+          - site: fallout-equestria.com
+          - site: foe.gg
+          - site: falloutequestria.fandom.com
+          - site: theovermare.com
   - group: Joke Sites
     children:
       - site: www.starlightglimmer2020.com
@@ -156,6 +168,9 @@ body:
     children:
       - site: www.littleshyfim.com
       - site: lighttheunicorn.horse
+      - site: littlepony.horse
+      - site: itsebu.net
+      - site: sogreatandpowerful.com 
       - group: Vylet Pony
         children:
           - site: www.vyletpony.com
