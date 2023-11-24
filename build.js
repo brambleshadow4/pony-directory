@@ -54,6 +54,7 @@ function buildEverything(includeRestrictedSites)
 	<html>
 		<head>
 			<link rel='stylesheet' href="index.css" />
+			<meta charset="utf-8" />
 		</head>
 		<body>	
 			<nav>
