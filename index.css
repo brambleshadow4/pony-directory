@@ -8,11 +8,48 @@
   src: url(./font/Roboto-Regular.ttf);
 }
 
+html, body {
+	margin: 0px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0px;
+}
+
 nav {
 	font-family: Roboto;
-	position: fixed;
-	background-color: white;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 200px;
 	padding: 5px 10px;
+
+	overflow-y: auto;
+	background-color: rgba(255, 255, 255, .85);
+}
+
+main {
+	position: absolute;
+	box-sizing: border-box;
+	top: 0px;
+	bottom: 0px;
+	left: 220px;
+	right: 0px;
+
+	overflow-y: auto;
+
+	
+}
+
+.center {
+	max-width: 900px;
+	font-family: "Roboto";
+	background-color: rgba(255, 255, 255, .85);
+	padding: 10px .5in;
+
+	margin: auto;
 }
 
 nav a {
@@ -47,34 +84,55 @@ div {
 	font-family: "Equestria";
 	font-size: 4em;
 	text-align: center;
+	color: #ee3d96;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-family: "Equestria";
+	margin-bottom: 0px;
+	margin-top: 15px;
 }
 
-main 
-{
-	font-family: "Roboto";
-	max-width: 800px;
-	margin: auto;
-	background-color: rgba(255, 255, 255, .85);
-	padding: 10px .5in;
-
-	position: relative;
-	left: 100px;
-
+h1 {
+	font-size: 4em;
+	color: #ee3d96;
 }
 
-@media(max-width: 1100px){
+h1 + h2 {
+	margin-top: 0px;
+}
+
+h2 {
+	font-size: 3em;
+	color: #92278f;
+}
+
+h3 {
+	font-size: 2em;
+	color: #f067a6;
+}
+
+@media(max-width: 900px){
+	.center {
+		padding: 0px;
+	}
+}
+@media(max-width: 750px){
+
+	.center {
+		padding: 10px;
+	}
+
 
 	nav {
 		display: none;
 	}
 
 	main {
+
 		left: 0px;
 	}
+
 }
 
 .tags-reset-button, .tags-visibility-button {
@@ -134,13 +192,27 @@ main
 }
 
 .site-container {
-	display: block;
+	display: inline-block;
+	vertical-align: top;
 	margin-bottom: 10px;
+	margin-right: 10px;
+	border: solid 1px #61217f;
+	box-shadow: 2px 2px #61217f;
+	width: 2in;
+	padding: 10px;
+	padding-bottom: 20px;
+
+	background-color: white;
+	position: relative;
+	word-wrap: anywhere;
 }
 
 .site-updated {
-	float: right;
+	font-size: 8pt;
 	color: #B0B0B0;
+	position: absolute;
+	bottom: 2px;
+	right: 5px;
 }
 
 .site-title {
@@ -151,15 +223,7 @@ main
 .site-body-container {
 	display: block;
 	padding-left: 10px;
-}
 
-.site-link-container {
-	display: block;
-}
-
-.site-link {
-	display: inline-block;
-	margin-right: 10px;
 }
 
 .site-description {
@@ -172,6 +236,7 @@ main
 
 .site-container.dead, .site-container.redirect {
 	display: none;
+
 }
 
 .dead a, .dead .site-link-container, .dead .site-title, .dead .site-description  {
@@ -184,5 +249,5 @@ main
 }
 
 .show_dead .site-container.dead, .show_dead .site-container.redirect {
-	display: block;
+	display: inline-block;
 }

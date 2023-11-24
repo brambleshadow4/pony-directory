@@ -40,10 +40,16 @@ body:
             children:
               - site: manebooru.art
               - site: www.bronibooru.com
+              - site: twibooru.org
+              - site: ponerpics.org
+      - group: Plushies
+        children:
+          - site: plushie.horse
       - group: Music
         children:
           - site: horsemusicherald.com
           - site: ponyvillefm.com
+          - site: bronyradio.com
           - site: www.mylittleremix.com
           - site: ponymusic.wiki
           - site: pony.fm
@@ -51,6 +57,12 @@ body:
           - site: ponemusic.net
           - site: broniesradio.com
           - site: fancynoise.net
+          - site: radiobrony.fr
+          - site: toastbeard.bronyradio.com
+      - group: Podcasts
+        children:
+          - site: pony411.libsyn.com
+          - site: mlp.one
       - group: Fanfiction
         children:
           - site: www.fimfiction.net
@@ -73,6 +85,12 @@ body:
             - site: www.secretshipfic.com
             - site: www.tsssf.net
             - site: childrenofkefentse.com
+          - group: Pony Town Special Events
+            children:
+              - site: event.pony.town
+              - site: eventblue.pony.town
+              - site: eventgreen.pony.town
+              - site: breezy.pony.town  
       - group: Tech
         children:
           - site: ponepaste.org
@@ -83,10 +101,19 @@ body:
           - site: ponies.equestria.horse
           - site: bronyshow.com
           - site: pony.community
+          - site: smutty.horse
+          - site: pony.directory
+          - site: all.pony.directory
+      - group: Videos
+        children:
+          - site: projectvinyl.net
+          - site: pony.tube
+          - site: pmvtoday.com
       - group: Archives
         children:
           - site: www.theponyarchive.com
-          - site: projectvinyl.net
+          - site: cutemares.com
+          
           
   - group: Conventions
     children:
@@ -103,6 +130,7 @@ body:
           - site: bronycan.ca
           - site: marefair.org
           - site: marefair.horse
+          - site: snowpity.org
       - group: Europe
         children:
           - site: everfree-encore.eu
@@ -117,18 +145,26 @@ body:
       - group: Online Cons
         children:
           - site: ponyfest.horse
+          - site: mlpcon.online
+
   - group: Communities
     children:
       - site: www.whatisabrony.com
       - site: greattobedifferent.com
+
       - site: pony.dev
+      - site: www.ponylatino.com
+      - site: www.reddit.com/r/mylittlepony
+
       - group: Streaming
         children:
           - site: www.bronystate.net
+          - site: berrytube.tv
           - site: www.bronytv.net
           - site: cinemaquestria.com
           - site: equestria.tv
           - site: ponyvillelive.com
+          - site: derpy.tv
       - group: Forums + Roleplaying
         children:
           - site: mlpforums.com
@@ -140,10 +176,21 @@ body:
       - group: Fediverse + Mastodon
         children:
           - site: fedi.ponysearch.eu
-      - group: International
+          - site: pon.ee
+          - site: mlp.chat
+          - site: pone.social
+      - group: Francoponies
         children:
+          - site: francoponies.fr
+          - site: ponyfrance.net
+          - site: www.leponeyblanc.fr
           - site: mlp-france.com
-          - site: www.ponylatino.com
+          - site: needforponies.fr
+          - site: weponies.org
+          - site: radiobrony.fr
+          - site: radiobrony.live
+          - site: www.newlunarrepublic.fr
+          - site: mlpfictions.com
       - group: Wikis
         children:
           - site: mlp.fandom.com
@@ -159,11 +206,23 @@ body:
           - site: foe.gg
           - site: falloutequestria.fandom.com
           - site: theovermare.com
+  - group: Episode Hosting
+    children:
+      - site: yayponi.es
+      - site: yayponies.no
+      - site: ponylove.cc
   - group: Joke Sites
     children:
+      - site: horse.best
+      - site: coco-pommel.org
       - site: www.starlightglimmer2020.com
       - site: celestianism.com
       - site: www.bbbff.net
+      - site: iwtcits.com
+      - site: iwtcird.com
+      - site: tsibp.com
+      - site: mare.biz
+      - site: bestest.horse
   - group: Personal Sites
     children:
       - site: www.littleshyfim.com
@@ -171,6 +230,7 @@ body:
       - site: littlepony.horse
       - site: itsebu.net
       - site: sogreatandpowerful.com 
+      - site: twifag.com
       - group: Vylet Pony
         children:
           - site: www.vyletpony.com

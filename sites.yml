@@ -7,13 +7,13 @@
 - name: Derpibooru
   link: derpibooru.org
   description: A popular image board.
-  tags: art
+  tags: art,image board
   updated: 2023-11-08
 
 - name: Manebooru
   link: manebooru.art
   description: A popular alternative with more strict guidelines on controversial content.
-  tags: art
+  tags: art,image board
   updated: 2023-11-09
 
 - name: Horse News
@@ -49,7 +49,7 @@
 
 - name: Poniverse
   link: poniverse.net
-  description: Gateway site to the various poniverse webistes.
+  description: Gateway site to the various poniverse websites.
   tags: directory
   updated: 2023-11-08
 
@@ -218,7 +218,7 @@
 - name: Red Light Ponyville
   link: www.redlightponyville.com
   description: Adult forum for roleplaying as well as art.
-  tags: restricted,roleplay,forum
+  tags: restricted,roleplay,forum,adult
   updated: 2023-11-08
 
 - name: Canterlot
@@ -309,6 +309,26 @@
   tags: game
   updated: 2023-11-08
 
+- link: event.pony.town
+  description: PonyTown for events like conventions
+  tags: game
+  updated: 2023-11-23
+
+- link: eventblue.pony.town
+  description: ""
+  tags: game
+  updated: 2023-11-23
+
+- link: eventgreen.pony.town
+  description: ""
+  tags: game
+  updated: 2023-11-23
+
+- link: breezy.pony.town
+  description: ""
+  tags: game
+  updated: 2023-11-23
+
 - name: Twilight Sparkle's Secret Shipfic Folder
   link: www.secretshipfic.com
   protocol: http
@@ -330,11 +350,8 @@
 
 - name: Cards Against Equestria
   link: www.cardsagainstequestria.horse
-  description: MLP themed cards against humanity.
-  links:
-  - link: github.com/Rylius/CardsAgainstEquestria
-    description: Archived source code behind website game. Discontinued, outdated, unsupported.
-  tags: game,restricted,dead
+  description: MLP themed cards against humanity. Github is github.com/Rylius/CardsAgainstEquestria in case anyone wants to try to bring it back.
+  tags: game,restricted,dead,adult
   updated: 2023-11-08
 
 - name: Canterlot Comics
@@ -510,7 +527,7 @@
 - name: Project Vinyl
   link: projectvinyl.net
   description: MLP video hosting website.
-  tags: archive
+  tags: video
   updated: 2023-11-09
 
 - name: Light's Hay Stash
@@ -520,7 +537,8 @@
   updated: 2023-11-09
 
 - link: broniesradio.com
-  tags: dead
+  description: ""
+  tags: dead,music
   updated: 2023-11-23
 
 - name: littlepony.horse
@@ -541,7 +559,7 @@
   tags: tech
   updated: 2023-11-23
 
-- name: Absolutelyly Everything!
+- name: Absolutely Everything!
   link: absolutelyeverything.org
   description: The official store of the Fallout Equestria Print Project
   tags: fanfiction,blog,fallout equestria
@@ -581,4 +599,247 @@
   link: www.mylittleremix.com
   description: Forum dedicated to music production and remixing.
   tags: music,forum
+  updated: 2023-11-23
+
+- name: iwtcits.com
+  link: iwtcits.com
+  description: ""
+  tags: joke,restricted
+  updated: 2023-11-23
+
+- name: Pony.Tube 
+  link: pony.tube
+  description: Pony video hosting website
+  tags: video
+  updated: 2023-11-23
+
+- name: Smutty Horse
+  link: smutty.horse
+  description: File hosting website
+  tags: tech,restricted
+  updated: 2023-11-23
+
+- name: Twibooru
+  link: twibooru.org
+  description: Anonymous posting only image board
+  tags: art,restricted,image board # questionable art is censored, but is available within a single click
+  updated: 2023-11-23
+
+- name: pone.social
+  link: pone.social
+  description: Mastodon instance
+  tags: mastodon,restricted # restricted reason: foul language
+  updated: 2023-11-23
+
+- name: Snowpity, Inc.
+  link: snowpity.org
+  description: Parent organization of Mare Fair
+  tags: restricted
+  updated: 2023-11-23
+
+- name: /mlp/ con online
+  link: mlpcon.online
+  description: /MLP/ based online convention
+  tags: restricted,convention,online
+  updated: 2023-11-23
+
+- name: MLP chat
+  link: mlp.chat
+  description: Matrix host
+  tags: restricted,matrix #links to other restricted sites
+  updated: 2023-11-23
+
+- name: Twifag
+  link: twifag.com
+  description: Personal site for Corpulent Brony/Twifag
+  tags: restricted,personal
+  updated: 2023-11-23
+
+- name: $MARE
+  link: mare.biz
+  description: Mare Cryptocurrency. Please do not sink your money into this.
+  tags: tech,joke
+  updated: 2023-11-23
+
+- name: "IWTCIRD: I Want To Cum Inside Rainbow Dash"
+  link: iwtcird.com
+  description: lewd joke site
+  tags: restricted,joke
+  updated: 2023-11-23
+
+- name: pon.ee
+  link: pon.ee
+  description: Mastodon host
+  tags: social,mastodon
+  updated: 2023-11-23
+
+- name: Twilight Sparkle is Bestest Horse
+  link: bestest.horse
+  description: Joke website
+  tags: restricted,joke #links to other restricted sites
+  updated: 2023-11-23
+
+- name: "TSIBP: Twilight Sparkle Is Best Pony"
+  link: tsibp.com
+  protocol: http
+  description: Joke website
+  tags: restricted,joke # links to other restricted sites
+  updated: 2023-11-23
+
+- name: /mlp/odcast
+  link: mlp.one
+  description: Former 4chan podcast
+  tags: podcast,restricted
+  updated: 2023-11-23
+
+- name: Pony 411
+  link: pony411.libsyn.com
+  description: Former G4 podcast
+  tags: podcast
+  updated: 2023-11-23
+
+- name: horse.best
+  link: horse.best
+  description: Joke site
+  tags: joke
+  updated: 2023-11-23
+
+- name: plushie.horse
+  link: plushie.horse
+  description: Site listing different plushie vendors
+  tags: directory,art
+  updated: 2023-11-23
+
+- name: Ponerpics
+  link: ponerpics.org
+  description: Derpibooru like image board with an emphasis on maximum freedom
+  tags: art,image board
+  updated: 2023-11-23
+
+- name: Yay Ponies
+  link: yayponi.es
+  description: MLP episode hosting website
+  tags: episodes
+  updated: 2023-11-23
+
+- link: yayponies.no
+  description: Same site as yayponi.es
+  tags: redirect
+  updated: 2023-11-23
+
+- name: Coco Pommel!
+  link: coco-pommel.org
+  description: Joke site
+  tags: joke
+  updated: 2023-11-23
+
+- name: DerpyTV
+  link: derpy.tv
+  description: Streaming website
+  tags: stream
+  updated: 2023-11-23
+
+- name: cutemares.com
+  link: cutemares.com
+  description: Porn archive
+  tags: restricted,adult,archive,art
+  updated: 2023-11-23
+
+- name: Francoponies
+  link: francoponies.fr
+  description: French community website
+  tags: france
+  updated: 2023-11-23
+
+- name: Le Poney Blanc
+  link: www.leponeyblanc.fr
+  description: French community website
+  tags: france,blog
+  updated: 2023-11-23
+
+- name: Need For Ponies
+  link: needforponies.fr
+  description: French community website
+  tags: france,episodes
+  updated: 2023-11-23
+
+- name: WePonies
+  link: weponies.org
+  description: France community + event hosting website
+  tags: france
+  updated: 2023-11-23
+
+- name: Radio Brony
+  link: radiobrony.fr
+  description: French brony radio station
+  tags: stream,france
+  updated: 2023-11-23
+
+- link: radiobrony.live
+  description: redirect to radiobrony.fr
+  tags: france,redirect
+  updated: 2023-11-23
+
+- name: www.newlunarrepublic.fr
+  link: www.newlunarrepublic.fr
+  description: NLR based france website
+  tags: france,episodes
+  updated: 2023-11-23
+
+- name: Pony France
+  link: ponyfrance.net
+  description: Hub for various France-based MLP sites
+  tags: france,directory
+  updated: 2023-11-23
+
+- link: mlpfictions.com
+  description: ""
+  tags: dead
+  updated: 2023-11-23
+
+- link: pmvtoday.com
+  description: PMV website?
+  tags: dead
+  updated: 2023-11-23
+
+- name: Toastbeard
+  link: toastbeard.bronyradio.com
+  description: Former toastbeard website. Technically still up
+  protocol: http
+  tags: music
+  updated: 2023-11-23
+
+- link: bronyradio.com
+  description: redirect to ponyvillefm.com
+  tags: redirect
+  updated: 2023-11-23
+
+- name: PONYLOVE
+  link: ponylove.cc
+  description: Episode hosting website
+  tags: episodes
+  updated: 2023-11-23
+
+- name: Berry Tube
+  link: berrytube.tv
+  description: Streaming website
+  tags: stream
+  updated: 2023-11-23
+
+- name: Subreddit
+  link: www.reddit.com/r/mylittlepony
+  description: The most popular MLP subreddit
+  tags: reddit
+  updated: 2023-11-23
+
+- name: Pony Directory
+  link: pony.directory
+  description: List of pony websites
+  tags: directory
+  updated: 2023-11-23
+
+- name: Pony Directory
+  link: all.pony.directory
+  description: List of pony websites, including adult sites
+  tags: directory,restricted
   updated: 2023-11-23

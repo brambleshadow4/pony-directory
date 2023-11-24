@@ -10,6 +10,7 @@ let siteList = yaml.parse(fs.readFileSync('./sites.yml', 'utf8'));
 
 var sites = {}
 let sitesNotListed = new Set();
+let totalSites = 0;
 
 
 for(let site of siteList)
@@ -21,8 +22,11 @@ for(let site of siteList)
 		throw new Error("Site " + site.link + " was already added.")
 
 	sites[site.link] = site;
+	totalSites++;
 	sitesNotListed.add(site.link)
 }
+
+console.log("Total sites: " + totalSites)
 
 buildEverything(true);
 
@@ -51,16 +55,19 @@ function buildEverything(includeRestrictedSites)
 		<head>
 			<link rel='stylesheet' href="index.css" />
 		</head>
-		<body>
-			<div id='background' class="${includeRestrictedSites ? "adult" : ""}"></div>
+		<body>	
 			<nav>
 				<strong>Table of Contents</strong>
 				${nav}
 			</nav>
 			<main>
-				${introText}
-				${siteText}
+				<div class='center'>
+					${introText}
+					${siteText}
+				</div>
 			</main>
+			<div id='background' class="${includeRestrictedSites ? "adult" : ""}"></div>
+
 			<script src="index.js"></script>
 		</body>
 	</html>
@@ -145,14 +152,16 @@ function buildBodyText(nodes, headingLevel, includeRestrictedSites)
 				
 				
 				<div class="site-link-container">
-					<a class="site-link" href="${protocol}://${site.link}">${site.link}</a>
-					<div class="site-description">${site.description}</div>
+					<a class="site-link" href="${protocol}://${site.link}">${site.link.replace(/\./g,"\u200B.")}</a>		
 				</div>
-	
+				<div class="site-description">${site.description}</div>
+				
 				<div>
+
 					${tags.map(x => `<div class="tag-label" name=${x}>${x}</div>`).join("")}
-					<span class="site-updated">Checked on ${site.updated}</span>
+					
 				</div>
+				<div class="site-updated">Updated ${site.updated}</div>
 			</div>`;
 		}
 		if(x.group)
