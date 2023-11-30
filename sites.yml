@@ -510,12 +510,12 @@
 - name: Mare Fair
   link: marefair.org
   description: 18+ MLP convention based in Orlando, Florida.
-  tags: restricted,convention,usa
+  tags: convention,usa
   updated: 2023-11-09
 
 - link: marefair.horse
   description: alternate to marefair.org
-  tags: redirect,restricted,convention,usa
+  tags: redirect,convention,usa
   updated: 2023-11-23
 
 - name: PonePaste
@@ -622,25 +622,25 @@
 - name: Twibooru
   link: twibooru.org
   description: Anonymous posting only image board
-  tags: art,restricted,image board # questionable art is censored, but is available within a single click
+  tags: art,image board
   updated: 2023-11-23
 
 - name: pone.social
   link: pone.social
   description: Mastodon instance
-  tags: mastodon,restricted # restricted reason: foul language
+  tags: mastodon
   updated: 2023-11-23
 
 - name: Snowpity, Inc.
   link: snowpity.org
   description: Parent organization of Mare Fair
-  tags: restricted
+  tags: ""
   updated: 2023-11-23
 
 - name: /mlp/ con online
   link: mlpcon.online
   description: /MLP/ based online convention
-  tags: restricted,convention,online
+  tags: convention,online
   updated: 2023-11-23
 
 - name: MLP chat
@@ -652,7 +652,7 @@
 - name: Twifag
   link: twifag.com
   description: Personal site for Corpulent Brony/Twifag
-  tags: restricted,personal
+  tags: restricted,personal # don't really want to list a site with "fag" on the main page.
   updated: 2023-11-23
 
 - name: $MARE
@@ -689,7 +689,7 @@
 - name: /mlp/odcast
   link: mlp.one
   description: Former 4chan podcast
-  tags: podcast,restricted
+  tags: podcast
   updated: 2023-11-23
 
 - name: Pony 411

@@ -15,7 +15,7 @@ In sites.yml, please the following 5 properties
   tags: game,tsssf
 ```
 
-Any sites which have 18+ content or would be considered offensive to certain communities MUST have a 'restricted' tag added to them.
+Some websites (think NSFW sites) are considered restricted and must have a 'restricted' tag. See the Restricted Sites section for more info.
 
 In directory.yml, add the site to one or more existing groups. This will determine where it shows up on the page.
 
@@ -26,6 +26,18 @@ In directory.yml, add the site to one or more existing groups. This will determi
             - site: www.tsssf.net
             - site: childrenofkefentse.com
 ```
+
+
+## Restricted Sites ##
+
+MLP is a kid's franchise so pony.directory tries to limit what's on the main site to stuff that would be 
+appropriate for all audiences. It's hard though with many websites featuring a mix of content. Below
+are the current guidelines to judge whether a site is restricted or not. 
+
+1. Sites which primarily feature sexually explicit works or content that would be considered inappropriate for the target audience are restricted.
+2. Sites which directly link to sites described in (1) are restricted.
+3. Sites which feature both SFW and NSFW content need to have appropriate precautions in place. Explicit content should not be shown without the viewer choosing interacting with it. Ideally, such content should be hidden unless the user opts in to list it.
+
 
 ## Building index.html ##
 `npm run build`
