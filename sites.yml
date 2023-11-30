@@ -161,6 +161,18 @@
   tags: convention,online
   updated: 2023-11-08
 
+- name: UK PonyCon
+  link: www.ukponycon.co.uk
+  description: United Kingdom MLP convention.
+  tags: convention,uk
+  updated: 2023-11-08
+
+- name: UKPonycOnline
+  link: online.ukponycon.co.uk
+  description: Former online MLP convention.
+  tags: convention,online,dead
+  updated: 2023-11-08
+
 - name: Bronystate
   link: www.bronystate.net
   description: Popular brony streaming site which used to host MLP episode stream parties.
@@ -306,6 +318,18 @@
     description: 
   - link: breezy.pony.town
     description: 
+  - link: test.pony.town
+  - link: bauldwindaniel6.wixsite.com/ponytown-fansite
+  - link: nastja.co
+  - link: ashes.town
+  - link: test.ashes.town
+  - link: crystaltown.cc
+  - link: luminouskingdom.com
+  - link: mysticalmeadows.co.uk
+  - link: pixel.horse
+  - link: test.pixel.horse
+  - link: town.polyethylene.app
+  - link: fantasytown.ca
   tags: game
   updated: 2023-11-08
 
@@ -325,9 +349,69 @@
   updated: 2023-11-23
 
 - link: breezy.pony.town
+  description: Breezy Pony Town - A server originally for MsBreezy when streaming to take the huge load off the main server when watchers also join. Now it's a place mainly with more features such as dancing, sprinting, new objects and a different map.
+  tags: game
+  updated: 2023-11-30
+
+- link: test.pony.town
   description: ""
   tags: game
-  updated: 2023-11-23
+  updated: 2023-11-13
+
+- link: bauldwindaniel6.wixsite.com/ponytown-fansite
+  description: A Pony Town custom servers list, tutorials, info and mini-game explanations.
+  tags: game
+  updated: 2023-11-13
+
+- link: nastja.co
+  description: A Pony Town custom servers list.
+  tags: game
+  updated: 2023-11-13
+
+- link: ashes.town
+  description: Ashes Town - A Fallout Equestria themed server.
+  tags: game
+  updated: 2023-11-13
+
+- link: test.ashes.town
+  description: Ashes Town's prerelease test server.
+  tags: game
+  updated: 2023-11-13
+
+- link: crystaltown.cc
+  description: Rainbow Town.
+  tags: game
+  updated: 2023-11-13
+
+- link: luminouskingdom.com
+  description: Luminous Kingdom.
+  tags: game
+  updated: 2023-11-13
+
+- link: mysticalmeadows.co.uk
+  description: Mystical Meadows.
+  tags: game
+  updated: 2023-11-13
+
+- link: pixel.horse
+  description: pixel.horse.
+  tags: game
+  updated: 2023-11-13
+
+- link: test.pixel.horse
+  description: Sleepy Town.
+  tags: game
+  updated: 2023-11-13
+
+- link: town.polyethylene.app
+  description: Polyethylene Server - This server mainly provides experimental features and concepts.
+  tags: game
+  updated: 2023-11-13
+
+- link: fantasytown.ca
+  description: Fantasy Town.
+  tags: game
+  updated: 2023-11-13
 
 - name: Twilight Sparkle's Secret Shipfic Folder
   link: www.secretshipfic.com
@@ -843,3 +927,63 @@
   description: List of pony websites, including adult sites
   tags: directory,restricted
   updated: 2023-11-23
+
+- name: Polyethylene Workbench
+  link: polyethylene.app
+  description: Polyethylene's website.
+  tags: personal,tech
+  updated: 2023-11-13
+
+- name: "Fighting is Magic: Aurora"
+  link: fightingismagic.com
+  description: Fan-made 2D fighting game based on MLP FiM.
+  tags: game
+  updated: 2023-11-30
+
+- name: Order of Twilight
+  link: stabyourself.net/orderoftwilight/
+  description: A simple puzzle 2D platformer game.
+  tags: game
+  updated: 2023-11-30
+
+- name: My Little Game Jam
+  link: mylittlegamejam.com
+  description: A game developing competition based on MLP FiM.
+  tags: game,forum,dead
+  updated: 2023-11-30
+
+- name: "Fallout Equestria: Remains"
+  link: foe-remains.gitlab.io
+  description: A hardcore mix of platformer, 2D-shooter and roguelike with RPG elements.
+  tags: game
+  updated: 2023-11-30
+
+- name: Roleplaying is Magic
+  link: roleplayingismagic.github.io
+  description: A fan-created tabletop roleplaying game and storytelling system based on MLP FiM.
+  tags: game
+  updated: 2023-11-30
+
+- name: xxnightmaremoonxx.de
+  link: xxnightmaremoonxx.de
+  description: German MLP episode hosting website.
+  tags: episodes,dead
+  updated: 2023-11-30
+
+- name: PonyCloud
+  link: ponycloud.me
+  description: German MLP episode discussion forum.
+  tags: forum
+  updated: 2023-11-30
+
+- name: Equestria United
+  link: brony.eu
+  description: MLP conventions & events around Europe (past present and future).
+  tags: blog,directory,convention
+  updated: 2023-11-30
+
+- name: Equestria United PonyStream
+  link: stream.brony.eu
+  description: Livestreams conventions from around the world.
+  tags: convention,stream
+  updated: 2023-11-30
