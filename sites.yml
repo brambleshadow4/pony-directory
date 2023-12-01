@@ -309,27 +309,6 @@
 - name: Pony Town
   link: pony.town
   description: Online multiplayer game where you can make your own custom pony and build a town.
-  links:
-  - link: event.pony.town
-    description: 
-  - link: eventblue.pony.town
-    description: 
-  - link: eventgreen.pony.town
-    description: 
-  - link: breezy.pony.town
-    description: 
-  - link: test.pony.town
-  - link: bauldwindaniel6.wixsite.com/ponytown-fansite
-  - link: nastja.co
-  - link: ashes.town
-  - link: test.ashes.town
-  - link: crystaltown.cc
-  - link: luminouskingdom.com
-  - link: mysticalmeadows.co.uk
-  - link: pixel.horse
-  - link: test.pixel.horse
-  - link: town.polyethylene.app
-  - link: fantasytown.ca
   tags: game
   updated: 2023-11-08
 
@@ -370,7 +349,7 @@
 
 - link: ashes.town
   description: Ashes Town - A Fallout Equestria themed server.
-  tags: game
+  tags: game,fallout equestria
   updated: 2023-11-13
 
 - link: test.ashes.town
@@ -955,7 +934,7 @@
 - name: "Fallout Equestria: Remains"
   link: foe-remains.gitlab.io
   description: A hardcore mix of platformer, 2D-shooter and roguelike with RPG elements.
-  tags: game
+  tags: game,fallout equestria
   updated: 2023-11-30
 
 - name: Roleplaying is Magic
@@ -967,13 +946,13 @@
 - name: xxnightmaremoonxx.de
   link: xxnightmaremoonxx.de
   description: German MLP episode hosting website.
-  tags: episodes,dead
+  tags: episodes,dead,germany
   updated: 2023-11-30
 
 - name: PonyCloud
   link: ponycloud.me
   description: German MLP episode discussion forum.
-  tags: forum
+  tags: forum,germany
   updated: 2023-11-30
 
 - name: Equestria United
