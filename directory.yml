@@ -77,9 +77,14 @@ body:
           - site: poniarcade.com
           - site: www.cardsagainstequestria.horse
           - site: mylittlegamedev.com
+          - site: mylittlegamejam.com
           - site: www.equestriagaming.net
           - site: www.mylittlekaraoke.com
           - site: ponytone.online
+          - site: fightingismagic.com
+          - site: stabyourself.net/orderoftwilight/
+          - site: foe-remains.gitlab.io
+          - site: roleplayingismagic.github.io
           - group: Secret Shipfic Folder
             children:              
             - site: www.secretshipfic.com
@@ -90,7 +95,19 @@ body:
               - site: event.pony.town
               - site: eventblue.pony.town
               - site: eventgreen.pony.town
-              - site: breezy.pony.town  
+              - site: breezy.pony.town
+              - site: test.pony.town
+              - site: bauldwindaniel6.wixsite.com/ponytown-fansite
+              - site: nastja.co
+              - site: ashes.town
+              - site: test.ashes.town
+              - site: crystaltown.cc
+              - site: luminouskingdom.com
+              - site: mysticalmeadows.co.uk
+              - site: pixel.horse
+              - site: test.pixel.horse
+              - site: town.polyethylene.app
+              - site: fantasytown.ca
       - group: Tech
         children:
           - site: ponepaste.org
@@ -118,6 +135,7 @@ body:
   - group: Conventions
     children:
       - site: ponycon.info
+      - site: brony.eu
       - group: North America
         children:
           - site: www.babscon.com
@@ -138,6 +156,7 @@ body:
           - site: galacon.pony-events.eu
           - site: www.czequestria.cz
           - site: ponyconholland.com
+          - site: www.ukponycon.co.uk
       - group: International
         children:
           - site: seaponycon.com
@@ -146,6 +165,7 @@ body:
         children:
           - site: ponyfest.horse
           - site: mlpcon.online
+          - site: online.ukponycon.co.uk
 
   - group: Communities
     children:
@@ -165,6 +185,7 @@ body:
           - site: equestria.tv
           - site: ponyvillelive.com
           - site: derpy.tv
+          - site: stream.brony.eu
       - group: Forums + Roleplaying
         children:
           - site: mlpforums.com
@@ -173,6 +194,7 @@ body:
           - site: www.redlightponyville.com
           - site: www.canterlot.com
           - site: www.mylittleremix.com
+          - site: ponycloud.me
       - group: Fediverse + Mastodon
         children:
           - site: fedi.ponysearch.eu
@@ -211,6 +233,7 @@ body:
       - site: yayponi.es
       - site: yayponies.no
       - site: ponylove.cc
+      - site: xxnightmaremoonxx.de
   - group: Joke Sites
     children:
       - site: horse.best
@@ -231,6 +254,7 @@ body:
       - site: itsebu.net
       - site: sogreatandpowerful.com 
       - site: twifag.com
+      - site: polyethylene.app
       - group: Vylet Pony
         children:
           - site: www.vyletpony.com
