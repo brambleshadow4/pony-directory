@@ -246,6 +246,7 @@ body:
       - site: tsibp.com
       - site: mare.biz
       - site: bestest.horse
+      - site: spib.no
   - group: Personal Sites
     children:
       - site: www.littleshyfim.com
