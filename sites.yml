@@ -966,3 +966,9 @@
   description: Livestreams conventions from around the world.
   tags: convention,stream
   updated: 2023-11-30
+
+- name: Spib
+  link: spib.no
+  description: Spitfire = Spib
+  tags: art,joke
+  updated: 2023-12-19
