@@ -85,6 +85,7 @@ body:
           - site: stabyourself.net/orderoftwilight/
           - site: foe-remains.gitlab.io
           - site: roleplayingismagic.github.io
+          - site: ponymtg.github.io
           - group: Secret Shipfic Folder
             children:              
             - site: www.secretshipfic.com
@@ -166,16 +167,17 @@ body:
           - site: ponyfest.horse
           - site: mlpcon.online
           - site: online.ukponycon.co.uk
+      - group: Fomer Conventions
+        children:
+          - site: bronycon.org
 
   - group: Communities
     children:
       - site: www.whatisabrony.com
       - site: greattobedifferent.com
-
       - site: pony.dev
       - site: www.ponylatino.com
       - site: www.reddit.com/r/mylittlepony
-
       - group: Streaming
         children:
           - site: www.bronystate.net
@@ -201,6 +203,8 @@ body:
           - site: pon.ee
           - site: mlp.chat
           - site: pone.social
+          - site: equestria.social
+          - site: pony.social
       - group: Francoponies
         children:
           - site: francoponies.fr
@@ -247,6 +251,8 @@ body:
       - site: mare.biz
       - site: bestest.horse
       - site: spib.no
+      - site: bronymate.com
+      - site: wetmares.org
   - group: Personal Sites
     children:
       - site: www.littleshyfim.com
@@ -256,6 +262,8 @@ body:
       - site: sogreatandpowerful.com 
       - site: twifag.com
       - site: polyethylene.app
+      - site: lyra.horse
+      - site: brambleshadow4.net
       - group: Vylet Pony
         children:
           - site: www.vyletpony.com

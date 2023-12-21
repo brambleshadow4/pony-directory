@@ -28,6 +28,8 @@ for(let site of siteList)
 
 console.log("Total sites: " + totalSites)
 
+let sitesNotInSitesYML = new Set();
+
 buildEverything(true);
 
 if(sitesNotListed.size > 0)
@@ -45,7 +47,13 @@ buildEverything(false);
  */
 function buildEverything(includeRestrictedSites)
 {
-	let siteText = buildBodyText(directory.body, 1, includeRestrictedSites)
+	let siteText = buildBodyText(directory.body, 1, includeRestrictedSites);
+
+	if (sitesNotInSitesYML.size > 0) {
+		throw new Error("Somes sites are missing in sites.yml: \n" + [...sitesNotInSitesYML].join("\n"));
+	}
+
+
 	let nav = buildTOC(directory.body, 1);
 	let introText = includeRestrictedSites ? directory.intro_ad : directory.intro;
 
@@ -113,8 +121,10 @@ function buildBodyText(nodes, headingLevel, includeRestrictedSites)
 		{
 			let site = sites[x.site];
 
-			if(!site)
-				throw new Error("Site missing from sites.yml: " + x.site);
+			if(!site){
+				sitesNotInSitesYML.add(x.site);
+				return "";
+			}
 
 			let tags = site.tags ? site.tags.split(",") : [];
 			let extraClasses = "";

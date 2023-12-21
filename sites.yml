@@ -972,3 +972,57 @@
   description: Spitfire = Spib
   tags: art,joke
   updated: 2023-12-19
+
+- name: PonyMTG
+  link: ponymtg.github.io
+  description: A database of fan-made Magic the Gathering cards.
+  tags: tech,game
+  updated: 2023-12-20
+
+- name: Wet Mares
+  link: wetmares.org
+  description: Randomly shows art of a mare drenched in water.
+  tags: joke,art
+  updated: 2023-12-20
+
+- name: bronycon.org
+  link: bronycon.org
+  description: Website for former BronyCon convention.
+  tags: usa,con
+  updated: 2023-12-20
+
+- name: equestria.social
+  link: equestria.social
+  description: MLP mastodon instance
+  tags: tech,mastodon
+  updated: 2023-12-20
+
+- name: pony.social
+  link: pony.social
+  description: MLP mastodon instance
+  tags: tech,mastodon
+  updated: 2023-12-20
+
+- name: BronyMate
+  link: bronymate.com
+  description: Scam dating website
+  tags: joke
+  updated: 2023-12-20
+
+- name: lyra.horse
+  link: lyra.horse
+  description: Personal website for Rebane
+  tags: personal
+  updated: 2023-12-20
+
+- name: brambleshadow4.net
+  link: brambleshadow4.net
+  description: Personal website for brambleshadow4
+  tags: personal,tech
+  updated: 2023-12-20
+
+- name:
+  link:
+  description:
+  tags:
+  updated: 2023-12-20
