@@ -18,43 +18,53 @@ html, body {
 	padding: 0px;
 }
 
+.main-container {
+	/**max-width: 900px;*/
+	display: flex;
+	position: relative;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.mobile-nav-bar {
+	display: none;
+}
 nav {
 	font-family: Roboto;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: 200px;
 	padding: 5px 10px;
 
 	overflow-y: auto;
 	background-color: rgba(255, 255, 255, .85);
-}
+	width: 200px;
 
-main {
-	position: absolute;
-	box-sizing: border-box;
-	top: 0px;
-	bottom: 0px;
-	left: 220px;
-	right: 0px;
+	flex-shrink: 0;
+	flex-grow: 0;
 
-	overflow-y: auto;
-
+	position: sticky;
+	top: 10px;
+	bottom: 20px;
+	margin: 10px 10px;
+	height: calc(100vh - 40px);
 	
 }
 
-.center {
-	max-width: 900px;
+nav a {
+	display: inline-block;
+}
+
+main {
+	box-sizing: border-box;
+	/*overflow-y: auto;*/
+	flex-grow: 1;
+	flex-shrink: 1;
+
+	max-width: 1000px;
+
 	font-family: "Roboto";
 	background-color: rgba(255, 255, 255, .85);
 	padding: 10px .5in;
-
-	margin: auto;
 }
 
-nav a {
-	display: block;
-}
 
 div {
 	
@@ -112,28 +122,7 @@ h3 {
 	color: #f067a6;
 }
 
-@media(max-width: 900px){
-	.center {
-		padding: 0px;
-	}
-}
-@media(max-width: 750px){
 
-	.center {
-		padding: 10px;
-	}
-
-
-	nav {
-		display: none;
-	}
-
-	main {
-
-		left: 0px;
-	}
-
-}
 
 .tags-reset-button, .tags-visibility-button {
 	display: block;
@@ -250,4 +239,66 @@ h3 {
 
 .show_dead .site-container.dead, .show_dead .site-container.redirect {
 	display: inline-block;
+}
+
+
+@media(max-width: 800px){
+
+	.mobile-nav-bar {
+		font-family: Roboto;
+		font-size: 14pt;
+		position: fixed;
+		display: block;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		height: 60px;
+		background-color: #92278f;
+		line-height: 60px;
+		color: white;
+		z-index: 2;
+		padding-left: 20px;
+	}
+
+	.desktop-nav-heading
+	{
+		display: none;
+	}
+
+
+	.main-container {
+		flex-direction: column;
+
+	}
+
+	nav {
+		display: none;
+	}
+
+	nav.show {
+		box-sizing: border-box;
+		width: 100%;
+		height: calc(100% - 60px);
+		display: block;
+		z-index: 1;
+
+		background-color: white;
+
+		margin: 0px;
+
+		padding-top: 70px;
+		padding-bottom: 10px;
+
+	}
+
+	main {
+		padding: 10px;
+		padding-top: 60px;
+	}
+}
+
+@media(max-width: 500px){
+	.site-container {
+		width: calc(100% - 30px)
+	}
 }

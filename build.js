@@ -65,17 +65,20 @@ function buildEverything(includeRestrictedSites)
 			<meta charset="utf-8" />
 			<meta name="viewport" content="width=device-width, initial-scale=1" />
 		</head>
-		<body>	
-			<nav>
-				<strong>Table of Contents</strong>
-				${nav}
-			</nav>
-			<main>
-				<div class='center'>
+		<body>
+			<div class='main-container'>
+				<div class='mobile-nav-bar'>Table of Contents</div>
+				<nav>
+					<strong class='desktop-nav-heading'>Table of Contents</strong>
+					${nav}
+				</nav>
+				<main>
+					
 					${introText}
 					${siteText}
-				</div>
-			</main>
+					
+				</main>
+			</div>
 			<div id='background' class="${includeRestrictedSites ? "adult" : ""}"></div>
 
 			<script src="index.js"></script>
@@ -207,7 +210,7 @@ function buildTOC(nodes, headingLevel)
 
 		let anchor = getHeadingAnchor(x.group);
 		
-		return `<a style="padding-left: ${headingLevel*25-25}px" href="#${anchor}">${x.group}</a>\n` + buildTOC(x.children, headingLevel+1);
+		return `<div><a style="padding-left: ${headingLevel*25-25}px" href="#${anchor}">${x.group}</a></div>\n` + buildTOC(x.children, headingLevel+1);
 
 	}).join("");
 }
