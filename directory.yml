@@ -126,13 +126,12 @@ body:
         children:
           - site: projectvinyl.net
           - site: pony.tube
+          - site: thishorsie.rocks
           - site: pmvtoday.com
       - group: Archives
         children:
           - site: www.theponyarchive.com
           - site: cutemares.com
-          
-          
   - group: Conventions
     children:
       - site: ponycon.info
@@ -141,7 +140,6 @@ body:
         children:
           - site: www.babscon.com
           - site: ponyvilleciderfest.com
-          - site: mlp-msp.com
           - site: everfreenw.com
           - site: www.harmonycon.org
           - site: trotcon.net
@@ -158,18 +156,18 @@ body:
           - site: www.czequestria.cz
           - site: ponyconholland.com
           - site: www.ukponycon.co.uk
-      - group: International
-        children:
-          - site: seaponycon.com
-          - site: www.aliconmlp.com
       - group: Online Cons
         children:
           - site: ponyfest.horse
+          - site: poniesonline.org
           - site: mlpcon.online
           - site: online.ukponycon.co.uk
       - group: Fomer Conventions
         children:
           - site: bronycon.org
+          - site: seaponycon.com
+          - site: www.aliconmlp.com
+          - site: mlp-msp.com
 
   - group: Communities
     children:
@@ -205,6 +203,9 @@ body:
           - site: pone.social
           - site: equestria.social
           - site: pony.social
+          - site: hooves.social
+          - site: our-town.social
+          - site: is-a.horse
       - group: Francoponies
         children:
           - site: francoponies.fr
@@ -264,6 +265,7 @@ body:
       - site: polyethylene.app
       - site: lyra.horse
       - site: brambleshadow4.net
+      - site: ponyphonic.com
       - group: Vylet Pony
         children:
           - site: www.vyletpony.com

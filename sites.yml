@@ -1021,8 +1021,38 @@
   tags: personal,tech
   updated: 2023-12-20
 
-- name:
-  link:
-  description:
-  tags:
-  updated: 2023-12-20
+- name: ponyphonic
+  link: ponyphonic.com
+  description: Personal website for ponyphonic
+  tags: personal,music
+  updated: 2023-12-21
+
+- name: Ponies Online
+  link: poniesonline.org
+  description: Online pony convention
+  tags: convention,online
+  updated: 2023-12-21
+
+- name: is-a.horse
+  link: is-a.horse
+  description: Mastodon host
+  tags: social,mastodon
+  updated: 2023-12-21
+
+- name: Our Town
+  link: our-town.social
+  description: Social media platform running Akkoma (ActivityPub). 
+  tags: social
+  updated: 2023-12-21
+
+- name: hooves.social
+  link: hooves.social
+  description: Social media platform running firefirsh (ActivityPub).
+  tags: social
+  updated: 2023-12-21
+
+- name: These Horsies Rock
+  link: thishorsie.rocks
+  description: Pony video sharing site (peertube)
+  tags: video
+  updated: 2023-12-21
