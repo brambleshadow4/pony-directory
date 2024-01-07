@@ -1056,3 +1056,9 @@
   description: Pony video sharing site (peertube)
   tags: video
   updated: 2023-12-21
+
+- name: PonyChan
+  link: www.ponychan.net
+  description: "Imageboard for older fans of the show “My Little Pony: Friendship is Magic”"
+  tags: art
+  updated: 2024-01-07
