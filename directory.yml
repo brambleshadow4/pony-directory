@@ -123,6 +123,7 @@ body:
           - site: smutty.horse
           - site: pony.directory
           - site: all.pony.directory
+          - site: derpy.me
       - group: Videos
         children:
           - site: projectvinyl.net

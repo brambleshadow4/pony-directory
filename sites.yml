@@ -1062,3 +1062,9 @@
   description: "Imageboard for older fans of the show “My Little Pony: Friendship is Magic”"
   tags: art
   updated: 2024-01-07
+
+- name: derpy.me
+  link: derpy.me
+  description: URL shortener service
+  tags: tech
+  updated: 2024-05-12
