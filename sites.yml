@@ -2,7 +2,7 @@
   link: www.equestriadaily.com
   name: Equestria Daily
   tags: blog
-  updated: 2023-11-08
+  updated: 2024-06-01 16:02:54.456574
 - description: A popular image board.
   link: derpibooru.org
   name: Derpibooru
@@ -71,7 +71,7 @@
   link: bronycan.ca
   name: BronyCAN
   tags: convention,canada,dead
-  updated: 2023-11-08
+  updated: 2024-06-01 15:30:34.345823
 - description: MLP convention based in Seattle.
   link: everfreenw.com
   name: Everfree Northwest
@@ -162,12 +162,12 @@
   link: cinemaquestria.com
   name: CinemaQuestria
   tags: stream
-  updated: 2023-11-10
+  updated: 2024-06-01 15:46:49.463421
 - description: A real-time video and music sharing site for bronies.
   link: equestria.tv
   name: Equestria.tv
   tags: stream,dead
-  updated: 2023-11-10
+  updated: 2024-06-01 16:02:35.223749
 - description: MLP music hosting website.
   link: pony.fm
   name: Pony.fm
@@ -182,7 +182,7 @@
   link: ponemusic.net
   name: The Pony Music Archive
   tags: music,dead
-  updated: 2023-11-10
+  updated: 2024-06-01 15:54:54.012728
 - description: MLP fanmusic promotional blog.
   link: horsemusicherald.com
   name: Horse Music Herald
@@ -192,7 +192,7 @@
   link: canterlotavenue.com
   name: Canterlot Avenue
   tags: roleplay,forum
-  updated: 2023-11-10
+  updated: 2024-06-01 15:42:29.092621
 - description: Adult forum for roleplaying as well as art.
   link: www.redlightponyville.com
   name: Red Light Ponyville
@@ -227,11 +227,6 @@
 - description: Vylet Pony website featuring her music.
   link: starshipponyville.com
   tags: personal,music
-  updated: 2023-11-08
-- description: Celestia-based religion site.
-  link: celestianism.com
-  name: Celestianism - The Celestial Religion
-  tags: joke,forum,dead
   updated: 2023-11-08
 - description: Companion site to Forest Rain's song.
   link: greattobedifferent.com
@@ -374,6 +369,11 @@
   name: Fedi Ponies
   tags: directory
   updated: 2023-11-09
+- description: A search engine (currently in beta)
+  link: ponysearch.eu
+  name: PonySearch
+  tags: tech
+  updated: 2024-06-01 15:12:51.218142
 - description: Joke website for the band, Ben, Ben, Ben, Francis and Francis from
     Friendship is Witchcraft.
   link: www.bbbff.net
@@ -508,8 +508,9 @@
   updated: 2023-11-09
 - description: ''
   link: broniesradio.com
+  name: ''
   tags: dead,music
-  updated: 2023-11-23
+  updated: 2024-06-01 15:28:45.426006
 - description: Tinyfaces and a Matrix instance run by Ebunix.
   link: littlepony.horse
   name: littlepony.horse
@@ -559,8 +560,8 @@
 - description: Forum dedicated to music production and remixing.
   link: www.mylittleremix.com
   name: My Little Remix
-  tags: music,forum
-  updated: 2023-11-23
+  tags: music,forum,dead
+  updated: 2024-06-01 15:06:52.482864
 - description: ''
   link: iwtcits.com
   name: iwtcits.com
@@ -625,7 +626,7 @@
   link: bestest.horse
   name: Twilight Sparkle is Bestest Horse
   tags: restricted,joke
-  updated: 2023-11-23
+  updated: 2024-06-01 15:15:07.739499
 - description: Joke website
   link: tsibp.com
   name: 'TSIBP: Twilight Sparkle Is Best Pony'
@@ -675,12 +676,12 @@
   link: derpy.tv
   name: DerpyTV
   tags: stream
-  updated: 2023-11-23
+  updated: 2024-06-01 15:54:26.638194
 - description: Porn archive
   link: cutemares.com
   name: cutemares.com
   tags: restricted,adult,archive,art
-  updated: 2023-11-23
+  updated: 2024-06-01 15:50:46.136510
 - description: French community website
   link: francoponies.fr
   name: Francoponies
@@ -732,8 +733,8 @@
   link: toastbeard.bronyradio.com
   name: Toastbeard
   protocol: http
-  tags: music
-  updated: 2023-11-23
+  tags: dead,music
+  updated: 2024-06-01 15:10:22.507895
 - description: redirect to ponyvillefm.com
   link: bronyradio.com
   tags: redirect
@@ -833,12 +834,12 @@
   link: bronycon.org
   name: bronycon.org
   tags: usa,con
-  updated: 2023-12-20
+  updated: 2024-06-01 15:30:53.466681
 - description: MLP mastodon instance
   link: equestria.social
   name: equestria.social
   tags: tech,mastodon
-  updated: 2023-12-20
+  updated: 2024-06-01 16:02:23.277601
 - description: MLP mastodon instance
   link: pony.social
   name: pony.social
@@ -848,7 +849,7 @@
   link: bronymate.com
   name: BronyMate
   tags: joke
-  updated: 2023-12-20
+  updated: 2024-06-01 15:32:51.337743
 - description: Personal website for Rebane
   link: lyra.horse
   name: lyra.horse
@@ -879,7 +880,7 @@
   name: Our Town
   tags: social
   updated: 2023-12-21
-- description: Social media platform running firefirsh (ActivityPub).
+- description: Social media platform running firefish (ActivityPub)
   link: hooves.social
   name: hooves.social
   tags: social
@@ -900,3 +901,115 @@
   name: derpy.me
   tags: tech
   updated: 2024-05-12
+- description: A project to rebuild Equestria in Minecraft
+  link: brohoof.com
+  name: brohoof.com
+  tags: minecraft
+  updated: 2024-06-01 15:16:16.093467
+- description: Seems to generate lorem ipsum text
+  link: brohoof.pl
+  name: Brohoof.pl
+  tags: tech
+  updated: 2024-06-01 15:18:18.511941
+- description: German MLP forum
+  link: bronies.de
+  name: Bronies.de
+  tags: forum,germany
+  updated: 2024-06-01 15:20:32.221181
+- description: ''
+  link: bronies.fr
+  name: ''
+  tags: dead
+  updated: 2024-06-01 15:23:45.862278
+- description: Blog for the Bronies for Good Charity
+  link: broniesforgood.org
+  name: Bronies for Good
+  tags: charity,blog
+  updated: 2024-06-01 15:24:33.373855
+- description: Legacy page for the Polish running of the leaves event
+  link: broniespoznan.pl
+  name: Bronies Ponzan
+  tags: poland,convention
+  updated: 2024-06-01 15:25:57.869043
+- description: Seems to be for a former online convention. No next date announced
+  link: bronybash.online
+  name: Brony Bash Online
+  tags: convention,online
+  updated: 2024-06-01 15:29:07.785658
+- description: ''
+  link: bronyconmemorial.org
+  name: ''
+  tags: dead
+  updated: 2024-06-01 15:31:13.602973
+- description: seems to have once been a thing
+  link: bronynet.com
+  name: ''
+  tags: dead
+  updated: 2024-06-01 15:33:12.486708
+- description: maybe it was a thing once upon a time
+  link: bronynet.online
+  name: ''
+  tags: dead
+  updated: 2024-06-01 15:33:58.005068
+- description: German Radio station
+  link: bronyradiogermany.com
+  name: Brony Radio Germany
+  tags: music,stream
+  updated: 2024-06-01 15:34:44.404513
+- description: A Minecraft server for My Little Pony fans of all ages
+  link: bronytales.com
+  name: BronyTales Minecraft
+  tags: minecraft
+  updated: 2024-06-01 15:40:23.364736
+- description: ''
+  link: bronytunes.com
+  name: ''
+  tags: dead
+  updated: 2024-06-01 15:41:58.019789
+- description: A joke website for a Celestia-based religion
+  link: celestianism.rocks
+  name: Celestianism
+  tags: joke
+  updated: 2024-06-01 15:42:49.156344
+- description: Celestia-themed radio station
+  link: celestiaradio.com
+  name: Celestia Radio
+  tags: music,stream
+  updated: 2024-06-01 15:46:34.476902
+- description: MLP site hosting a variety of adult content
+  link: club-flank.com
+  name: Club Flank
+  tags: adult,blog,art,restricted
+  updated: 2024-06-01 15:49:02.458658
+- description: Hosts images of the Dazzlings as well as story entries, presumably
+    from 4chan
+  link: dazzlefan.club
+  name: dazzlefan.club
+  tags: art,archive
+  updated: 2024-06-01 15:51:03.536758
+- description: Website for the Ponies game developer team
+  link: theponies.org
+  name: The Ponies - A pony life simulator
+  tags: game
+  updated: 2024-06-01 15:55:04.356417
+- description: A game about ponies getting lost in the woods
+  link: everfree-outpost.com
+  name: Everfree Outpost
+  tags: game
+  updated: 2024-06-01 15:56:14.659950
+- description: A website of a Russian game studio. Also seems to host MLP episodes
+    as well
+  link: doublezett.ru
+  name: DoubleZett Studio
+  tags: russian,game,episode
+  updated: 2024-06-01 15:57:14.400841
+- description: Personal art website for Lailyren
+  link: lailyren.art
+  name: Lailyren Arts
+  tags: personal,art
+  updated: 2024-06-01 16:00:08.049947
+- description: Joke website with an endless horse
+  link: endless.horse
+  name: hooooooorse
+  tags: joke
+  updated: 2024-06-01 16:01:27.932954

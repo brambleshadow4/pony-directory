@@ -9,6 +9,7 @@ body:
     - site: www.equestriadaily.com
     - site: www.horse-news.org
     - site: www.dailydoseofpony.com
+    - site: club-flank.com
     group: Blogs
   - children:
     - site: derpibooru.org
@@ -27,17 +28,22 @@ body:
     group: Plushies
   - children:
     - site: horsemusicherald.com
-    - site: ponyvillefm.com
-    - site: bronyradio.com
     - site: www.mylittleremix.com
     - site: ponymusic.wiki
     - site: pony.fm
     - site: noise.horse
     - site: ponemusic.net
-    - site: broniesradio.com
-    - site: fancynoise.net
-    - site: radiobrony.fr
     - site: toastbeard.bronyradio.com
+    - site: bronytunes.com
+    - children:
+      - site: ponyvillefm.com
+      - site: bronyradio.com
+      - site: radiobrony.fr
+      - site: bronyradiogermany.com
+      - site: fancynoise.net
+      - site: broniesradio.com
+      - site: celestiaradio.com
+      group: Radio Stations
     group: Music
   - children:
     - site: pony411.libsyn.com
@@ -65,6 +71,8 @@ body:
     - site: foe-remains.gitlab.io
     - site: roleplayingismagic.github.io
     - site: ponymtg.github.io
+    - site: theponies.org
+    - site: everfree-outpost.com
     - children:
       - site: www.secretshipfic.com
       - site: www.tsssf.net
@@ -102,6 +110,8 @@ body:
     - site: pony.directory
     - site: all.pony.directory
     - site: derpy.me
+    - site: ponysearch.eu
+    - site: brohoof.pl
     group: Tech
   - children:
     - site: projectvinyl.net
@@ -136,18 +146,21 @@ body:
     - site: www.czequestria.cz
     - site: ponyconholland.com
     - site: www.ukponycon.co.uk
+    - site: broniespoznan.pl
     group: Europe
   - children:
     - site: ponyfest.horse
     - site: poniesonline.org
     - site: mlpcon.online
     - site: online.ukponycon.co.uk
+    - site: bronybash.online
     group: Online Cons
   - children:
     - site: bronycon.org
     - site: seaponycon.com
     - site: www.aliconmlp.com
     - site: mlp-msp.com
+    - site: bronyconmemorial.org
     group: Fomer Conventions
   group: Conventions
 - children:
@@ -156,6 +169,11 @@ body:
   - site: pony.dev
   - site: www.ponylatino.com
   - site: www.reddit.com/r/mylittlepony
+  - site: brohoof.com
+  - site: broniesforgood.org
+  - site: bronynet.com
+  - site: bronynet.online
+  - site: bronytales.com
   - children:
     - site: www.bronystate.net
     - site: berrytube.tv
@@ -174,6 +192,7 @@ body:
     - site: www.canterlot.com
     - site: www.mylittleremix.com
     - site: ponycloud.me
+    - site: bronies.de
     group: Forums + Roleplaying
   - children:
     - site: fedi.ponysearch.eu
@@ -197,6 +216,7 @@ body:
     - site: radiobrony.live
     - site: www.newlunarrepublic.fr
     - site: mlpfictions.com
+    - site: bronies.fr
     group: Francoponies
   - children:
     - site: mlp.fandom.com
@@ -219,12 +239,13 @@ body:
   - site: yayponies.no
   - site: ponylove.cc
   - site: xxnightmaremoonxx.de
+  - site: doublezett.ru
   group: Episode Hosting
 - children:
   - site: horse.best
   - site: coco-pommel.org
   - site: www.starlightglimmer2020.com
-  - site: celestianism.com
+  - site: celestianism.rocks
   - site: www.bbbff.net
   - site: iwtcits.com
   - site: iwtcird.com
@@ -234,6 +255,7 @@ body:
   - site: spib.no
   - site: bronymate.com
   - site: wetmares.org
+  - site: endless.horse
   group: Joke Sites
 - children:
   - site: www.littleshyfim.com
@@ -246,6 +268,8 @@ body:
   - site: lyra.horse
   - site: brambleshadow4.net
   - site: ponyphonic.com
+  - site: dazzlefan.club
+  - site: lailyren.art
   - children:
     - site: www.vyletpony.com
     - site: cutiemarks.net
