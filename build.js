@@ -176,7 +176,7 @@ function buildBodyText(nodes, headingLevel, includeRestrictedSites)
 					${tags.map(x => `<div class="tag-label" name=${x}>${x}</div>`).join("")}
 					
 				</div>
-				<div class="site-updated">Updated ${site.updated}</div>
+				<div class="site-updated">Updated ${site.updated.substring(0,10)}</div>
 			</div>`;
 		}
 		if(x.group)
