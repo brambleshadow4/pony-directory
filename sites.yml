@@ -1,1070 +1,902 @@
-- name: Equestria Daily
+- description: A popular blog featuring a wide array of pony content.
   link: www.equestriadaily.com
-  description: A popular blog featuring a wide array of pony content.
+  name: Equestria Daily
   tags: blog
   updated: 2023-11-08
-
-- name: Derpibooru
+- description: A popular image board.
   link: derpibooru.org
-  description: A popular image board.
+  name: Derpibooru
   tags: art,image board
   updated: 2023-11-08
-
-- name: Manebooru
+- description: A popular alternative with more strict guidelines on controversial
+    content.
   link: manebooru.art
-  description: A popular alternative with more strict guidelines on controversial content.
+  name: Manebooru
   tags: art,image board
   updated: 2023-11-09
-
-- name: Horse News
+- description: A blog featuring troll-like articles about current events in the MLP
+    fandom.
   link: www.horse-news.org
-  description: A blog featuring troll-like articles about current events in the MLP fandom.
+  name: Horse News
   tags: blog
   updated: 2023-11-08
-
-- name: Daily Dose of Pony
+- description: An all-skill-level content featuring platform for all kinds of pony
+    content.
   link: www.dailydoseofpony.com
-  description: An all-skill-level content featuring platform for all kinds of pony content.
+  name: Daily Dose of Pony
   tags: blog
   updated: 2023-11-09
-
-- name: Fimfiction
+- description: A website dedicated to hosting MLP fanfics.
   link: www.fimfiction.net
-  description: A website dedicated to hosting MLP fanfics.
+  name: Fimfiction
   tags: fanfiction
   updated: 2023-11-08
-
-- name: MLP France
+- description: France based community.
   link: mlp-france.com
+  name: MLP France
   protocol: http
-  description: France based community.
   tags: episode,france
   updated: 2023-11-08
-
-- name: What is a brony?
+- description: Fun site explaining what a brony is.
   link: www.whatisabrony.com
-  description: Fun site explaining what a brony is.
+  name: What is a brony?
   tags: wiki
   updated: 2023-11-09
-
-- name: Poniverse
+- description: Gateway site to the various poniverse websites.
   link: poniverse.net
-  description: Gateway site to the various poniverse websites.
+  name: Poniverse
   tags: directory
   updated: 2023-11-08
-
-- name: MLP Forums
+- description: General purpose MLP forums website.
   link: mlpforums.com
-  description: General purpose MLP forums website.
+  name: MLP Forums
   tags: forum
   updated: 2023-11-08
-
-- name: BABSCon
+- description: MLP convention based in San Francisco.
   link: www.babscon.com
-  description: MLP convention based in San Francisco.
+  name: BABSCon
   tags: convention,usa
   updated: 2023-11-08
-
-- name: PonyCon Countdown
+- description: Directory of MLP conventions and events with countdown clocks.
   link: ponycon.info
-  description: Directory of MLP conventions and events with countdown clocks.
+  name: PonyCon Countdown
   tags: directory,convention
   updated: 2023-11-09
-
-- name: Ponyville Ciderfest
+- description: MLP convention based in Milwaukee.
   link: ponyvilleciderfest.com
-  description: MLP convention based in Milwaukee.
+  name: Ponyville Ciderfest
   tags: convention,usa
   updated: 2023-11-08
-
-- name: BronyCAN
+- description: Former MLP convention based in Canada.
   link: bronycan.ca
-  description: Former MLP convention based in Canada.
+  name: BronyCAN
   tags: convention,canada,dead
   updated: 2023-11-08
-
-- name: Everfree Northwest
+- description: MLP convention based in Seattle.
   link: everfreenw.com
-  description: MLP convention based in Seattle.
+  name: Everfree Northwest
   tags: convention,usa
   updated: 2023-11-08
-
-- name: MLP-MSP
+- description: Former MLP convention based in Minneapolis.
   link: mlp-msp.com
-  description: Former MLP convention based in Minneapolis.
+  name: MLP-MSP
   tags: convention,usa,dead
   updated: 2023-11-08
-
-- name: HarmonyCon
+- description: MLP convention based in Dallas, Texas.
   link: www.harmonycon.org
-  description: MLP convention based in Dallas, Texas.
+  name: HarmonyCon
   tags: convention,usa
   updated: 2023-11-08
-
-- name: TrotCon
+- description: MLP convention based in Ohio.
   link: trotcon.net
-  description: MLP convention based in Ohio.
+  name: TrotCon
   tags: convention,usa
   updated: 2023-11-08
-
-- name: Whinny City Pony Con
+- description: MLP convention based in Chicago.
   link: whinnycity.com
-  description: MLP convention based in Chicago.
+  name: Whinny City Pony Con
   tags: convention,usa
   updated: 2023-11-08
-
-- name: Project SEAPonyCon
+- description: Former MLP convention which used to take place on cruise ships.
   link: seaponycon.com
-  description: Former MLP convention which used to take place on cruise ships.
+  name: Project SEAPonyCon
   tags: convention,international
   updated: 2023-11-08
-
-- name: AliCon
+- description: Former MLP convention based in Australia.
   link: www.aliconmlp.com
-  description: Former MLP convention based in Australia.
+  name: AliCon
   tags: convention,australia,dead
   updated: 2023-11-08
-
-- name: Everfree Encore
+- description: Yearly music festival organised in Germany.
   link: everfree-encore.eu
-  description: Yearly music festival organised in Germany.
+  name: Everfree Encore
   tags: convention,germany
   updated: 2023-11-09
-
-- name: EponaFest
+- description: The Italian MLP convention.
   link: eponafest.it
-  description: The Italian MLP convention.
+  name: EponaFest
   tags: convention,italy
   updated: 2023-11-09
-
-- name: GalaCon
+- description: The largest European MLP convention based in Germany.
   link: galacon.pony-events.eu
-  description: The largest European MLP convention based in Germany.
+  name: GalaCon
   tags: convention,germany
   updated: 2023-11-09
-
-- name: Czequestria
+- description: The Czech MLP convention.
   link: www.czequestria.cz
-  description: The Czech MLP convention.
+  name: Czequestria
   tags: convention,czech republic
   updated: 2023-11-09
-
-- name: PonyCon Holland
+- description: Dutch MLP convention.
   link: ponyconholland.com
-  description: Dutch MLP convention.
+  name: PonyCon Holland
   tags: convention,netherlands
   updated: 2023-11-09
-
-- name: PonyFest
+- description: Online MLP convention.
   link: ponyfest.horse
-  description: Online MLP convention.
+  name: PonyFest
   tags: convention,online
   updated: 2023-11-08
-
-- name: UK PonyCon
+- description: United Kingdom MLP convention.
   link: www.ukponycon.co.uk
-  description: United Kingdom MLP convention.
+  name: UK PonyCon
   tags: convention,uk
   updated: 2023-11-08
-
-- name: UKPonycOnline
+- description: Former online MLP convention.
   link: online.ukponycon.co.uk
-  description: Former online MLP convention.
+  name: UKPonycOnline
   tags: convention,online,dead
   updated: 2023-11-08
-
-- name: Bronystate
+- description: Popular brony streaming site which used to host MLP episode stream
+    parties.
   link: www.bronystate.net
-  description: Popular brony streaming site which used to host MLP episode stream parties.
+  name: Bronystate
   tags: stream
   updated: 2023-11-08
-
-- name: BronyTV
+- description: A streaming site that hosts weekly Brony media stream parties.
   link: www.bronytv.net
-  description: A streaming site that hosts weekly Brony media stream parties.
+  name: BronyTV
   tags: stream
   updated: 2023-11-10
-
-- name: CinemaQuestria
+- description: A streaming site that frequently hosts various Brony media stream parties.
   link: cinemaquestria.com
-  description: A streaming site that frequently hosts various Brony media stream parties.
+  name: CinemaQuestria
   tags: stream
   updated: 2023-11-10
-
-- name: Equestria.tv
+- description: A real-time video and music sharing site for bronies.
   link: equestria.tv
-  description: A real-time video and music sharing site for bronies. 
+  name: Equestria.tv
   tags: stream,dead
   updated: 2023-11-10
-
-- name: Pony.fm
+- description: MLP music hosting website.
   link: pony.fm
-  description: MLP music hosting website.
+  name: Pony.fm
   tags: music
   updated: 2023-11-08
-
-- name: Ponyville Live!
+- description: A music, video and show streaming network.
   link: ponyvillelive.com
-  description: A music, video and show streaming network.
+  name: Ponyville Live!
   tags: music,stream
   updated: 2023-11-10
-
-- name: The Pony Music Archive
+- description: A place to find the huge Pony Music Archive torrent.
   link: ponemusic.net
-  description: A place to find the huge Pony Music Archive torrent.
+  name: The Pony Music Archive
   tags: music,dead
   updated: 2023-11-10
-
-- name: Horse Music Herald
+- description: MLP fanmusic promotional blog.
   link: horsemusicherald.com
-  description: MLP fanmusic promotional blog.
+  name: Horse Music Herald
   tags: blog
   updated: 2023-11-08
-
-- name: Canterlot Avenue
+- description: Role-playing website and forum.
   link: canterlotavenue.com
-  description: Role-playing website and forum.
+  name: Canterlot Avenue
   tags: roleplay,forum
   updated: 2023-11-10
-
-- name: Red Light Ponyville
+- description: Adult forum for roleplaying as well as art.
   link: www.redlightponyville.com
-  description: Adult forum for roleplaying as well as art.
+  name: Red Light Ponyville
   tags: restricted,roleplay,forum,adult
   updated: 2023-11-08
-
-- name: Canterlot
+- description: Role-playing forum.
   link: www.canterlot.com
-  description: Role-playing forum.
+  name: Canterlot
   tags: roleplay,forum
   updated: 2023-11-08
-
-- name: Starlight Glimmer 2020
+- description: A USA campaign website for Starlight Glimmer.
   link: www.starlightglimmer2020.com
-  description: A USA campaign website for Starlight Glimmer.
+  name: Starlight Glimmer 2020
   tags: joke,dead
   updated: 2023-11-10
-
-- link: www.vyletpony.com
-  description: Personal website for Vylet Pony.
+- description: Personal website for Vylet Pony.
+  link: www.vyletpony.com
   tags: personal,music
   updated: 2023-11-08
-
-- link: trixielulamoon.com
-  description: Vylet Pony's secondary site.
+- description: Vylet Pony's secondary site.
+  link: trixielulamoon.com
   tags: personal,music
   updated: 2023-11-08
-
-- link: antonymph.com
-  description: Website for antonymph.
+- description: Website for antonymph.
+  link: antonymph.com
   tags: personal,music
   updated: 2023-11-08
-
-- link: cutiemarks.net
-  description: Website for Vylet Pony's album, Cutiemarks.
+- description: Website for Vylet Pony's album, Cutiemarks.
+  link: cutiemarks.net
   tags: personal,music
   updated: 2023-11-08
-
-- link: starshipponyville.com
-  description: Vylet Pony website featuring her music.
+- description: Vylet Pony website featuring her music.
+  link: starshipponyville.com
   tags: personal,music
   updated: 2023-11-08
-
-- name: Celestianism - The Celestial Religion
+- description: Celestia-based religion site.
   link: celestianism.com
-  description: Celestia-based religion site.
+  name: Celestianism - The Celestial Religion
   tags: joke,forum,dead
   updated: 2023-11-08
-
-- name: It's Great to be Different
+- description: Companion site to Forest Rain's song.
   link: greattobedifferent.com
-  description: Companion site to Forest Rain's song.
+  name: It's Great to be Different
   tags: personal,blog,dead
   updated: 2023-11-09
-
-- name: Twilight Sparkle's Secret Shipfic Folder Online
+- description: Website for playing Twilight Sparkle's secret shipfic folder.
   link: www.tsssf.net
-  description: Website for playing Twilight Sparkle's secret shipfic folder.
+  name: Twilight Sparkle's Secret Shipfic Folder Online
   tags: game
   updated: 2023-11-08
-
-- name: Poniarcade
+- description: MLP themed Minecraft server.
   link: poniarcade.com
-  description: MLP themed Minecraft server.
+  name: Poniarcade
   tags: game,dead
   updated: 2023-11-10
-
-- name: Equestria Gaming
+- description: Blog promoting various MLP fan games.
   link: www.equestriagaming.net
-  description: Blog promoting various MLP fan games.
+  name: Equestria Gaming
   tags: game,blog
   updated: 2023-11-08
-
-- name: Children of Kefentse
+- description: Fan community for TSSSF.
   link: childrenofkefentse.com
-  description: Fan community for TSSSF.
+  name: Children of Kefentse
   tags: game,forum
   updated: 2023-11-08
-
-- name: Pony Town
+- description: Online multiplayer game where you can make your own custom pony and
+    build a town.
   link: pony.town
-  description: Online multiplayer game where you can make your own custom pony and build a town.
+  name: Pony Town
   tags: game
   updated: 2023-11-08
-
-- link: event.pony.town
-  description: PonyTown for events like conventions
+- description: PonyTown for events like conventions
+  link: event.pony.town
   tags: game
   updated: 2023-11-23
-
-- link: eventblue.pony.town
-  description: ""
+- description: ''
+  link: eventblue.pony.town
   tags: game
   updated: 2023-11-23
-
-- link: eventgreen.pony.town
-  description: ""
+- description: ''
+  link: eventgreen.pony.town
   tags: game
   updated: 2023-11-23
-
-- link: breezy.pony.town
-  description: Breezy Pony Town - A server originally for MsBreezy when streaming to take the huge load off the main server when watchers also join. Now it's a place mainly with more features such as dancing, sprinting, new objects and a different map.
+- description: Breezy Pony Town - A server originally for MsBreezy when streaming
+    to take the huge load off the main server when watchers also join. Now it's a
+    place mainly with more features such as dancing, sprinting, new objects and a
+    different map.
+  link: breezy.pony.town
   tags: game
   updated: 2023-11-30
-
-- link: test.pony.town
-  description: ""
+- description: ''
+  link: test.pony.town
   tags: game
   updated: 2023-11-13
-
-- link: bauldwindaniel6.wixsite.com/ponytown-fansite
-  description: A Pony Town custom servers list, tutorials, info and mini-game explanations.
+- description: A Pony Town custom servers list, tutorials, info and mini-game explanations.
+  link: bauldwindaniel6.wixsite.com/ponytown-fansite
   tags: game
   updated: 2023-11-13
-
-- link: nastja.co
-  description: A Pony Town custom servers list.
+- description: A Pony Town custom servers list.
+  link: nastja.co
   tags: game
   updated: 2023-11-13
-
-- link: ashes.town
-  description: Ashes Town - A Fallout Equestria themed server.
+- description: Ashes Town - A Fallout Equestria themed server.
+  link: ashes.town
   tags: game,fallout equestria
   updated: 2023-11-13
-
-- link: test.ashes.town
-  description: Ashes Town's prerelease test server.
+- description: Ashes Town's prerelease test server.
+  link: test.ashes.town
   tags: game
   updated: 2023-11-13
-
-- link: crystaltown.cc
-  description: Rainbow Town.
+- description: Rainbow Town.
+  link: crystaltown.cc
   tags: game
   updated: 2023-11-13
-
-- link: luminouskingdom.com
-  description: Luminous Kingdom.
+- description: Luminous Kingdom.
+  link: luminouskingdom.com
   tags: game
   updated: 2023-11-13
-
-- link: mysticalmeadows.co.uk
-  description: Mystical Meadows.
+- description: Mystical Meadows.
+  link: mysticalmeadows.co.uk
   tags: game
   updated: 2023-11-13
-
-- link: pixel.horse
-  description: pixel.horse.
+- description: pixel.horse.
+  link: pixel.horse
   tags: game
   updated: 2023-11-13
-
-- link: test.pixel.horse
-  description: Sleepy Town.
+- description: Sleepy Town.
+  link: test.pixel.horse
   tags: game
   updated: 2023-11-13
-
-- link: town.polyethylene.app
-  description: Polyethylene Server - This server mainly provides experimental features and concepts.
+- description: Polyethylene Server - This server mainly provides experimental features
+    and concepts.
+  link: town.polyethylene.app
   tags: game
   updated: 2023-11-13
-
-- link: fantasytown.ca
-  description: Fantasy Town.
+- description: Fantasy Town.
+  link: fantasytown.ca
   tags: game
   updated: 2023-11-13
-
-- name: Twilight Sparkle's Secret Shipfic Folder
+- description: Official website for Twilight Sparkle's secret shipfic folder.
   link: www.secretshipfic.com
+  name: Twilight Sparkle's Secret Shipfic Folder
   protocol: http
-  description: Official website for Twilight Sparkle's secret shipfic folder.
   tags: game
   updated: 2023-11-08
-
-- name: My Little Karaoke
+- description: Project website for the My Little Karaoke game.
   link: www.mylittlekaraoke.com
-  description: Project website for the My Little Karaoke game.
+  name: My Little Karaoke
   tags: game,forum
   updated: 2023-11-08
-
-- name: Ponytone
+- description: Online version of My Little Karaoke which you can play with your friends.
   link: ponytone.online
-  description: Online version of My Little Karaoke which you can play with your friends.
+  name: Ponytone
   tags: game
   updated: 2023-11-08
-
-- name: Cards Against Equestria
+- description: MLP themed cards against humanity. Github is github.com/Rylius/CardsAgainstEquestria
+    in case anyone wants to try to bring it back.
   link: www.cardsagainstequestria.horse
-  description: MLP themed cards against humanity. Github is github.com/Rylius/CardsAgainstEquestria in case anyone wants to try to bring it back.
+  name: Cards Against Equestria
   tags: game,restricted,dead,adult
   updated: 2023-11-08
-
-- name: Canterlot Comics
+- description: Comic hosting website.
   link: www.canterlotcomics.com
-  description: Comic hosting website.
+  name: Canterlot Comics
   tags: comic
   updated: 2023-11-08
-
-- name: Pony Fiction Archive
+- description: Fanfiction archive website.
   link: www.ponyfictionarchive.net
-  description: Fanfiction archive website.
+  name: Pony Fiction Archive
   tags: fanfiction,archive,dead
   updated: 2023-11-08
-
-- name: The Pony Archive
+- description: Archival website including games, music and tons of youtube videos.
   link: www.theponyarchive.com
-  description: Archival website including games, music and tons of youtube videos.
+  name: The Pony Archive
   tags: archive
   updated: 2023-11-10
-
-- name: Fedi Ponies
+- description: A multilingual Brony Fediverse instance quick start guide.
   link: fedi.ponysearch.eu
-  description: A multilingual Brony Fediverse instance quick start guide.
+  name: Fedi Ponies
   tags: directory
   updated: 2023-11-09
-
-- name: BBBFF
+- description: Joke website for the band, Ben, Ben, Ben, Francis and Francis from
+    Friendship is Witchcraft.
   link: www.bbbff.net
-  description: Joke website for the band, Ben, Ben, Ben, Francis and Francis from Friendship is Witchcraft.
+  name: BBBFF
   tags: joke,dead
   updated: 2023-11-08
-
-- name: My Little Game Dev
+- description: A Brony game development forum.
   link: mylittlegamedev.com
-  description: A Brony game development forum.
+  name: My Little Game Dev
   tags: game,forum,dead
   updated: 2023-11-08
-
-- name: BronyShow
+- description: Brony podcast blog.
   link: bronyshow.com
-  description: Brony podcast blog.
+  name: BronyShow
   tags: blog,dead
   updated: 2023-11-10
-
-- name: PonyvilleFM
+- description: Pony music radio.
   link: ponyvillefm.com
-  description: Pony music radio.
+  name: PonyvilleFM
   tags: stream,music
   updated: 2023-11-08
-
-- name: LittleshyFiM
+- description: LittleshyFiM's personal homepage.
   link: www.littleshyfim.com
-  description: LittleshyFiM's personal homepage.
+  name: LittleshyFiM
   tags: personal
   updated: 2023-11-09
-
-- name: /mlp/ - Pony - 4Chan
+- description: Anonymous image board. Birthplace of the fandom.
   link: boards.4channel.org/mlp/
-  description: Anonymous image board. Birthplace of the fandom.
+  name: /mlp/ - Pony - 4Chan
   tags: restricted,forum,art
   updated: 2023-11-08
-
-- name: pony.community
+- description: Site used to host the "Share your stuff" panel and renegade stage.
   link: pony.community
-  description: Site used to host the "Share your stuff" panel and renegade stage.
+  name: pony.community
   tags: tech
   updated: 2023-11-09
-
-- name: Pony Books | Ministry of Image
+- description: Fanfiction print shop.
   link: www.ministryofimage.net
-  description: Fanfiction print shop.
+  name: Pony Books | Ministry of Image
   tags: fanfiction
   updated: 2023-11-09
-
-- name: SoGreatandPowerful
+- description: Archival backup of SGAP's music.
   link: sogreatandpowerful.com
-  description: Archival backup of SGAP's music.
+  name: SoGreatandPowerful
   tags: personal,archive,music
   updated: 2023-11-09
-
-- name: Equestria.dev
+- description: Repository of various code projects.
   link: equestria.dev
-  description: Repository of various code projects.
+  name: Equestria.dev
   tags: directory,tech
   updated: 2023-11-09
-
-- link: ponies.equestria.horse
-  description: Redirect to ponycule.equestria.horse
+- description: Redirect to ponycule.equestria.horse
+  link: ponies.equestria.horse
   tags: redirect
   updated: 2023-11-23
-
-- name: Ponycule
+- description: personal dev project
   link: ponycule.equestria.horse
-  description: personal dev project
+  name: Ponycule
   tags: tech
   updated: 2023-11-23
-
-- link: equestria.horse
-  description: Redirect to equestria.dev
+- description: Redirect to equestria.dev
+  link: equestria.horse
   tags: redirect
   updated: 2023-11-23
-
-- name: "#ponydev"
+- description: Community of software developer MLP fans.
   link: pony.dev
-  description: Community of software developer MLP fans.
+  name: '#ponydev'
   tags: tech
   updated: 2023-11-09
-
-- name: PonyLatino
+- description: Community of Spanish-speaking MLP fans.
   link: www.ponylatino.com
-  description: Community of Spanish-speaking MLP fans.
+  name: PonyLatino
   tags: episode,comic,blog
   updated: 2023-11-09
-
-- name: noise.horse
+- description: Former experimental music promotion website.
   link: noise.horse
-  description: Former experimental music promotion website.
+  name: noise.horse
   tags: music,blog
   updated: 2023-11-09
-
-- name: Pony Music Wiki
+- description: Wiki of MLP songs, artists, and albums.
   link: ponymusic.wiki
-  description: Wiki of MLP songs, artists, and albums.
+  name: Pony Music Wiki
   tags: wiki,music
   updated: 2023-11-09
-
-- name: "MLP:FIM Wiki | Fandom"
+- description: Wiki for official MLP content.
   link: mlp.fandom.com
-  description: Wiki for official MLP content.
+  name: MLP:FIM Wiki | Fandom
   tags: wiki
   updated: 2023-11-09
-
-- name: MLP Fan Labor Wiki | Fandom
+- description: Wiki for MLP fan projects, artists, musicians, and more.
   link: mlpfanart.fandom.com
-  description: Wiki for MLP fan projects, artists, musicians, and more.
+  name: MLP Fan Labor Wiki | Fandom
   tags: wiki
   updated: 2023-11-09
-
-- name: Bronibooru
+- description: Former image board.
   link: www.bronibooru.com
-  description: Former image board.
+  name: Bronibooru
   tags: art
   updated: 2023-11-09
-
-- name: The Round Stable
+- description: Forum site.
   link: www.roundstable.com
-  description: Forum site.
+  name: The Round Stable
   tags: forum
   updated: 2023-11-09
-
-- link: mlponies.com
-  description: redirect to www.roundstable.com
+- description: redirect to www.roundstable.com
+  link: mlponies.com
   tags: redirect
   updated: 2023-11-23
-
-- name: Mare Fair
+- description: 18+ MLP convention based in Orlando, Florida.
   link: marefair.org
-  description: 18+ MLP convention based in Orlando, Florida.
+  name: Mare Fair
   tags: convention,usa
   updated: 2023-11-09
-
-- link: marefair.horse
-  description: alternate to marefair.org
+- description: alternate to marefair.org
+  link: marefair.horse
   tags: redirect,convention,usa
   updated: 2023-11-23
-
-- name: PonePaste
+- description: MLP text hosting service similar to pastebin.
   link: ponepaste.org
-  description: MLP text hosting service similar to pastebin.
+  name: PonePaste
   tags: tech
   updated: 2023-11-09
-
-- name: Project Vinyl
+- description: MLP video hosting website.
   link: projectvinyl.net
-  description: MLP video hosting website.
+  name: Project Vinyl
   tags: video
   updated: 2023-11-09
-
-- name: Light's Hay Stash
+- description: Mastodon host for Light the Unicorn.
   link: lighttheunicorn.horse
-  description: Mastodon host for Light the Unicorn.
+  name: Light's Hay Stash
   tags: personal,tech,mastodon
   updated: 2023-11-09
-
-- link: broniesradio.com
-  description: ""
+- description: ''
+  link: broniesradio.com
   tags: dead,music
   updated: 2023-11-23
-
-- name: littlepony.horse
+- description: Tinyfaces and a Matrix instance run by Ebunix.
   link: littlepony.horse
-  description: Tinyfaces and a Matrix instance run by Ebunix.
+  name: littlepony.horse
   tags: tech,matrix,personal
   updated: 2023-11-23
-
-- name: Ebu's little space
+- description: Ebunix's homepage and blog
   link: itsebu.net
-  description: Ebunix's homepage and blog
+  name: Ebu's little space
   tags: blog,personal,tech
   updated: 2023-11-23
-
-- name: Tinyfaces | •ↄ• /) •`c´•
+- description: Collection of simple pony face emotes, some animated.
   link: tinyface.net
-  description: Collection of simple pony face emotes, some animated.
+  name: "Tinyfaces | \u2022\u2184\u2022 /) \u2022`c\xB4\u2022"
   tags: tech
   updated: 2023-11-23
-
-- name: Absolutely Everything!
+- description: The official store of the Fallout Equestria Print Project
   link: absolutelyeverything.org
-  description: The official store of the Fallout Equestria Print Project
+  name: Absolutely Everything!
   tags: fanfiction,blog,fallout equestria
   updated: 2023-11-23
-
-- name: Fallout Equestria Discord
+- description: ''
   link: foe.gg
-  description: ""
+  name: Fallout Equestria Discord
   tags: fallout equestria
   updated: 2023-11-23
-
-- name: "Fallout: Equestria Resource"
+- description: Fallout Equestria fan site
   link: fallout-equestria.com
-  description: Fallout Equestria fan site
+  name: 'Fallout: Equestria Resource'
   tags: fallout equestria
   updated: 2023-11-23
-
-- name: Fallout Equestria Wiki
+- description: ''
   link: falloutequestria.fandom.com
-  description: ""
+  name: Fallout Equestria Wiki
   tags: fallout equestria,wiki
   updated: 2023-11-23
-
-- name: The Overmare Studios
+- description: Project website for a fallout equestria game
   link: theovermare.com
-  description: Project website for a fallout equestria game 
+  name: The Overmare Studios
   tags: fallout equestria,game,blog
   updated: 2023-11-23
-
-- name: Fancy Noise Radio
+- description: Online radio station dedicated to the more hardcore/extreme side of
+    electronic music.
   link: fancynoise.net
-  description: Online radio station dedicated to the more hardcore/extreme side of electronic music.
+  name: Fancy Noise Radio
   tags: music,stream
   updated: 2023-11-23
-
-- name: My Little Remix
+- description: Forum dedicated to music production and remixing.
   link: www.mylittleremix.com
-  description: Forum dedicated to music production and remixing.
+  name: My Little Remix
   tags: music,forum
   updated: 2023-11-23
-
-- name: iwtcits.com
+- description: ''
   link: iwtcits.com
-  description: ""
+  name: iwtcits.com
   tags: joke,restricted
   updated: 2023-11-23
-
-- name: Pony.Tube 
+- description: Pony video hosting website
   link: pony.tube
-  description: Pony video hosting website
+  name: Pony.Tube
   tags: video
   updated: 2023-11-23
-
-- name: Smutty Horse
+- description: File hosting website
   link: smutty.horse
-  description: File hosting website
+  name: Smutty Horse
   tags: tech,restricted
   updated: 2023-11-23
-
-- name: Twibooru
+- description: Anonymous posting only image board
   link: twibooru.org
-  description: Anonymous posting only image board
+  name: Twibooru
   tags: art,image board
   updated: 2023-11-23
-
-- name: pone.social
+- description: Mastodon instance
   link: pone.social
-  description: Mastodon instance
+  name: pone.social
   tags: mastodon
   updated: 2023-11-23
-
-- name: Snowpity, Inc.
+- description: Parent organization of Mare Fair
   link: snowpity.org
-  description: Parent organization of Mare Fair
-  tags: ""
+  name: Snowpity, Inc.
+  tags: ''
   updated: 2023-11-23
-
-- name: /mlp/ con online
+- description: /MLP/ based online convention
   link: mlpcon.online
-  description: /MLP/ based online convention
+  name: /mlp/ con online
   tags: convention,online
   updated: 2023-11-23
-
-- name: MLP chat
+- description: Matrix host
   link: mlp.chat
-  description: Matrix host
-  tags: restricted,matrix #links to other restricted sites
+  name: MLP chat
+  tags: restricted,matrix
   updated: 2023-11-23
-
-- name: Twifag
+- description: Personal site for Corpulent Brony/Twifag
   link: twifag.com
-  description: Personal site for Corpulent Brony/Twifag
-  tags: restricted,personal # don't really want to list a site with "fag" on the main page.
+  name: Twifag
+  tags: restricted,personal
   updated: 2023-11-23
-
-- name: $MARE
+- description: Mare Cryptocurrency. Please do not sink your money into this.
   link: mare.biz
-  description: Mare Cryptocurrency. Please do not sink your money into this.
+  name: $MARE
   tags: tech,joke
   updated: 2023-11-23
-
-- name: "IWTCIRD: I Want To Cum Inside Rainbow Dash"
+- description: lewd joke site
   link: iwtcird.com
-  description: lewd joke site
+  name: 'IWTCIRD: I Want To Cum Inside Rainbow Dash'
   tags: restricted,joke
   updated: 2023-11-23
-
-- name: pon.ee
+- description: Mastodon host
   link: pon.ee
-  description: Mastodon host
+  name: pon.ee
   tags: social,mastodon
   updated: 2023-11-23
-
-- name: Twilight Sparkle is Bestest Horse
+- description: Joke website
   link: bestest.horse
-  description: Joke website
-  tags: restricted,joke #links to other restricted sites
+  name: Twilight Sparkle is Bestest Horse
+  tags: restricted,joke
   updated: 2023-11-23
-
-- name: "TSIBP: Twilight Sparkle Is Best Pony"
+- description: Joke website
   link: tsibp.com
+  name: 'TSIBP: Twilight Sparkle Is Best Pony'
   protocol: http
-  description: Joke website
-  tags: restricted,joke # links to other restricted sites
+  tags: restricted,joke
   updated: 2023-11-23
-
-- name: /mlp/odcast
+- description: Former 4chan podcast
   link: mlp.one
-  description: Former 4chan podcast
+  name: /mlp/odcast
   tags: podcast
   updated: 2023-11-23
-
-- name: Pony 411
+- description: Former G4 podcast
   link: pony411.libsyn.com
-  description: Former G4 podcast
+  name: Pony 411
   tags: podcast
   updated: 2023-11-23
-
-- name: horse.best
+- description: Joke site
   link: horse.best
-  description: Joke site
+  name: horse.best
   tags: joke
   updated: 2023-11-23
-
-- name: plushie.horse
+- description: Site listing different plushie vendors
   link: plushie.horse
-  description: Site listing different plushie vendors
+  name: plushie.horse
   tags: directory,art
   updated: 2023-11-23
-
-- name: Ponerpics
+- description: Derpibooru like image board with an emphasis on maximum freedom
   link: ponerpics.org
-  description: Derpibooru like image board with an emphasis on maximum freedom
+  name: Ponerpics
   tags: art,image board
   updated: 2023-11-23
-
-- name: Yay Ponies
+- description: MLP episode hosting website
   link: yayponi.es
-  description: MLP episode hosting website
+  name: Yay Ponies
   tags: episodes
   updated: 2023-11-23
-
-- link: yayponies.no
-  description: Same site as yayponi.es
+- description: Same site as yayponi.es
+  link: yayponies.no
   tags: redirect
   updated: 2023-11-23
-
-- name: Coco Pommel!
+- description: Joke site
   link: coco-pommel.org
-  description: Joke site
+  name: Coco Pommel!
   tags: joke
   updated: 2023-11-23
-
-- name: DerpyTV
+- description: Streaming website
   link: derpy.tv
-  description: Streaming website
+  name: DerpyTV
   tags: stream
   updated: 2023-11-23
-
-- name: cutemares.com
+- description: Porn archive
   link: cutemares.com
-  description: Porn archive
+  name: cutemares.com
   tags: restricted,adult,archive,art
   updated: 2023-11-23
-
-- name: Francoponies
+- description: French community website
   link: francoponies.fr
-  description: French community website
+  name: Francoponies
   tags: france
   updated: 2023-11-23
-
-- name: Le Poney Blanc
+- description: French community website
   link: www.leponeyblanc.fr
-  description: French community website
+  name: Le Poney Blanc
   tags: france,blog
   updated: 2023-11-23
-
-- name: Need For Ponies
+- description: French community website
   link: needforponies.fr
-  description: French community website
+  name: Need For Ponies
   tags: france,episodes
   updated: 2023-11-23
-
-- name: WePonies
+- description: France community + event hosting website
   link: weponies.org
-  description: France community + event hosting website
+  name: WePonies
   tags: france
   updated: 2023-11-23
-
-- name: Radio Brony
+- description: French brony radio station
   link: radiobrony.fr
-  description: French brony radio station
+  name: Radio Brony
   tags: stream,france
   updated: 2023-11-23
-
-- link: radiobrony.live
-  description: redirect to radiobrony.fr
+- description: redirect to radiobrony.fr
+  link: radiobrony.live
   tags: france,redirect
   updated: 2023-11-23
-
-- name: www.newlunarrepublic.fr
+- description: NLR based france website
   link: www.newlunarrepublic.fr
-  description: NLR based france website
+  name: www.newlunarrepublic.fr
   tags: france,episodes
   updated: 2023-11-23
-
-- name: Pony France
+- description: Hub for various France-based MLP sites
   link: ponyfrance.net
-  description: Hub for various France-based MLP sites
+  name: Pony France
   tags: france,directory
   updated: 2023-11-23
-
-- link: mlpfictions.com
-  description: ""
+- description: ''
+  link: mlpfictions.com
   tags: dead
   updated: 2023-11-23
-
-- link: pmvtoday.com
-  description: PMV website?
+- description: PMV website?
+  link: pmvtoday.com
   tags: dead
   updated: 2023-11-23
-
-- name: Toastbeard
+- description: Former toastbeard website. Technically still up
   link: toastbeard.bronyradio.com
-  description: Former toastbeard website. Technically still up
+  name: Toastbeard
   protocol: http
   tags: music
   updated: 2023-11-23
-
-- link: bronyradio.com
-  description: redirect to ponyvillefm.com
+- description: redirect to ponyvillefm.com
+  link: bronyradio.com
   tags: redirect
   updated: 2023-11-23
-
-- name: PONYLOVE
+- description: Episode hosting website
   link: ponylove.cc
-  description: Episode hosting website
+  name: PONYLOVE
   tags: episodes
   updated: 2023-11-23
-
-- name: Berry Tube
+- description: Streaming website
   link: berrytube.tv
-  description: Streaming website
+  name: Berry Tube
   tags: stream
   updated: 2023-11-23
-
-- name: Subreddit
+- description: The most popular MLP subreddit
   link: www.reddit.com/r/mylittlepony
-  description: The most popular MLP subreddit
+  name: Subreddit
   tags: reddit
   updated: 2023-11-23
-
-- name: Pony Directory
+- description: List of pony websites
   link: pony.directory
-  description: List of pony websites
+  name: Pony Directory
   tags: directory
   updated: 2023-11-23
-
-- name: Pony Directory
+- description: List of pony websites, including adult sites
   link: all.pony.directory
-  description: List of pony websites, including adult sites
+  name: Pony Directory
   tags: directory,restricted
   updated: 2023-11-23
-
-- name: Polyethylene Workbench
+- description: Polyethylene's website.
   link: polyethylene.app
-  description: Polyethylene's website.
+  name: Polyethylene Workbench
   tags: personal,tech
   updated: 2023-11-13
-
-- name: "Fighting is Magic: Aurora"
+- description: Fan-made 2D fighting game based on MLP FiM.
   link: fightingismagic.com
-  description: Fan-made 2D fighting game based on MLP FiM.
+  name: 'Fighting is Magic: Aurora'
   tags: game
   updated: 2023-11-30
-
-- name: Order of Twilight
+- description: A simple puzzle 2D platformer game.
   link: stabyourself.net/orderoftwilight/
-  description: A simple puzzle 2D platformer game.
+  name: Order of Twilight
   tags: game
   updated: 2023-11-30
-
-- name: My Little Game Jam
+- description: A game developing competition based on MLP FiM.
   link: mylittlegamejam.com
-  description: A game developing competition based on MLP FiM.
+  name: My Little Game Jam
   tags: game,forum,dead
   updated: 2023-11-30
-
-- name: "Fallout Equestria: Remains"
+- description: A hardcore mix of platformer, 2D-shooter and roguelike with RPG elements.
   link: foe-remains.gitlab.io
-  description: A hardcore mix of platformer, 2D-shooter and roguelike with RPG elements.
+  name: 'Fallout Equestria: Remains'
   tags: game,fallout equestria
   updated: 2023-11-30
-
-- name: Roleplaying is Magic
+- description: A fan-created tabletop roleplaying game and storytelling system based
+    on MLP FiM.
   link: roleplayingismagic.github.io
-  description: A fan-created tabletop roleplaying game and storytelling system based on MLP FiM.
+  name: Roleplaying is Magic
   tags: game
   updated: 2023-11-30
-
-- name: xxnightmaremoonxx.de
+- description: German MLP episode hosting website.
   link: xxnightmaremoonxx.de
-  description: German MLP episode hosting website.
+  name: xxnightmaremoonxx.de
   tags: episodes,dead,germany
   updated: 2023-11-30
-
-- name: PonyCloud
+- description: German MLP episode discussion forum.
   link: ponycloud.me
-  description: German MLP episode discussion forum.
+  name: PonyCloud
   tags: forum,germany
   updated: 2023-11-30
-
-- name: Equestria United
+- description: MLP conventions & events around Europe (past present and future).
   link: brony.eu
-  description: MLP conventions & events around Europe (past present and future).
+  name: Equestria United
   tags: blog,directory,convention
   updated: 2023-11-30
-
-- name: Equestria United PonyStream
+- description: Livestreams conventions from around the world.
   link: stream.brony.eu
-  description: Livestreams conventions from around the world.
+  name: Equestria United PonyStream
   tags: convention,stream
   updated: 2023-11-30
-
-- name: Spib
+- description: Spitfire = Spib
   link: spib.no
-  description: Spitfire = Spib
+  name: Spib
   tags: art,joke
   updated: 2023-12-19
-
-- name: PonyMTG
+- description: A database of fan-made Magic the Gathering cards.
   link: ponymtg.github.io
-  description: A database of fan-made Magic the Gathering cards.
+  name: PonyMTG
   tags: tech,game
   updated: 2023-12-20
-
-- name: Wet Mares
+- description: Randomly shows art of a mare drenched in water.
   link: wetmares.org
-  description: Randomly shows art of a mare drenched in water.
+  name: Wet Mares
   tags: joke,art
   updated: 2023-12-20
-
-- name: bronycon.org
+- description: Website for former BronyCon convention.
   link: bronycon.org
-  description: Website for former BronyCon convention.
+  name: bronycon.org
   tags: usa,con
   updated: 2023-12-20
-
-- name: equestria.social
+- description: MLP mastodon instance
   link: equestria.social
-  description: MLP mastodon instance
+  name: equestria.social
   tags: tech,mastodon
   updated: 2023-12-20
-
-- name: pony.social
+- description: MLP mastodon instance
   link: pony.social
-  description: MLP mastodon instance
+  name: pony.social
   tags: tech,mastodon
   updated: 2023-12-20
-
-- name: BronyMate
+- description: Scam dating website
   link: bronymate.com
-  description: Scam dating website
+  name: BronyMate
   tags: joke
   updated: 2023-12-20
-
-- name: lyra.horse
+- description: Personal website for Rebane
   link: lyra.horse
-  description: Personal website for Rebane
+  name: lyra.horse
   tags: personal
   updated: 2023-12-20
-
-- name: brambleshadow4.net
+- description: Personal website for brambleshadow4
   link: brambleshadow4.net
-  description: Personal website for brambleshadow4
+  name: brambleshadow4.net
   tags: personal,tech
   updated: 2023-12-20
-
-- name: ponyphonic
+- description: Personal website for ponyphonic
   link: ponyphonic.com
-  description: Personal website for ponyphonic
+  name: ponyphonic
   tags: personal,music
   updated: 2023-12-21
-
-- name: Ponies Online
+- description: Online pony convention
   link: poniesonline.org
-  description: Online pony convention
+  name: Ponies Online
   tags: convention,online
   updated: 2023-12-21
-
-- name: is-a.horse
+- description: Mastodon host
   link: is-a.horse
-  description: Mastodon host
+  name: is-a.horse
   tags: social,mastodon
   updated: 2023-12-21
-
-- name: Our Town
+- description: Social media platform running Akkoma (ActivityPub).
   link: our-town.social
-  description: Social media platform running Akkoma (ActivityPub). 
+  name: Our Town
   tags: social
   updated: 2023-12-21
-
-- name: hooves.social
+- description: Social media platform running firefirsh (ActivityPub).
   link: hooves.social
-  description: Social media platform running firefirsh (ActivityPub).
+  name: hooves.social
   tags: social
   updated: 2023-12-21
-
-- name: These Horsies Rock
+- description: Pony video sharing site (peertube)
   link: thishorsie.rocks
-  description: Pony video sharing site (peertube)
+  name: These Horsies Rock
   tags: video
   updated: 2023-12-21
-
-- name: PonyChan
+- description: "Imageboard for older fans of the show \u201CMy Little Pony: Friendship\
+    \ is Magic\u201D"
   link: www.ponychan.net
-  description: "Imageboard for older fans of the show “My Little Pony: Friendship is Magic”"
+  name: PonyChan
   tags: art
   updated: 2024-01-07
-
-- name: derpy.me
+- description: URL shortener service
   link: derpy.me
-  description: URL shortener service
+  name: derpy.me
   tags: tech
   updated: 2024-05-12
