@@ -9,13 +9,16 @@ body:
     - site: www.equestriadaily.com
     - site: www.horse-news.org
     - site: www.dailydoseofpony.com
+    - site: everypony.ru
     - site: club-flank.com
+    - site: derpynews.com
     group: Blogs
   - children:
     - site: derpibooru.org
     - site: www.canterlotcomics.com
     - site: boards.4channel.org/mlp/
     - site: www.ponychan.net
+    - site: foalcon.com
     - children:
       - site: manebooru.art
       - site: www.bronibooru.com
@@ -29,6 +32,7 @@ body:
   - children:
     - site: horsemusicherald.com
     - site: www.mylittleremix.com
+    - site: everafter.online
     - site: ponymusic.wiki
     - site: pony.fm
     - site: noise.horse
@@ -43,6 +47,9 @@ body:
       - site: fancynoise.net
       - site: broniesradio.com
       - site: celestiaradio.com
+      - site: abronyradio.com
+      - site: everhoof.ru
+      - site: fillydelphiaradio.net
       group: Radio Stations
     group: Music
   - children:
@@ -73,6 +80,7 @@ body:
     - site: ponymtg.github.io
     - site: theponies.org
     - site: everfree-outpost.com
+    - site: foe.ucoz.org
     - children:
       - site: www.secretshipfic.com
       - site: www.tsssf.net
@@ -100,9 +108,11 @@ body:
   - children:
     - site: ponepaste.org
     - site: tinyface.net
+    - site: fusion.ponyar.net
     - site: equestria.horse
     - site: ponycule.equestria.horse
     - site: equestria.dev
+    - site: sweetiebot.net
     - site: ponies.equestria.horse
     - site: bronyshow.com
     - site: pony.community
@@ -112,6 +122,9 @@ body:
     - site: derpy.me
     - site: ponysearch.eu
     - site: brohoof.pl
+    - site: derpy.email
+    - site: equidev.net
+    - site: ponyar.net
     group: Tech
   - children:
     - site: projectvinyl.net
@@ -174,6 +187,9 @@ body:
   - site: bronynet.com
   - site: bronynet.online
   - site: bronytales.com
+  - site: bronyhub.com
+  - site: everfree.pl
+  - site: friendshipismagic.org
   - children:
     - site: www.bronystate.net
     - site: berrytube.tv
@@ -192,6 +208,7 @@ body:
     - site: www.canterlot.com
     - site: www.mylittleremix.com
     - site: ponycloud.me
+    - site: bronyforo.foroactivo.com
     - site: bronies.de
     group: Forums + Roleplaying
   - children:
@@ -232,6 +249,8 @@ body:
     - site: foe.gg
     - site: falloutequestria.fandom.com
     - site: theovermare.com
+    - site: fallout-equestria.pl
+    - site: foe.ucoz.org
     group: Fallout Equestria
   group: Communities
 - children:
@@ -256,6 +275,7 @@ body:
   - site: bronymate.com
   - site: wetmares.org
   - site: endless.horse
+  - site: foal.party
   group: Joke Sites
 - children:
   - site: www.littleshyfim.com
@@ -270,6 +290,10 @@ body:
   - site: ponyphonic.com
   - site: dazzlefan.club
   - site: lailyren.art
+  - site: 6pony.pl
+  - site: 20percentcooler.net
+  - site: albdifferent.com
+  - site: shota.ninja
   - children:
     - site: www.vyletpony.com
     - site: cutiemarks.net
