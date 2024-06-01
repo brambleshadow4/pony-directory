@@ -32,7 +32,6 @@ body:
   - children:
     - site: horsemusicherald.com
     - site: www.mylittleremix.com
-    - site: everafter.online
     - site: ponymusic.wiki
     - site: pony.fm
     - site: noise.horse
@@ -206,6 +205,7 @@ body:
     - site: mlponies.com
     - site: www.redlightponyville.com
     - site: www.canterlot.com
+    - site: everafter.online
     - site: www.mylittleremix.com
     - site: ponycloud.me
     - site: bronyforo.foroactivo.com
