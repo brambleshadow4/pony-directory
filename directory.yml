@@ -12,18 +12,23 @@ body:
     - site: everypony.ru
     - site: club-flank.com
     - site: derpynews.com
+    - site: horse-news.net
     group: Blogs
   - children:
     - site: derpibooru.org
     - site: www.canterlotcomics.com
     - site: boards.4channel.org/mlp/
     - site: www.ponychan.net
+    - site: ponychan.co
+    - site: mlpg.co
     - site: foalcon.com
     - children:
       - site: manebooru.art
       - site: www.bronibooru.com
       - site: twibooru.org
       - site: ponerpics.org
+      - site: lyrabooru.org
+      - site: rainbooru.org
       group: Derpibooru Alternates
     group: Art
   - children:
@@ -72,6 +77,7 @@ body:
     - site: www.equestriagaming.net
     - site: www.mylittlekaraoke.com
     - site: ponytone.online
+    - site: equidev.net
     - site: fightingismagic.com
     - site: stabyourself.net/orderoftwilight/
     - site: foe-remains.gitlab.io
@@ -106,6 +112,7 @@ body:
     group: Board + Video Games
   - children:
     - site: ponepaste.org
+    - site: poneb.in
     - site: tinyface.net
     - site: fusion.ponyar.net
     - site: equestria.horse
@@ -122,8 +129,9 @@ body:
     - site: ponysearch.eu
     - site: brohoof.pl
     - site: derpy.email
-    - site: equidev.net
     - site: ponyar.net
+    - site: hoofsounds.little.my
+    - site: ponyhoof.little.my
     group: Tech
   - children:
     - site: projectvinyl.net
@@ -134,6 +142,7 @@ body:
   - children:
     - site: www.theponyarchive.com
     - site: cutemares.com
+    - site: hobune.stream
     group: Archives
   group: Fan Works
 - children:
@@ -189,6 +198,8 @@ body:
   - site: bronyhub.com
   - site: everfree.pl
   - site: friendshipismagic.org
+  - site: gardensofequestria.com
+  - site: ponycrush.com
   - children:
     - site: www.bronystate.net
     - site: berrytube.tv
@@ -276,6 +287,7 @@ body:
   - site: wetmares.org
   - site: endless.horse
   - site: foal.party
+  - site: gollydidnothingwrong.club
   group: Joke Sites
 - children:
   - site: www.littleshyfim.com
@@ -294,6 +306,8 @@ body:
   - site: 20percentcooler.net
   - site: albdifferent.com
   - site: shota.ninja
+  - site: greymare.net
+  - site: hmage.net
   - children:
     - site: www.vyletpony.com
     - site: cutiemarks.net

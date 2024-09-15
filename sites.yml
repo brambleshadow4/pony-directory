@@ -19,7 +19,7 @@
   link: www.horse-news.org
   name: Horse News
   tags: blog
-  updated: 2023-11-08
+  updated: 2024-06-27 18:52:15.519855
 - description: An all-skill-level content featuring platform for all kinds of pony
     content.
   link: www.dailydoseofpony.com
@@ -86,7 +86,7 @@
   link: www.harmonycon.org
   name: HarmonyCon
   tags: convention,usa
-  updated: 2023-11-08
+  updated: 2024-06-27 18:43:24.335446
 - description: MLP convention based in Ohio.
   link: trotcon.net
   name: TrotCon
@@ -378,8 +378,8 @@
     Friendship is Witchcraft.
   link: www.bbbff.net
   name: BBBFF
-  tags: joke,dead
-  updated: 2023-11-08
+  tags: joke
+  updated: 2024-09-14 22:00:24.245596
 - description: A Brony game development forum.
   link: mylittlegamedev.com
   name: My Little Game Dev
@@ -560,8 +560,8 @@
 - description: Forum dedicated to music production and remixing.
   link: www.mylittleremix.com
   name: My Little Remix
-  tags: music,forum,dead
-  updated: 2024-06-01 15:06:52.482864
+  tags: music,forum
+  updated: 2024-06-27 18:52:40.475897
 - description: ''
   link: iwtcits.com
   name: iwtcits.com
@@ -970,7 +970,7 @@
   link: celestianism.rocks
   name: Celestianism
   tags: joke
-  updated: 2024-06-01 15:42:49.156344
+  updated: 2024-09-14 22:00:07.687164
 - description: Celestia-themed radio station
   link: celestiaradio.com
   name: Celestia Radio
@@ -1058,11 +1058,13 @@
   name: ''
   tags: dead
   updated: 2024-06-01 18:01:17.825056
-- description: ''
+- description: Website for an upcoming action/adventure style game based on small
+    horses
   link: equidev.net
-  name: ''
-  tags: dead
-  updated: 2024-06-01 18:04:28.183202
+  name: Horse Game
+  protocol: http
+  tags: game
+  updated: 2024-09-14 22:45:59.022988
 - description: Small community of brony roleplayers dedicated to quality roleplaying
     in Equestria
   link: everafter.online
@@ -1129,3 +1131,73 @@
   name: ''
   tags: ''
   updated: 2024-06-01 18:32:01.733252
+- description: ''
+  link: gardensofequestria.com
+  name: ''
+  tags: dead
+  updated: 2024-06-27 18:40:53.203924
+- description: ''
+  link: gollydidnothingwrong.club
+  name: ''
+  tags: dead
+  updated: 2024-06-27 18:41:54.149262
+- description: ''
+  link: greymare.net
+  name: ''
+  tags: dead
+  updated: 2024-06-27 18:42:40.251042
+- description: Personal website for hmage
+  link: hmage.net
+  name: ''
+  tags: personal,tech
+  updated: 2024-06-27 18:44:03.200722
+- description: Archive site run by hobune
+  link: hobune.stream
+  name: hobune
+  tags: archive
+  updated: 2024-06-27 18:46:37.713272
+- description: ''
+  link: horse-news.net
+  name: ''
+  tags: dead
+  updated: 2024-06-27 18:48:55.367400
+- description: Image board for plush fetish content
+  link: lyrabooru.org
+  name: Lyrabooru
+  tags: restricted,image board,adult
+  updated: 2024-09-14 21:58:10.402500
+- description: The next chapter in the continuing legacy of ponychan.net
+  link: ponychan.co
+  name: Ponychan
+  tags: image board
+  updated: 2024-09-14 22:06:24.088897
+- description: 4chan like image board and forum
+  link: mlpg.co
+  name: MLPG.CO
+  tags: image board,forum,restricted
+  updated: 2024-09-14 22:15:22.111960
+- description: Text hosting website
+  link: poneb.in
+  name: poneb.in
+  tags: tech,fanfiction
+  updated: 2024-09-14 22:53:44.350444
+- description: ''
+  link: rainbooru.org
+  name: ''
+  tags: dead,restricted
+  updated: 2024-09-14 22:56:15.112783
+- description: (defunct) browser extension for listening to pony radio stations
+  link: hoofsounds.little.my
+  name: HoofSounds
+  tags: tech,music
+  updated: 2024-09-14 22:56:55.876817
+- description: dead,community
+  link: ponycrush.com
+  name: 'PonyCrush: The Pony Social Network'
+  tags: MLP social network
+  updated: 2024-09-14 22:57:53.194326
+- description: Extension for ponifying Facebook
+  link: ponyhoof.little.my
+  name: Ponyhoof
+  tags: tech
+  updated: 2024-09-14 22:58:52.863810
