@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as yaml from 'yaml';
-import * as os from "os"
+import * as child from "child_process";
 
 
 export function env()
@@ -154,7 +154,14 @@ export function saveRevision(object, toProd)
 		let envv = env();
 		if(envv.RunScript)
 		{
-			os.system(envv.RunScript);
+			console.log(envv.RunScript)
+			child.exec(envv.RunScript, (err, stdout, sterr) => {
+
+				if(err){
+					console.log(err)
+					console.log(stdout)
+				}
+			});
 		}
 	}
 

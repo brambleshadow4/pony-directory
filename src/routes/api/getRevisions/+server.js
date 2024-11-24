@@ -3,5 +3,8 @@ import {getRevisions} from "$lib/sites.js"
 
 export async function GET()
 {
-	return json(getRevisions(), {status: 200})
+	let resp = json(getRevisions(), {status: 200});
+
+	resp.headers.append('Access-Control-Allow-Origin', "*");
+	return resp 
 }	
