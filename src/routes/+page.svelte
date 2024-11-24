@@ -3,4 +3,4 @@
 	import App from "./App.svelte";
 </script>
 
-<App mode="safe" data={data} />
+<App mode={data.mode} data={data} />
