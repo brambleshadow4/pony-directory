@@ -2,7 +2,7 @@
 	export let data;
 	export let mode = "safe";
 	export const prerender = true;
-	import Card from "../card.svelte";
+	import Card from "../Card.svelte";
 	import PriorityQueue from "$lib/PriorityQueue.js";
 	import EditSidebar from "./EditSidebar.svelte";
 	import SubmissionDialogue from "./SubmissionDialogue.svelte";
