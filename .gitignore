@@ -1,5 +1,7 @@
 node_modules
 
+revisions
+
 # Output
 .output
 .vercel

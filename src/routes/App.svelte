@@ -151,7 +151,7 @@
 			}
 		}
 
-		let at = baseVersion.sitelist.length  + "/" + currentEdits.sitelist.length;
+		let at = baseVersion.sitelist.length	+ "/" + currentEdits.sitelist.length;
 		let ops = [];
 
 		while(at != "0/0")
@@ -203,7 +203,7 @@
 				
 
 				combinedSiteList.push({...currentEdits.sitelist[j], op: newOp, editIndex:j});
-				//console.log(op  + " - " + currentVersion.sitelist[j].site)
+				//console.log(op	+ " - " + currentVersion.sitelist[j].site)
 				i++;
 				j++;
 
@@ -211,7 +211,7 @@
 			if (op == "del")
 			{
 				combinedSiteList.push({...baseVersion.sitelist[i], op, editIndex:j});
-				//console.log(op  + " - " + baseVersion.sitelist[i].site)
+				//console.log(op	+ " - " + baseVersion.sitelist[i].site)
 				i++;
 			}
 		}
@@ -843,6 +843,16 @@
 
 	}
 
+	@font-face {
+		font-family: Equestria;
+		src: url(/font/Equestria.otf);
+	}
+
+	@font-face {
+		font-family: Roboto;
+		src: url(/font/Roboto-Regular.ttf);
+	}
+
 	.site-container {
 		display: inline-block;
 	}
@@ -904,7 +914,7 @@
 	.revisions {
 		max-height: 200px;
 		overflow-y: auto;
-		max-width:  600px;
+		max-width:	600px;
 	}
 
 	.comment {

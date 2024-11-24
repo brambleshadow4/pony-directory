@@ -1,11 +1,11 @@
 @font-face {
   font-family: Equestria;
-  src: url(./font/Equestria.otf);
+  src: url(/font/Equestria.otf);
 }
 
 @font-face {
   font-family: Roboto;
-  src: url(./font/Roboto-Regular.ttf);
+  src: url(/font/Roboto-Regular.ttf);
 }
 
 html, body {
