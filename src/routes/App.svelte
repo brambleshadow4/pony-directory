@@ -307,9 +307,15 @@
 
 	import menuICON from "$lib/img/hamburger-menu-icon.svg";
 
-	function shouldShowSite(site, showDead, showRestricted)
+	function shouldShowSite(site, showDead, showRestricted, mode, op)
 	{
 		let tags = new Set(site.tags.split(","));
+
+		console.log(op)
+
+		if(mode == "edit" && op != "same")
+			return true;
+
 
 		if(tags.has("restricted") && !showRestricted)
 			return false;
@@ -559,7 +565,7 @@
 							</span>
 						{/if}
 					</h3>
-				{:else if shouldShowSite(currentEdits.sites[block.site] || data.sites[block.site], showDead, showRestricted)}
+				{:else if shouldShowSite(currentEdits.sites[block.site] || data.sites[block.site], showDead, showRestricted, mode, block.op)}
 					<div class='site-container'>
 						<Card 
 							site={currentEdits.sites[block.site] || data.sites[block.site]}
