@@ -354,7 +354,7 @@ sites:
     link: www.canterlotcomics.com
     name: Canterlot Comics
     tags: comic
-    updated: 2023-11-08
+    updated: 2024-11-24
   - description: Fanfiction archive website.
     link: www.ponyfictionarchive.net
     name: Pony Fiction Archive
@@ -806,11 +806,11 @@ sites:
     name: PonyCloud
     tags: forum,germany
     updated: 2023-11-30
-  - description: MLP conventions & events around Europe (past present and future).
+  - description: redirect to bronies.eu
     link: brony.eu
     name: Equestria United
-    tags: blog,directory,convention
-    updated: 2023-11-30
+    tags: blog,directory,convention,redirect
+    updated: 2024-11-25
   - description: Livestreams conventions from around the world.
     link: stream.brony.eu
     name: Equestria United PonyStream
@@ -879,13 +879,13 @@ sites:
   - description: Social media platform running Akkoma (ActivityPub).
     link: our-town.social
     name: Our Town
-    tags: social
-    updated: 2023-12-21
-  - description: Social media platform running firefish (ActivityPub)
+    tags: social,dead
+    updated: 2024-11-25
+  - description: Social media platform running Sharkey (ActivityPub)
     link: hooves.social
     name: hooves.social
     tags: social
-    updated: 2023-12-21
+    updated: 2024-11-25
   - description: Pony video sharing site (peertube)
     link: thishorsie.rocks
     name: These Horsies Rock
@@ -1215,6 +1215,43 @@ sites:
     description: A social media website for bronies
     tags: ""
     updated: 2024-11-24
+  - name: PonyGuessr
+    link: https://ponyguessr.com/
+    description: Guess the episode from randomly-selected frames of Friendship is Magic.
+    tags: game
+    updated: 2024-11-25
+  - name: MLP Glossary
+    link: hawthornbunny.github.io/projects/mlp-glossary/
+    description: Searchable glossary of MLP terms, plus tools for creating wordlists
+      for use in games.
+    tags: tech
+    updated: 2024-11-25
+  - name: Pone Pone Pone
+    link: poneponepone.org/
+    description: "My Little Pony: Friendship is Magic transcript search."
+    tags: tech
+    updated: 2024-11-25
+  - name: Fimfiction tag trends
+    link: hawthornbunny.github.io/projects/fimfic-trends
+    description: Shows the usage of character tags on Fimfiction over time.
+    tags: tech
+    updated: 2024-11-25
+  - name: Bronies EU
+    link: bronies.eu
+    description: A Page about all conventions in Europe with schedules and infos
+      about the con
+    tags: blog,directory,convention
+    updated: 2024-11-25
+  - name: Equestripedia
+    link: equestripedia.org/wiki/Main_Page
+    description: Fan-made encyclopedia dedicated to the entire MLP franchise.
+    tags: wiki
+    updated: 2024-11-25
+  - name: Equestripedia
+    link: equestripedia.org
+    description: Fan-made encyclopedia dedicated to the entire MLP franchise.
+    tags: wiki
+    updated: 2024-11-25
 sitelist:
   - "# Fan Works"
   - "## Blogs"
@@ -1289,6 +1326,7 @@ sitelist:
   - theponies.org
   - everfree-outpost.com
   - foe.ucoz.org
+  - https://ponyguessr.com/
   - "### Secret Shipfic Folder"
   - www.secretshipfic.com
   - www.tsssf.net
@@ -1329,6 +1367,9 @@ sitelist:
   - ponyar.net
   - hoofsounds.little.my
   - ponyhoof.little.my
+  - poneponepone.org/
+  - hawthornbunny.github.io/projects/mlp-glossary/
+  - hawthornbunny.github.io/projects/fimfic-trends
   - "## Videos"
   - projectvinyl.net
   - pony.tube
@@ -1342,6 +1383,7 @@ sitelist:
   - "# Conventions"
   - ponycon.info
   - brony.eu
+  - bronies.eu
   - "## North America"
   - www.babscon.com
   - ponyvilleciderfest.com
@@ -1437,6 +1479,7 @@ sitelist:
   - mlp.fandom.com
   - mlpfanart.fandom.com
   - ponymusic.wiki
+  - equestripedia.org
   - "## Poniverse"
   - poniverse.net
   - canterlotavenue.com
