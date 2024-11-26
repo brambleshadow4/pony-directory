@@ -281,6 +281,8 @@
 	function saveSite(ev)
 	{
 		let originalLink = ev.detail.originalLink;
+		if(originalLink == undefined)
+			throw new Error("Original link should not be undefined")
 		delete ev.detail.originalLink;
 
 		if(ev.detail.link.startsWith("https://"))
@@ -292,15 +294,21 @@
 			ev.detail.link = ev.detail.link.replace("http://","");
 		}
 
+
+
 		ev.detail.updated = new Date().toISOString().substring(0,10);
 
 		currentEdits.sites[ev.detail.link] = ev.detail;
 
-		for(let i=0; i<currentEdits.sitelist.length; i++)
+		if(originalLink != ev.detail.link)
 		{
-			if(currentEdits.sitelist[i].site == originalLink || currentEdits.sitelist[i].site == ev.detail.link)
+			delete currentEdits.sites[originalLink];
+			for(let i=0; i<currentEdits.sitelist.length; i++)
 			{
-				currentEdits.sitelist[i].site = ev.detail.link;
+				if(currentEdits.sitelist[i].site == originalLink || currentEdits.sitelist[i].site == ev.detail.link)
+				{
+					currentEdits.sitelist[i].site = ev.detail.link;
+				}
 			}
 		}
 
@@ -314,7 +322,6 @@
 		siteOpenInSidebar = "";
 
 		currentEdits = currentEdits;
-
 		sitelist = computeDiff(data, currentEdits);
 	}
 

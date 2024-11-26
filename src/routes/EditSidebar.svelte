@@ -45,11 +45,14 @@
 
 	function saveSite()
 	{
+		thisData.originalLink = site;
 		if(useHTTP){
 			thisData.protocol = "http"
 		}
 		else
 			delete thisData.protocol;
+
+
 
 		dispatch("saveSite", thisData)
 	}
