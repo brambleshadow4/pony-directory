@@ -259,8 +259,6 @@
 
 	function restoreSitelistItem(block)
 	{
-		console.log("running restore")
-
 		let blockCopy = JSON.parse(JSON.stringify(block));
 		delete blockCopy.op;
 		delete blockCopy.editIndex
@@ -288,9 +286,27 @@
 		let originalLink = ev.detail.originalLink;
 		delete ev.detail.originalLink;
 
+		if(ev.detail.link.startsWith("https://"))
+		{
+			ev.detail.link = ev.detail.link.replace("https://","");
+		}
+		if(ev.detail.link.startsWith("http://"))
+		{
+			ev.detail.link = ev.detail.link.replace("http://","");
+		}
+
 		ev.detail.updated = new Date().toISOString().substring(0,10);
 
 		currentEdits.sites[ev.detail.link] = ev.detail;
+
+		for(let i=0; i<currentEdits.sitelist.length; i++)
+		{
+			if(currentEdits.sitelist[i].site == originalLink || currentEdits.sitelist[i].site == ev.detail.link)
+			{
+				currentEdits.sitelist[i].site = ev.detail.link;
+			}
+		}
+
 
 		if(newSiteInsertPosition != -1)
 		{
@@ -300,16 +316,20 @@
 		newSiteInsertPosition = -1;
 		siteOpenInSidebar = "";
 
-		sitelist = computeDiff(data, currentEdits);
+		currentEdits = currentEdits;
 
-		console.log(sitelist)
+		sitelist = computeDiff(data, currentEdits);
 	}
 
 	import menuICON from "$lib/img/hamburger-menu-icon.svg";
 
-	function shouldShowSite(site, showDead, showRestricted)
+	function shouldShowSite(site, showDead, showRestricted, mode, op)
 	{
 		let tags = new Set(site.tags.split(","));
+
+		if(mode == "edit" && op != "same")
+			return true;
+
 
 		if(tags.has("restricted") && !showRestricted)
 			return false;
@@ -559,7 +579,7 @@
 							</span>
 						{/if}
 					</h3>
-				{:else if shouldShowSite(currentEdits.sites[block.site] || data.sites[block.site], showDead, showRestricted)}
+				{:else if shouldShowSite(currentEdits.sites[block.site] || data.sites[block.site], showDead, showRestricted, mode, block.op)}
 					<div class='site-container'>
 						<Card 
 							site={currentEdits.sites[block.site] || data.sites[block.site]}
