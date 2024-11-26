@@ -259,8 +259,6 @@
 
 	function restoreSitelistItem(block)
 	{
-		console.log("running restore")
-
 		let blockCopy = JSON.parse(JSON.stringify(block));
 		delete blockCopy.op;
 		delete blockCopy.editIndex
@@ -288,9 +286,27 @@
 		let originalLink = ev.detail.originalLink;
 		delete ev.detail.originalLink;
 
+		if(ev.detail.link.startsWith("https://"))
+		{
+			ev.detail.link = ev.detail.link.replace("https://","");
+		}
+		if(ev.detail.link.startsWith("http://"))
+		{
+			ev.detail.link = ev.detail.link.replace("http://","");
+		}
+
 		ev.detail.updated = new Date().toISOString().substring(0,10);
 
 		currentEdits.sites[ev.detail.link] = ev.detail;
+
+		for(let i=0; i<currentEdits.sitelist.length; i++)
+		{
+			if(currentEdits.sitelist[i].site == originalLink || currentEdits.sitelist[i].site == ev.detail.link)
+			{
+				currentEdits.sitelist[i].site = ev.detail.link;
+			}
+		}
+
 
 		if(newSiteInsertPosition != -1)
 		{
@@ -300,9 +316,9 @@
 		newSiteInsertPosition = -1;
 		siteOpenInSidebar = "";
 
-		sitelist = computeDiff(data, currentEdits);
+		currentEdits = currentEdits;
 
-		console.log(sitelist)
+		sitelist = computeDiff(data, currentEdits);
 	}
 
 	import menuICON from "$lib/img/hamburger-menu-icon.svg";
@@ -310,8 +326,6 @@
 	function shouldShowSite(site, showDead, showRestricted, mode, op)
 	{
 		let tags = new Set(site.tags.split(","));
-
-		console.log(op)
 
 		if(mode == "edit" && op != "same")
 			return true;
