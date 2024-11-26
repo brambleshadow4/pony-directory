@@ -1252,6 +1252,30 @@ sites:
     description: Fan-made encyclopedia dedicated to the entire MLP franchise.
     tags: wiki
     updated: 2024-11-25
+  - name: PonyBooru
+    link: ponybooru.org/
+    description: Alternative with guidelines similar to derpibooru, but a bit more
+      lax. Has support for higher file size (100MB) and MP4 uploads. Ran by the
+      same owner as the pony archive.
+    tags: art,image board
+    updated: 2024-11-25
+  - name: PonyBooru
+    link: ponybooru.org
+    description: Alternative with guidelines similar to derpibooru, but a bit more
+      lax. Has support for higher file size (100MB) and MP4 uploads. Ran by the
+      same owner as the pony archive.
+    tags: art,image board
+    updated: 2024-11-25
+  - name: Pink One
+    link: pinkone.ltgc.cc
+    description: Full-text search of fimfarchive
+    tags: fanfiction,tech
+    updated: 2024-11-26
+  - name: heartshine.gay
+    link: heartshine.gay
+    description: Ember's MLP episode archive
+    tags: episodes
+    updated: 2024-11-26
 sitelist:
   - "# Fan Works"
   - "## Blogs"
@@ -1275,6 +1299,7 @@ sitelist:
   - www.bronibooru.com
   - twibooru.org
   - ponerpics.org
+  - ponybooru.org
   - lyrabooru.org
   - rainbooru.org
   - "## Plushies"
@@ -1370,6 +1395,7 @@ sitelist:
   - poneponepone.org/
   - hawthornbunny.github.io/projects/mlp-glossary/
   - hawthornbunny.github.io/projects/fimfic-trends
+  - pinkone.ltgc.cc
   - "## Videos"
   - projectvinyl.net
   - pony.tube
@@ -1496,6 +1522,7 @@ sitelist:
   - ponylove.cc
   - xxnightmaremoonxx.de
   - doublezett.ru
+  - heartshine.gay
   - "# Joke Sites"
   - horse.best
   - coco-pommel.org
