@@ -178,11 +178,11 @@
 			{
 				let newOp = "same"
 
-				if(currentEdits.sitelist[j].site)
+				if(currentEdits.sitelist[j].site && baseVersion.sites[baseVersion.sitelist[i].site])
 				{
 					let site1 = currentEdits.sites[currentEdits.sitelist[j].site];
 					let site2 = baseVersion.sites[baseVersion.sitelist[i].site];
-
+					
 					if(site1.updated != site2.updated || site1.protocol != site2.protocol)
 					{
 						newOp = "update";
@@ -196,11 +196,8 @@
 							break;
 						}
 					}
-
 					
 				}
-
-				
 
 				combinedSiteList.push({...currentEdits.sitelist[j], op: newOp, editIndex:j});
 				//console.log(op	+ " - " + currentVersion.sitelist[j].site)
@@ -906,9 +903,20 @@
 		content: "(new)";
 	}
 
+	h1.ins, h2.ins, h3.ins {
+		background-color: green;
+		color: white;
+	}
+
 	h1.del::before, h2.del::before, h3.del::before {
 		content: "(removed)";
 	}
+
+	h1.del, h2.del, h3.del {
+		background-color: red;
+		color: white;
+	}
+
 
 	.mobile-nav-bar {
 		display: none;
