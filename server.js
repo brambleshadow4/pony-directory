@@ -4,10 +4,26 @@ import fs from "fs"
 import http from 'http';
 import https from 'https';
 import dotenv from "dotenv"
+import path from "path";
 dotenv.config()
 
 
 const app = express();
+
+app.get("/.well-known/*", function(req,res, next){
+
+	let p = path.join(process.cwd(), 'public', req.url);
+	if(fs.existsSync(p))
+	{
+		res.sendFile(p);
+		return;
+	}
+	next();
+
+}, handler);
+
+
+
 
 // let SvelteKit handle everything else, including serving prerendered pages and static assets
 app.use(handler);
