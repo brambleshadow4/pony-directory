@@ -387,14 +387,6 @@ sites:
     name: My Little Game Dev
     tags: game,forum,dead
     updated: 2023-11-08
-  - description: A popular podcast focused on the brony fandom running from 2011 to
-      2016. The podcast is now a time capsule of interviews, episode reviews,
-      discussion of fandom news and events from the early days of the brony
-      fandom.
-    link: bronyshow.com
-    name: Bronyville
-    tags: blog,dead,podcast
-    updated: 2025-06-21
   - description: One of the oldest pony music radio stations, dating back to early 2011.
     link: ponyvillefm.com
     name: PonyvilleFM
@@ -408,8 +400,8 @@ sites:
   - description: Anonymous image board. Birthplace of the fandom.
     link: boards.4channel.org/mlp/
     name: /mlp/ - Pony - 4Chan
-    tags: restricted,forum,art
-    updated: 2023-11-08
+    tags: restricted,forum,art,image board,chan
+    updated: 2025-08-04
   - description: Site used to host the "Share your stuff" panel and renegade stage.
     link: pony.community
     name: pony.community
@@ -502,8 +494,8 @@ sites:
   - description: MLP text hosting service similar to pastebin.
     link: ponepaste.org
     name: PonePaste
-    tags: tech
-    updated: 2023-11-09
+    tags: tech,fanfiction
+    updated: 2025-07-28
   - description: MLP video hosting website.
     link: projectvinyl.net
     name: Project Vinyl
@@ -678,8 +670,8 @@ sites:
   - description: Joke site
     link: coco-pommel.org
     name: Coco Pommel!
-    tags: joke
-    updated: 2023-11-23
+    tags: joke,dead
+    updated: 2025-07-28
   - description: Streaming website
     link: derpy.tv
     name: DerpyTV
@@ -710,11 +702,11 @@ sites:
     name: WePonies
     tags: france
     updated: 2023-11-23
-  - description: French brony radio station
+  - description: Former French brony radio station
     link: radiobrony.fr
     name: Radio Brony
     tags: stream,france
-    updated: 2023-11-23
+    updated: 2025-06-21
   - description: redirect to radiobrony.fr
     link: radiobrony.live
     tags: france,redirect
@@ -911,8 +903,8 @@ sites:
   - description: URL shortener service
     link: derpy.me
     name: derpy.me
-    tags: tech
-    updated: 2024-05-12
+    tags: tech,dead
+    updated: 2025-07-07
   - description: A project to rebuild Equestria in Minecraft
     link: brohoof.com
     name: brohoof.com
@@ -921,8 +913,8 @@ sites:
   - description: Seems to generate lorem ipsum text
     link: brohoof.pl
     name: Brohoof.pl
-    tags: tech
-    updated: 2024-06-01 15:18:18.511941
+    tags: tech,dead
+    updated: 2025-07-07
   - description: German MLP forum
     link: bronies.de
     name: Bronies.de
@@ -1431,13 +1423,6 @@ sites:
     description: All Horse, All The Time
     tags: stream,music
     updated: 2025-06-15
-  - name: EquestriaNet
-    link: equestrianet.blogspot.com/
-    description: Spanish news site for MLP:FiM and Spanish fandom content.
-      (Currently using Blogger URL as equestrianet.org domain is no longer owned
-      by them.)
-    tags: blog,spanish
-    updated: 2025-06-21
   - name: MLPChan archive
     link: ml.ponychan.net/
     description: MLPchan archive hosted on Ponychan after the two sites merged.
@@ -1476,11 +1461,6 @@ sites:
     description: Russian MLP blog for adult content.
     tags: adult,restricted,blog,russian,russia
     updated: 2025-06-21
-  - name: For Glorious Equestria
-    link: www.fge.com.pl/
-    description: Polish blog site for MLP:FiM and Polish-speaking community.
-    tags: blog,poland,community
-    updated: 2025-06-21
   - name: Tabun
     link: tabun.everypony.ru/
     description: Popular social platform and blogosphere for the Russian MLP
@@ -1493,20 +1473,180 @@ sites:
     description: One of the oldest brony forums. Shifted to Discord.
     tags: community,forum,roleplay
     updated: 2025-06-21
+  - name: For Glorious Equestria
+    link: www.fge.com.pl
+    description: Polish blog site for MLP:FiM and Polish-speaking community.
+    tags: blog,poland,community
+    updated: 2025-06-21
+  - name: EquestriaNet
+    link: equestrianet.blogspot.com
+    description: Spanish news site for MLP:FiM and Spanish fandom content.
+      (Currently using Blogger URL as equestrianet.org domain is no longer owned
+      by them.)
+    tags: blog,spanish
+    updated: 2025-06-21
+  - name: Hop's Featherfest
+    link: hopsfeatherfest.at
+    description: "op’s Featherfest is a My Little Pony convention taking place in
+      Vienna, the capital of Austria! "
+    tags: convention,austria
+    updated: 2025-06-22
+  - name: Bronyville
+    link: bronyshow.com
+    description: A popular podcast focused on the brony fandom running from 2011 to
+      2016. The podcast is now a time capsule of interviews, episode reviews,
+      discussion of fandom news and events from the early days of the brony
+      fandom.
+    tags: blog,dead,podcast
+    updated: 2025-06-28
+  - name: Acid Unicorns
+    link: acidunicorns.online
+    description: "Website listing the Acid Unicorns audio/visual events held in the
+      Captive Unicorns discord. "
+    tags: community
+    updated: 2025-07-03
+  - name: Pony Voice Index
+    link: ponyvoiceindex.com
+    description: Index to help find human voice actors for pony projects
+    tags: ""
+    updated: 2025-07-07
+  - name: Rarity Project
+    link: rarityproject.org
+    description: Rarity Project is a non-profit donation-based grant program to help
+      small and big creators alike pay for the things they may need, instead of
+      resorting to AI.
+    tags: community,charity
+    updated: 2025-07-07
+  - name: Bronies Chile
+    link: bronieschile.blogspot.com
+    description: Spanish news site for MLP:FiM and local news from Chile. (Currently
+      using Blogger URL as they no longer have the bronieschile.com domain.)
+    tags: spanish,blog
+    updated: 2025-07-28
+  - name: Bronies UK
+    link: bronies-uk.blogspot.com
+    description: MLP fandom news site focusing on local news from the United
+      Kingdom. (Currently using Blogger URL as they no longer have the
+      bronies.org.uk domain.)
+    tags: blog,uk
+    updated: 2025-07-28
+  - name: Alicorn Radio
+    link: alicornradio.com
+    description: A G-rated brony radio station and podcast. Went silent in 2024.
+    tags: music,stream,dead
+    updated: 2025-07-28
+  - name: Princess Luna Radio
+    link: princessluna.fun
+    description: ""
+    tags: music,stream
+    updated: 2025-07-28
+  - name: Austraeoh
+    link: austraeoh.com
+    description: Fansite for the Austraeoh fanfiction series. Contains map of
+      locations mentioned in the series.
+    tags: dead,fanfiction
+    updated: 2025-07-28
+  - name: Ponycon NYC
+    link: ponycon.nyc
+    description: Former MLP convention held in New York City. Formerly known as Big
+      Apple Ponycon.
+    tags: convention,usa,dead
+    updated: 2025-07-28
+  - name: 夏日魔法慶典 (Summer Magic Celebration)
+    link: brony.tw
+    description: Former MLP convention held in Taiwan.
+    tags: convention,taiwan,dead
+    protocol: http
+    updated: 2025-07-28
+  - name: Big Apple Ponycon
+    link: www.bigappleponycon.com
+    description: Former MLP convention held in New York City. Later renamed to Ponycon NYC.
+    tags: convention,usa,dead
+    updated: 2025-07-28
+  - name: Severn Bronies
+    link: severnbronies.co.uk
+    description: The Severn Bronies are a social group that have organised brony
+      meets and events in and around the west of England and south Wales since
+      2012. Formerly known as Bristol Bronies.
+    tags: community,uk,meetup
+    updated: 2025-07-28
+  - name: Bristol Bronies
+    link: bristolbronies.co.uk
+    description: Former name and site of the Severn Bronies meetup group.
+    tags: meetup,dead,community,uk
+    updated: 2025-07-28
+  - name: Bronies Silesia
+    link: broniessilesia.pl
+    description: Polish brony meetup group for the Silesia region. Used to organise
+      the Snowfall Ponymeet event.
+    tags: community,meetup,poland,dead
+    updated: 2025-07-28
+  - name: BC Bronies forum
+    link: www.bcbronies.org
+    description: Forum for British Columbia (BC) Bronies.
+    tags: dead,canada,community
+    updated: 2025-07-28
+  - name: Breizhy Ponies
+    link: www.breizhy-ponies.fr
+    description: Forum for brony community in France's Grand Ouest region.
+    tags: france,dead,forum,community
+    updated: 2025-07-28
+  - name: AreYouHorseFamous
+    link: www.areyouhorsefamous.com
+    description: Documents "horse famous" fans in the MLP fandom.
+    tags: dead
+    updated: 2025-07-28
+  - name: poll.horse
+    link: poll.horse
+    description: "Polling/voting service "
+    tags: tech
+    updated: 2025-08-04
+  - name: MPPP
+    link: www.mppp.horse
+    description: Mass Produced Pony Plushies
+    tags: art,restricted
+    updated: 2025-08-04
+  - name: NHNB
+    link: nhnb.org
+    description: No Hooves No Business
+    tags: image board,chan,restricted
+    updated: 2025-08-04
+  - name: Fluffybooru
+    link: fluffybooru.com/
+    description: ""
+    tags: restricted,dead,art
+    updated: 2025-08-05
+  - name: Ponyspin
+    link: ponysp.in/
+    description: ""
+    tags: joke
+    updated: 2025-08-05
+  - name: Altbooru directory
+    link: altboorus.org
+    description: Altbooru directory and comparison
+    tags: tech,directory,restricted,dead
+    updated: 2025-08-05
+  - name: FoalFetch
+    link: foalfetch.net
+    description: Uncensored archive of MLP:FiM fan fiction works.
+    tags: restricted,archive,fanfiction
+    updated: 2025-08-08
 sitelist:
   - "# Fan Works"
   - "## Blogs"
-  - www.fge.com.pl/
   - darkpony.space/
   - picklebarrelkumquat.com/
   - www.equestriadaily.com
-  - equestrianet.blogspot.com/
   - www.horse-news.org
   - www.dailydoseofpony.com
   - everypony.ru
   - club-flank.com
   - derpynews.com
   - horse-news.net
+  - equestrianet.blogspot.com
+  - bronieschile.blogspot.com
+  - www.fge.com.pl
+  - bronies-uk.blogspot.com
   - "## Art"
   - derpibooru.org
   - www.canterlotcomics.com
@@ -1519,15 +1659,18 @@ sitelist:
   - mlpg.co
   - foalcon.com
   - "### Derpibooru Alternates"
+  - altboorus.org
   - manebooru.art
   - www.bronibooru.com
   - twibooru.org
   - ponerpics.org
   - ponybooru.org
   - tantabus.ai
+  - fluffybooru.com/
   - lyrabooru.org
   - rainbooru.org
   - "## Plushies"
+  - www.mppp.horse
   - plushie.horse
   - "## Music"
   - horsemusicherald.com
@@ -1541,20 +1684,24 @@ sitelist:
   - "### Radio Stations"
   - ponyvillefm.com
   - bronyradio.com
-  - radiobrony.fr
   - bronyradiogermany.com
   - fancynoise.net
   - broniesradio.com
   - celestiaradio.com
+  - alicornradio.com
   - abronyradio.com
   - everhoof.ru
   - fillydelphiaradio.net
   - radio.horse
+  - radiobrony.fr
+  - princessluna.fun
   - "## Podcasts"
+  - bronyshow.com
   - pony411.libsyn.com
   - mlp.one
   - "## Fanfiction"
   - www.fimfiction.net
+  - austraeoh.com
   - "### Printing"
   - www.ponyfictionarchive.net
   - www.ministryofimage.net
@@ -1609,7 +1756,6 @@ sitelist:
   - equestria.dev
   - sweetiebot.net
   - ponies.equestria.horse
-  - bronyshow.com
   - pony.community
   - smutty.horse
   - pony.directory
@@ -1625,17 +1771,20 @@ sitelist:
   - hawthornbunny.github.io/projects/mlp-glossary/
   - hawthornbunny.github.io/projects/fimfic-trends
   - pinkone.ltgc.cc
+  - poll.horse
   - "## Videos"
   - projectvinyl.net
   - pony.tube
   - thishorsie.rocks
   - pmvtoday.com
+  - ponyvoiceindex.com
   - "## Archives"
   - fimfetch.net/
   - www.theponyarchive.com
   - cutemares.com
   - hobune.stream
   - rainwatertornado.cloud
+  - foalfetch.net
   - "# Conventions"
   - ponycon.info
   - brony.eu
@@ -1661,6 +1810,7 @@ sitelist:
   - ponyconholland.com
   - www.ukponycon.co.uk
   - broniespoznan.pl
+  - hopsfeatherfest.at
   - "## Online Cons"
   - ponyfest.horse
   - poniesonline.org
@@ -1670,9 +1820,12 @@ sitelist:
   - midairponyfair.com
   - "## Former Conventions"
   - bronycon.org
+  - ponycon.nyc
   - seaponycon.com
+  - www.bigappleponycon.com
   - www.aliconmlp.com
   - mlp-msp.com
+  - brony.tw
   - bronyconmemorial.org
   - lunarsolis.org
   - "# Communities"
@@ -1694,9 +1847,14 @@ sitelist:
   - ponycrush.com
   - dcbronies.com
   - rainbowdash.net
+  - severnbronies.co.uk
+  - bristolbronies.co.uk
   - matrix.horse
   - bronies.be
+  - acidunicorns.online
   - www.ponysister.com
+  - rarityproject.org
+  - broniessilesia.pl
   - "## Streaming"
   - www.bronystate.net
   - berrytube.tv
@@ -1707,6 +1865,7 @@ sitelist:
   - derpy.tv
   - stream.brony.eu
   - "## Forums + Roleplaying"
+  - boards.4channel.org/mlp/
   - mlpforums.com
   - www.fillydelphia.com
   - www.roundstable.com
@@ -1718,6 +1877,9 @@ sitelist:
   - ponycloud.me
   - bronyforo.foroactivo.com
   - bronies.de
+  - www.bcbronies.org
+  - nhnb.org
+  - nhnb.org
   - "## Fediverse + Mastodon"
   - fedi.ponysearch.eu
   - pon.ee
@@ -1745,6 +1907,7 @@ sitelist:
   - www.frenchy-ponies.fr
   - poniesholidays.org
   - bastion-brony.fr
+  - www.breizhy-ponies.fr
   - "## Wikis"
   - gyropedia.fandom.com/
   - htps://mlp-gaming.fandom.com/
@@ -1785,9 +1948,11 @@ sitelist:
   - bronymate.com
   - wetmares.org
   - endless.horse
+  - www.areyouhorsefamous.com
   - foal.party
   - gollydidnothingwrong.club
   - pony.best
+  - ponysp.in/
   - glimglam.corgiorgy.com
   - "# Personal Sites"
   - www.littleshyfim.com
