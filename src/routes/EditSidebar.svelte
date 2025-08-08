@@ -50,6 +50,10 @@
 
 	function saveSite()
 	{
+		// some people keep making edits with a slash at the end, ugh.
+		if(thisData.link.indexOf("/") == thisData.link.lastIndexOf("/") && thisData.link.indexOf("/") == thisData.link.length-1)
+			thisData.link = thisData.link.substring(0, thisData.link.length-1);
+
 		thisData.originalLink = site;
 		if(useHTTP){
 			thisData.protocol = "http"
