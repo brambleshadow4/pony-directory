@@ -946,6 +946,10 @@
 		padding: 5px;
 	}
 
+	pre {
+		white-space: pre-wrap;
+	}
+
 	.revisions {
 		max-height: 200px;
 		overflow-y: auto;

@@ -9,12 +9,17 @@
 
 	$: addSite = site == "*";
 
+
+
 	let thisData = {
 		name: "",
 		link: "",
 		description: "",
 		tags: ""
 	}
+
+	$: canDiff = baseVersion.sites[thisData.link] && currentVersion.sites[thisData.link]
+
 
 	let tagBoxValue = "";
 
@@ -45,6 +50,10 @@
 
 	function saveSite()
 	{
+		// some people keep making edits with a slash at the end, ugh.
+		if(thisData.link.indexOf("/") == thisData.link.lastIndexOf("/") && thisData.link.indexOf("/") == thisData.link.length-1)
+			thisData.link = thisData.link.substring(0, thisData.link.length-1);
+
 		thisData.originalLink = site;
 		if(useHTTP){
 			thisData.protocol = "http"
@@ -85,7 +94,7 @@
 	<input bind:value={thisData.name}/>
 </div>
 
-{#if baseVersion.sites[thisData.link] && baseVersion.sites[thisData.link].name != currentVersion.sites[thisData.link].name}
+{#if canDiff && baseVersion.sites[thisData.link].name != currentVersion.sites[thisData.link].name}
 	<span class='changed-from indent'>Changed from "{baseVersion.sites[thisData.link].name}"
 	<img title="Restore" src={restoreIcon} height='10' on:click={() => thisData.name = baseVersion.sites[thisData.link].name}>
 </span>
@@ -103,7 +112,7 @@
 </div>
 <textarea rows=4 bind:value={thisData.description}></textarea>
 
-{#if baseVersion.sites[thisData.link] && baseVersion.sites[thisData.link].description != currentVersion.sites[thisData.link].description}
+{#if canDiff && baseVersion.sites[thisData.link].description != currentVersion.sites[thisData.link].description}
 	<span class='changed-from'>Changed from "{baseVersion.sites[thisData.link].description}"
 		<img title="Restore" src={restoreIcon} height='10' on:click={() => thisData.description = baseVersion.sites[thisData.link].description}>
 	</span>
@@ -145,7 +154,7 @@
 	</div>
 	
 
-	{#if baseVersion.sites[thisData.link] && baseVersion.sites[thisData.link].tags != currentVersion.sites[thisData.link].tags}
+	{#if canDiff && baseVersion.sites[thisData.link].tags != currentVersion.sites[thisData.link].tags}
 
 		<div class='indented previous-tags'>Previous tags: <img title="Restore" src={restoreIcon} height='15' on:click={() => thisData.tags = baseVersion.sites[thisData.link].tags}></div>
 
