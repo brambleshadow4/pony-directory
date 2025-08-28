@@ -465,19 +465,24 @@
 						<li>Subdomains of pony sites may be added if their purpose is very different than pony site without a subdomain</li>
 						<li>Subdomains/paths of mainstream websites like blogger, github, etc. will be approved on a case-by-case basis.</li>
 						<li>Personal websites/blogs/etc. will not be approved unless they have a custom domain</li>
-					
-					</ul>
-				</li>
-				<li>Domains which are no longer available must be tagged with 'dead'</li>
+						</ul>
+					</li>
+				<li>Domains which are no longer available must be tagged with 'dead'
+					<ul>
+						<li>When adding a new site, if there's a certficicate error, it is considered dead</li>
+						<li>Sites w/ 401/403 errors are considered dead</li>
+						<li>If it used to hold content, no longer does, but still resolves, it's alive, but can be tagged as 'inactive'</li>
+						</ul>
+					</li>
 				<li>Domains which redirect to a different page must be tagged with 'redirect'</li>
 				<li>Domains which link to explicit or generally unsavory content must be tagged with 'restricted'<ol>
 					<li>Sites which primarily feature sexually explicit works or content that would be considered inappropriate for the target audience must be tagged as restricted.</li>
 					<li>Sites which directly link to sites described in (1) are restricted.</li>
 					<li>Sites which feature both SFW and NSFW content need to have appropriate precautions in place. Explicit content should not be shown without the viewer choosing interacting with it. Ideally, such content is completely filtered until a user chooses to remove the filter</li>
 				</ol></li>
-				
-
 			</ul>
+
+			<p>If you'd like to discuss guidelines further, please see our <a href="https://github.com/brambleshadow4/pony-directory">github</a></p>
 
 			<h2>Revisions</h2>
 
