@@ -47,11 +47,11 @@ sites:
     name: Poniverse
     tags: directory
     updated: 2023-11-08
-  - description: General purpose MLP forums website.
+  - name: MLP Forums
     link: mlpforums.com
-    name: MLP Forums
+    description: General purpose MLP forums website by Poniverse.
     tags: forum
-    updated: 2023-11-08
+    updated: 2025-08-09
   - description: MLP convention based in San Francisco.
     link: www.babscon.com
     name: BABSCon
@@ -356,11 +356,12 @@ sites:
     name: Canterlot Comics
     tags: comic
     updated: 2024-11-24
-  - description: Fanfiction archive website.
+  - description: Fanfiction archive website. Shut down in 2022, contents  moved to
+      https://archiveofourown.org/collections/Pony_Fiction_Archive/
     link: www.ponyfictionarchive.net
     name: Pony Fiction Archive
-    tags: fanfiction,archive,dead
-    updated: 2023-11-08
+    tags: fanfiction,archive,dead,redirect
+    updated: 2025-08-09
   - description: Archival website including games, music and tons of youtube videos.
     link: www.theponyarchive.com
     name: The Pony Archive
@@ -572,11 +573,11 @@ sites:
     name: Pony.Tube
     tags: video
     updated: 2023-11-23
-  - description: File hosting website
+  - description: File hosting website, uploads disabled since 2023 January.
     link: smutty.horse
     name: Smutty Horse
-    tags: tech,restricted
-    updated: 2023-11-23
+    tags: tech,restricted,inactive
+    updated: 2025-08-10
   - description: Anonymous posting only image board
     link: twibooru.org
     name: Twibooru
@@ -622,17 +623,6 @@ sites:
     name: pon.ee
     tags: social,mastodon
     updated: 2023-11-23
-  - description: Joke website
-    link: bestest.horse
-    name: Twilight Sparkle is Bestest Horse
-    tags: restricted,joke
-    updated: 2024-06-01 15:15:07.739499
-  - description: Joke website
-    link: tsibp.com
-    name: "TSIBP: Twilight Sparkle Is Best Pony"
-    protocol: http
-    tags: restricted,joke
-    updated: 2023-11-23
   - description: Former 4chan podcast
     link: mlp.one
     name: /mlp/odcast
@@ -648,21 +638,21 @@ sites:
     name: horse.best
     tags: joke
     updated: 2023-11-23
-  - description: Site listing different plushie vendors
+  - description: Former wiki site listing different plushie vendors.
     link: plushie.horse
     name: plushie.horse
-    tags: directory,art
-    updated: 2023-11-23
+    tags: directory,art,inactive
+    updated: 2025-08-11
   - description: Derpibooru like image board with an emphasis on maximum freedom
     link: ponerpics.org
     name: Ponerpics
     tags: art,image board
     updated: 2023-11-23
-  - description: MLP episode hosting website
+  - description: Hosts MLP episodes, idw comics, music
     link: yayponi.es
     name: Yay Ponies
-    tags: episodes
-    updated: 2023-11-23
+    tags: episodes,archive
+    updated: 2025-08-10
   - description: Same site as yayponi.es
     link: yayponies.no
     tags: redirect
@@ -680,8 +670,8 @@ sites:
   - description: Porn archive
     link: cutemares.com
     name: cutemares.com
-    tags: restricted,adult,archive,art
-    updated: 2024-06-01 15:50:46.136510
+    tags: restricted,adult,archive,art,dead
+    updated: 2025-08-10
   - description: French community website
     link: francoponies.fr
     name: Francoponies
@@ -695,8 +685,8 @@ sites:
   - description: French community website
     link: needforponies.fr
     name: Need For Ponies
-    tags: france,episodes
-    updated: 2023-11-23
+    tags: france,episodes,comic
+    updated: 2025-08-12
   - description: France community + event hosting website
     link: weponies.org
     name: WePonies
@@ -910,11 +900,6 @@ sites:
     name: brohoof.com
     tags: minecraft
     updated: 2024-06-01 15:16:16.093467
-  - description: Seems to generate lorem ipsum text
-    link: brohoof.pl
-    name: Brohoof.pl
-    tags: tech,dead
-    updated: 2025-07-07
   - description: German MLP forum
     link: bronies.de
     name: Bronies.de
@@ -942,9 +927,9 @@ sites:
     updated: 2025-04-27
   - description: ""
     link: bronyconmemorial.org
-    name: ""
+    name: BronyCon Memorial Project
     tags: dead
-    updated: 2024-06-01 15:31:13.602973
+    updated: 2025-08-14
   - description: Early brony social networking site started in 2011. Closed in 2014.
     link: bronynet.com
     name: BronyNet
@@ -993,11 +978,11 @@ sites:
     name: dazzlefan.club
     tags: art,archive
     updated: 2024-06-01 15:51:03.536758
-  - description: Website for the Ponies game developer team
+  - name: The Ponies - A pony life simulator
     link: theponies.org
-    name: The Ponies - A pony life simulator
-    tags: game
-    updated: 2024-06-01 15:55:04.356417
+    description: Website for the Ponies game developer team
+    tags: game,blog
+    updated: 2025-08-23
   - description: A game about ponies getting lost in the woods
     link: everfree-outpost.com
     name: Everfree Outpost
@@ -1008,11 +993,11 @@ sites:
     name: DoubleZett Studio
     tags: russian,game,episode
     updated: 2024-06-01 15:57:14.400841
-  - description: Personal art website for Lailyren
+  - name: lailyren.art
     link: lailyren.art
-    name: Lailyren Arts
+    description: Lailyren's personal site.
     tags: personal,art
-    updated: 2024-06-01 16:00:08.049947
+    updated: 2025-08-23
   - description: Joke website with an endless horse
     link: endless.horse
     name: hooooooorse
@@ -1134,26 +1119,21 @@ sites:
     name: Sweetie Bot Project
     tags: tech
     updated: 2024-06-01 18:29:59.873185
-  - description: ""
+  - description: Polish Fallout Equestria forum. Shut down in 2024.
     link: fallout-equestria.pl
-    name: ""
-    tags: ""
-    updated: 2024-06-01 18:32:01.733252
+    name: fallout-equestria.pl
+    tags: forum,dead
+    updated: 2025-08-23
   - description: ""
     link: gardensofequestria.com
     name: ""
     tags: dead
     updated: 2024-06-27 18:40:53.203924
-  - description: ""
+  - description: Site dedicated to Cozy Glow.
     link: gollydidnothingwrong.club
-    name: ""
-    tags: dead
-    updated: 2024-06-27 18:41:54.149262
-  - description: ""
-    link: greymare.net
-    name: ""
-    tags: dead
-    updated: 2024-06-27 18:42:40.251042
+    name: Golly did nothing wrong
+    tags: dead,joke
+    updated: 2025-08-23
   - description: Personal website for hmage
     link: hmage.net
     name: ""
@@ -1434,12 +1414,6 @@ sites:
       Ponychan policies.
     tags: dead,image board,community
     updated: 2025-06-21
-  - name: FiMFetch
-    link: fimfetch.net/
-    description: Archive of MLP:FiM fan fiction from FiMFiction, FanFiction and
-      Archive Of Our Own (AO3).
-    tags: archive,fanfiction,restricted
-    updated: 2025-06-21
   - name: Pickle Barrel Kumquat (PBK)
     link: picklebarrelkumquat.com/
     description: Satire news site for the brony community.
@@ -1498,7 +1472,7 @@ sites:
       discussion of fandom news and events from the early days of the brony
       fandom.
     tags: blog,dead,podcast
-    updated: 2025-06-28
+    updated: 2025-08-09
   - name: Acid Unicorns
     link: acidunicorns.online
     description: "Website listing the Acid Unicorns audio/visual events held in the
@@ -1626,11 +1600,492 @@ sites:
     description: Altbooru directory and comparison
     tags: tech,directory,restricted,dead
     updated: 2025-08-05
+  - name: Equestria After Dark
+    link: www.equestriaafterdark.org
+    description: Adult version of Equestria Daily by the same owner. Dead since about 2015.
+    tags: dead,blog,restricted,adult
+    updated: 2025-08-06
+  - name: PonyArchive
+    link: ponyarchive.org
+    description: Used to host FiM episodes, dead since 2011 as a result of a c&d
+      from Hasbro.
+    tags: dead,episodes
+    updated: 2025-08-06
+  - name: Batpony translator
+    link: translate.batpony.party/
+    description: KEeEeEkKkKEEekKEEkKEEEkKeEkKEEEe
+    tags: joke
+    updated: 2025-08-06
+  - name: FiMFetch
+    link: fimfetch.net
+    description: Archive of MLP:FiM fan fiction from FiMFiction, FanFiction and
+      Archive Of Our Own (AO3).
+    tags: archive,fanfiction,restricted
+    updated: 2025-08-09
   - name: FoalFetch
     link: foalfetch.net
     description: Uncensored archive of MLP:FiM fan fiction works.
     tags: restricted,archive,fanfiction
     updated: 2025-08-08
+  - name: Mulpwiki archive
+    link: mulpwiki.batpony.party
+    description: >-
+      Site dedicated to cataloguing the various content created on 4chan's pony
+      board.
+
+      Read only archive of the original site.
+    tags: archive,wiki,fanfiction,restricted
+    updated: 2025-08-08
+  - name: Celestia Radio
+    link: ponify.me
+    description: Plays music that is licensed to them directly by the artists.
+    tags: stream,dead
+    updated: 2025-08-08
+  - name: Equestrian Beats
+    link: eqbeats.org
+    description: |-
+      Former music archive/collection/list/streaming site. Shut down in 2015.
+      Source code of it is still available at https://github.com/eqbeats/eqbeats
+    tags: dead,music,stream
+    updated: 2025-08-09
+  - name: Everfree Radio
+    link: everfreeradio.com
+    description: Everfree Radio was a music focused blog, radio station,  fanfiction
+      reading (Reading Rainboom) and podcast site. Official writers and voice
+      actors gave them interviews a few times too.
+    tags: music,stream,blog,dead
+    updated: 2025-08-09
+  - name: Brony Musician Directory
+    link: bronymusiciandirectory.blogspot.com
+    description: Former list of over 800 brony musicians with short description and
+      example works.
+    tags: music,inactive,directory
+    updated: 2025-08-09
+  - name: ">horsewords"
+    link: horsewords.org
+    description: ">horsewords is a modern archive that aims to save every greentext
+      story created by /mlp/, in the past and in the future."
+    tags: fanfiction,archive
+    updated: 2025-08-08
+  - name: poners
+    link: pone.rs
+    description: File sharing site.
+    tags: tech
+    updated: 2025-08-09
+  - name: The Hive Radio
+    link: hiveradio.net
+    description: |-
+      A station by changelings, for everypony!
+      Shut down in 2019.
+    tags: dead,stream,music
+    updated: 2025-08-09
+  - name: Brony Musician Database
+    link: bronymusiciandatabase.crd.co
+    description: Website listing links to many artist profiles as well as other
+      prominent sites + music projects in the fandom.
+    tags: music,archive
+    updated: 2025-08-09
+  - name: Ponyclock
+    link: ponyclock.com
+    description: Countdown to various events.
+    tags: tech
+    updated: 2025-08-09
+  - name: Ponycountdown
+    link: ponycountdown.com
+    description: Countdown to upcoming FiM episodes.
+    tags: dead,tech
+    updated: 2025-08-09
+  - name: Equestria Forever Forum
+    link: equestriaforever.com
+    description: ""
+    tags: dead,forum
+    updated: 2025-08-09
+  - name: MLPOL
+    link: mlpol.net
+    description: Continuation/standalone site of the 2017 april fools joke where
+      /mlp/ and /pol/ was merged together.
+    tags: restricted,chan,image board
+    updated: 2025-08-09
+  - name: bronymusic.com
+    link: bronymusic.com
+    description: Used to redirect to various sites, mainly
+      http://thefreewave.blogspot.com/p/mane-navigation.html and
+      http://bronymusiciandirectory.blogspot.com
+    tags: dead
+    updated: 2025-08-09
+  - name: PowerPonies.cz
+    link: powerponies.cz
+    description: Czech blog for My Little Ponies, Bronies and Power Ponies.
+    tags: czech republic,blog
+    updated: 2025-08-09
+  - name: Anonpone
+    link: anonpone.com
+    description: /mlp/ quest/cyoa archive/index.
+    tags: dead,arch,restricted
+    updated: 2025-08-09
+  - name: Octabooru
+    link: octabooru.net
+    description: Early mlp booru.
+    tags: art,image board,dead
+    updated: 2025-08-09
+  - name: /mlp/ rewatch stream
+    link: mlprewatch.stream
+    description: |-
+      Stream of various videos and episodes.
+      Use https://when.mlprewatch.stream/ for viewing the schedule.
+    tags: redirect,stream,video
+    updated: 2025-08-09
+  - name: Anonfilly I love You
+    link: anonfillyiloveyou.xyz
+    description: Links/stats to the current 4chan Anonfilly thread.
+    tags: joke
+    updated: 2025-08-09
+  - name: Equestria Untamed
+    link: equestriauntamed.com/
+    description: Equestria Untamed porn comics.
+    tags: comic,adult,restricted,art
+    updated: 2025-08-10
+  - name: yayponies.eu
+    link: yayponies.eu
+    description: Redirects to  https://derpy.fr
+    tags: redirect
+    updated: 2025-08-11
+  - name: 15.dev
+    link: 15.dev/
+    description: AI voice generator for many MLP characters.
+    tags: tech,ai-voice-generator
+    updated: 2025-08-10
+  - name: 15.ai
+    link: 15.ai
+    description: AI voice generator for many MLP characters.
+    tags: redirect,ai-voice-generator
+    updated: 2025-08-10
+  - name: haysay.ai
+    link: haysay.ai
+    description: AI voice generator using multiple AI models for many MLP characters.
+    tags: tech,ai-voice-generator
+    updated: 2025-08-10
+  - name: DerpyMail.org
+    link: derpymail.org
+    description: Email service. Registrations are disabled.
+    tags: tech
+    updated: 2025-08-10
+  - description: Joke website
+    link: bestest.horse
+    name: Twilight Sparkle is Bestest Horse
+    tags: restricted,joke,dead
+    updated: 2025-08-11
+  - description: Joke website
+    link: tsibp.com
+    name: "TSIBP: Twilight Sparkle Is Best Pony"
+    tags: restricted,joke,dead
+    updated: 2025-08-11
+  - name: PonyOS
+    link: ponyos.org
+    description: >-
+      An OS for Everypony!
+
+      PonyOS is a hobby Unix-like operating system, designed for ponies like
+      you!
+    tags: tech
+    updated: 2025-08-11
+  - name: Spike el clopero
+    link: www.spike-el-clopero.org
+    description: Porn archive
+    tags: dead,art,archive,restricted
+    updated: 2025-08-11
+  - name: Muffins!
+    link: derpy.fr
+    description: |-
+      Website w/ Derpy!
+      Archives hosted under various URLs
+    tags: archive
+    updated: 2025-08-11
+  - name: MLP Merch
+    link: www.mlpmerch.com
+    description: Blog/Database for Official MLP Merchandise.
+    tags: wiki,info
+    updated: 2025-08-12
+  - name: Manechat
+    link: manechat.net
+    description: My Little Pony Discord Server
+    tags: community,discord
+    updated: 2025-08-13
+  - name: EquestriaCN
+    link: www.equestriacn.com
+    description: News/blog in Chinese.
+    tags: blog
+    updated: 2025-08-13
+  - name: Pink Horse CDN Node
+    link: pink.horse
+    description: 'Radiant Feather CDN: Seattle Node "Pink Horse"'
+    tags: tech
+    updated: 2025-08-13
+  - name: BronySquare
+    link: brony.squares.im
+    description: A site where you can find other bronies, pegasisters and ponyfans online.
+    tags: dead
+    updated: 2025-08-14
+  - name: BronyBash.Online
+    link: BronyBash.Online
+    description: ""
+    tags: community,music,convention
+    updated: 2025-08-14
+  - name: My Little Wallpaper
+    link: mylittlewallpaper.com
+    description: Wallpaper site, used to be MLP only but after 2015 it started to
+      include non MLP images.
+    tags: art,image board
+    updated: 2025-08-14
+  - name: My Little Wiki
+    link: mylittlewiki.org
+    description: Wiki for official merchandise including all MLP generation.
+    tags: wiki,merch
+    updated: 2025-08-14
+  - name: The Pone Zone
+    link: pone.zome
+    description: |-
+      The Pone Zone - My Little Pony Fan Network
+      Was a social network site running on HumHub.
+    tags: community,dead
+    updated: 2025-08-27
+  - name: fifteen.ai
+    link: fifteen.ai/
+    description: AI voice generator for many MLP characters.
+    tags: dead
+    updated: 2025-08-23
+  - name: All Pony Radio
+    link: allponyradio.com
+    description: All Pony Radio app gives you access to all of Ponyville Lives'
+      radio stations, playing some of the best brony & My Little Pony Friendship
+      is Magic music, and pumped straight to your ears!
+    tags: stream,dead
+    updated: 2025-08-23
+  - name: Bronies Austria
+    link: bronies.at
+    description: Austrian Brony community
+    tags: community,dead
+    updated: 2025-08-23
+  - name: Studiowhy shop
+    link: tiarawhy.com
+    description: Tiarawhy/Studiowhy merch store
+    tags: personal,store,restricted
+    updated: 2025-08-23
+  - name: PrinceWhateverer
+    link: princewhateverer.com
+    description: PrinceWhateverer merch store.
+    tags: personal,store
+    updated: 2025-08-23
+  - name: Selenophile Art + Design
+    link: www.selenophileart.com
+    description: Selenophile's merch store.
+    tags: personal,store
+    updated: 2025-08-23
+  - name: TJPones
+    link: tjpones.com
+    description: TJPones art archive/personal site
+    tags: personal,art,restricted
+    updated: 2025-08-23
+  - name: Tridashie merch
+    link: tridashie.me
+    description: Tridashie's teepublic shop.
+    tags: redirect,personal,store
+    updated: 2025-08-23
+  - name: Polish Brony Foundation
+    link: canterlot.pl
+    description: The foundation's main goal is educational and cultural activities.
+    tags: dead,community
+    updated: 2025-08-23
+  - name: Fillychan
+    link: fillychan.com
+    description: Filly Funtasia focused imageboard with a MLP focused board too.
+    tags: chan,image board
+    updated: 2025-08-23
+  - name: ZizzyDizzyMc
+    link: zizzydizzymc.info
+    description: Personal site of ZizzyDizzyMc who hosts various MLP sites, for
+      example ponybooru.org.
+    tags: personal,dead
+    updated: 2025-08-23
+  - name: Equestria Royal Guard
+    link: equestriaroyalguard.eu
+    description: Equestria Royal Guard gaming clan.
+    tags: dead,community
+    updated: 2025-08-23
+  - name: The Old Grey Mare
+    link: greymare.net
+    description: The Old Grey Mare (TOGM) is a call-in interview show featuring some
+      of the biggest names from the pony fandom.
+    tags: dead,charity
+    updated: 2025-08-23
+  - name: The Luna Radio
+    link: lunaloves.us
+    description: ""
+    tags: dead,stream,forum,blog
+    updated: 2025-08-23
+  - name: Lunarshine store
+    link: lunarshinestore.com
+    description: Lunarshine merch store, 2013-2023.
+    tags: store,dead
+    updated: 2025-08-23
+  - name: Marenheit 451
+    link: marenheit451.com
+    description: Website hosting artpack with 200 images that mainly feature Aryanne.
+    tags: art,charity,restricted
+    updated: 2025-08-27
+  - name: Las Pegasus Radio
+    link: www.laspegas.us
+    description: ""
+    tags: dead,stream
+    updated: 2025-08-23
+  - name: Pokemon and Pony Trading City
+    link: carddex-ptc.de
+    description: In Pokémon Trading Card City (PTC for short), you can collect and
+      trade virtual cards. Buy boosters from Gyarados or trade your cards with
+      other players in the Politoed Trading Center! Complete all editions and
+      earn rare promo cards!
+    tags: game
+    updated: 2025-08-27
+  - name: This Pony Does Not Exist
+    link: thisponydoesnotexist.net
+    description: AI generated pony portraits.
+    tags: tech
+    updated: 2025-08-27
+  - name: little.my
+    link: little.my
+    description: The home of Ponyhoof (Facebook ponification), HoofSounds (browser
+      addon for pony radio stations)and other software projects!
+    tags: tech
+    updated: 2025-08-27
+  - name: horsefucker.party
+    link: horsefucker.party
+    description: MLP themed/modded Vintage Story.
+    tags: game,restricted
+    updated: 2025-08-27
+  - name: NeighCon
+    link: neighcon.net/
+    description: The unconventional convention for adult fans of My Little Pony held
+      in the heart of Baltimore and organized by fans, new and old alike with a
+      breadth of pony con staffing experience.
+    tags: convention,usa
+    updated: 2025-08-27
+  - name: Clopician
+    link: clop.cloud
+    description: Host for Clopician's paid content.
+    tags: restricted,art
+    updated: 2025-08-27
+  - name: WolfPuncher 2
+    link: wolfpuncher.com
+    description: Wolfpuncher 2 game from the pony.mov series.
+    tags: game,dead,restricted
+    updated: 2025-08-28
+  - name: My Little Pony Preservation Project
+    link: mlppreservationproject.com
+    description: The My Little Pony Preservation Project is here to help with all
+      your pony restoration needs! Cleaning and fixing information for ponies,
+      playsets, and accessories.
+    tags: info
+    updated: 2025-08-27
+  - name: Ponyspin alternative
+    link: ponyspin.party
+    description: Same as ponysp.in.
+    tags: dead,joke
+    updated: 2025-08-27
+  - name: General Mumble / CreatureCore
+    link: mumbleetc.com
+    description: Redirects to the bandcamp store for CreatureCore (formerly General Mumble)
+    tags: redirect,personal,music
+    updated: 2025-08-27
+  - name: oddwarg();
+    link: oddwarg.com
+    description: "Developer of Sulphur Nimbus: Hel's Elixir, PataPony, MLGJ:
+      Corruption and many other games."
+    tags: game,personal
+    updated: 2025-08-27
+  - name: PoneFics
+    link: ponefics.org
+    description: Original domain and name of PonePaste.
+    tags: dead,tech,fanfiction
+    updated: 2025-08-27
+  - name: Pony wAIfu chat
+    link: pone.dev
+    description: >
+      Pony chatbot with voice synthesis and lip synced avatars, made by
+      AstraliteHeart
+    tags: tech,ai,dead
+    updated: 2025-08-28
+  - name: Old Ponish project
+    link: oldponish.com
+    description: Ponish language
+    tags: dead
+    updated: 2025-08-27
+  - name: HorseCraft
+    link: horsecraft.xyz
+    description: /mlp/ minecraft server.
+    tags: minecraft,game,dead
+    updated: 2025-08-27
+  - name: PonyMemes
+    link: ponymemes.org
+    description: Polish meme site.
+    tags: inactive,joke,image board,dead
+    updated: 2025-08-28
+  - name: MLPPolska
+    link: mlppolska.pl
+    description: Polish MLP forum
+    tags: forum
+    updated: 2025-08-27
+  - name: Brohoof
+    link: brohoof.pl
+    description: Polish MLP magazine
+    tags: dead,blog
+    updated: 2025-08-27
+  - name: poczta.ponie.es
+    link: poczta.ponie.es
+    description: Polish MLP blog. Inactive since 2014.
+    tags: inactive,blog
+    updated: 2025-08-27
+  - name: Mittsies
+    link: mittsies.com
+    description: >-
+      Used to be a host for Mittsies (mostly porn) art (images, animation,
+      music, games).
+
+      Now it just redirects to twitter.
+    tags: redirect,restricted,art
+    updated: 2025-08-27
+  - name: Radio Pie
+    link: radiopie.xyz
+    description: Polish MLP radio
+    tags: music,stream,dead
+    updated: 2025-08-27
+  - name: Rainbow Factory Project
+    link: rainbowfactory.pl
+    description: Polish Rainbow Factory Project
+    tags: dead
+    updated: 2025-08-27
+  - name: World of Equestria
+    link: worldofequestria.pl
+    description: World of Equestria RPG shut down in 2015. Relaunched around 2020,
+      hosting a non functional concept.
+    tags: game,inactive
+    updated: 2025-08-28
+  - name: Marecon
+    link: marecon.live
+    description: Marecon is an online My Little Pony convention run by and for anons
+      of /mlp/. It consists of livestreams and videos hosted in cytube channels
+      with a focus on My Little Pony and its community.
+    tags: convention,online
+    updated: 2025-08-28
+  - name: Scootaloo!
+    link: scootaloo.com
+    description: ""
+    tags: joke
+    updated: 2025-08-28
+  - name: Studiowhy
+    link: studiowhy.net
+    description: Hosts Tiarawhy/Studiowhy projects
+    tags: game,personal,restricted
+    updated: 2025-08-28
 sitelist:
   - "# Fan Works"
   - "## Blogs"
@@ -1647,6 +2102,9 @@ sitelist:
   - bronieschile.blogspot.com
   - www.fge.com.pl
   - bronies-uk.blogspot.com
+  - www.equestriaafterdark.org
+  - brohoof.pl
+  - poczta.ponie.es
   - "## Art"
   - derpibooru.org
   - www.canterlotcomics.com
@@ -1656,8 +2114,11 @@ sitelist:
   - mlpchan.net/
   - ponychan.co
   - mare.gallery
+  - octabooru.net
   - mlpg.co
   - foalcon.com
+  - equestriauntamed.com/
+  - mylittlewallpaper.com
   - "### Derpibooru Alternates"
   - altboorus.org
   - manebooru.art
@@ -1681,6 +2142,9 @@ sitelist:
   - ponemusic.net
   - toastbeard.bronyradio.com
   - bronytunes.com
+  - eqbeats.org
+  - bronymusiciandatabase.crd.co
+  - bronymusiciandirectory.blogspot.com
   - "### Radio Stations"
   - ponyvillefm.com
   - bronyradio.com
@@ -1688,6 +2152,7 @@ sitelist:
   - fancynoise.net
   - broniesradio.com
   - celestiaradio.com
+  - ponify.me
   - alicornradio.com
   - abronyradio.com
   - everhoof.ru
@@ -1695,6 +2160,12 @@ sitelist:
   - radio.horse
   - radiobrony.fr
   - princessluna.fun
+  - everfreeradio.com
+  - hiveradio.net
+  - allponyradio.com
+  - lunaloves.us
+  - www.laspegas.us
+  - radiopie.xyz
   - "## Podcasts"
   - bronyshow.com
   - pony411.libsyn.com
@@ -1702,8 +2173,9 @@ sitelist:
   - "## Fanfiction"
   - www.fimfiction.net
   - austraeoh.com
-  - "### Printing"
+  - horsewords.org
   - www.ponyfictionarchive.net
+  - "### Printing"
   - www.ministryofimage.net
   - absolutelyeverything.org
   - "## Board + Video Games"
@@ -1728,6 +2200,9 @@ sitelist:
   - love-tolerance.com
   - minelittlepony-mod.com
   - www.equestriandreamers.com
+  - carddex-ptc.de
+  - worldofequestria.pl
+  - wolfpuncher.com
   - "### Secret Shipfic Folder"
   - www.secretshipfic.com
   - www.tsssf.net
@@ -1748,7 +2223,10 @@ sitelist:
   - fantasytown.ca
   - "## Tech"
   - ponepaste.org
+  - ponefics.org
   - poneb.in
+  - fimfetch.net
+  - foalfetch.net
   - tinyface.net
   - fusion.ponyar.net
   - equestria.horse
@@ -1762,7 +2240,6 @@ sitelist:
   - all.pony.directory
   - derpy.me
   - ponysearch.eu
-  - brohoof.pl
   - derpy.email
   - ponyar.net
   - hoofsounds.little.my
@@ -1772,6 +2249,20 @@ sitelist:
   - hawthornbunny.github.io/projects/fimfic-trends
   - pinkone.ltgc.cc
   - poll.horse
+  - ponyclock.com
+  - ponycountdown.com
+  - pone.rs
+  - ponyos.org
+  - 15.ai
+  - 15.dev/
+  - haysay.ai
+  - derpymail.org
+  - pink.horse
+  - fifteen.ai/
+  - thisponydoesnotexist.net
+  - little.my
+  - pone.dev
+  - oldponish.com
   - "## Videos"
   - projectvinyl.net
   - pony.tube
@@ -1779,12 +2270,15 @@ sitelist:
   - pmvtoday.com
   - ponyvoiceindex.com
   - "## Archives"
-  - fimfetch.net/
   - www.theponyarchive.com
   - cutemares.com
   - hobune.stream
+  - fimfetch.net
   - rainwatertornado.cloud
+  - ponyarchive.org
+  - anonpone.com
   - foalfetch.net
+  - www.spike-el-clopero.org
   - "# Conventions"
   - ponycon.info
   - brony.eu
@@ -1802,6 +2296,7 @@ sitelist:
   - snowpity.org
   - hearthswarmingclub.com
   - pone.voyage
+  - neighcon.net/
   - "## Europe"
   - everfree-encore.eu
   - eponafest.it
@@ -1818,6 +2313,7 @@ sitelist:
   - online.ukponycon.co.uk
   - bronybash.online
   - midairponyfair.com
+  - marecon.live
   - "## Former Conventions"
   - bronycon.org
   - ponycon.nyc
@@ -1841,6 +2337,7 @@ sitelist:
   - bronynet.online
   - bronytales.com
   - bronyhub.com
+  - powerponies.cz
   - everfree.pl
   - friendshipismagic.org
   - gardensofequestria.com
@@ -1855,6 +2352,20 @@ sitelist:
   - www.ponysister.com
   - rarityproject.org
   - broniessilesia.pl
+  - www.equestriacn.com
+  - manechat.net
+  - brony.squares.im
+  - BronyBash.Online
+  - pone.zome
+  - horsefucker.party
+  - bronies.at
+  - canterlot.pl
+  - equestriaroyalguard.eu
+  - greymare.net
+  - marenheit451.com
+  - horsecraft.xyz
+  - ponymemes.org
+  - rainbowfactory.pl
   - "## Streaming"
   - www.bronystate.net
   - berrytube.tv
@@ -1864,6 +2375,7 @@ sitelist:
   - ponyvillelive.com
   - derpy.tv
   - stream.brony.eu
+  - mlprewatch.stream
   - "## Forums + Roleplaying"
   - boards.4channel.org/mlp/
   - mlpforums.com
@@ -1880,6 +2392,10 @@ sitelist:
   - www.bcbronies.org
   - nhnb.org
   - nhnb.org
+  - equestriaforever.com
+  - mlpol.net
+  - fillychan.com
+  - mlppolska.pl
   - "## Fediverse + Mastodon"
   - fedi.ponysearch.eu
   - pon.ee
@@ -1916,6 +2432,10 @@ sitelist:
   - ponymusic.wiki
   - equestripedia.org
   - batponies.wikia.com
+  - www.mlpmerch.com
+  - mulpwiki.batpony.party
+  - mylittlewiki.org
+  - mlppreservationproject.com
   - "## Poniverse"
   - poniverse.net
   - canterlotavenue.com
@@ -1933,6 +2453,8 @@ sitelist:
   - xxnightmaremoonxx.de
   - doublezett.ru
   - heartshine.gay
+  - yayponies.eu
+  - derpy.fr
   - "# Joke Sites"
   - horse.best
   - coco-pommel.org
@@ -1953,7 +2475,11 @@ sitelist:
   - gollydidnothingwrong.club
   - pony.best
   - ponysp.in/
+  - ponyspin.party
   - glimglam.corgiorgy.com
+  - translate.batpony.party/
+  - anonfillyiloveyou.xyz
+  - scootaloo.com
   - "# Personal Sites"
   - www.littleshyfim.com
   - lighttheunicorn.horse
@@ -1971,12 +2497,24 @@ sitelist:
   - 20percentcooler.net
   - albdifferent.com
   - shota.ninja
-  - greymare.net
   - hmage.net
   - formulapony.com
   - deltaryz.com
   - lunar.horse
   - lumineko.com
+  - bronymusic.com
+  - princewhateverer.com
+  - www.selenophileart.com
+  - tiarawhy.com
+  - tjpones.com
+  - tridashie.me
+  - zizzydizzymc.info
+  - lunarshinestore.com
+  - studiowhy.net
+  - clop.cloud
+  - mumbleetc.com
+  - oddwarg.com
+  - mittsies.com
   - "## Vylet Pony"
   - www.vyletpony.com
   - cutiemarks.net
