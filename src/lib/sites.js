@@ -99,8 +99,11 @@ function getRevisionNo()
 {
 	let revisions = getRevisions();
 
-	if(revisions.filter(x => x.indexOf("OPEN")).length >= 50)
+	if(revisions.filter(x => x.indexOf("OPEN") != -1).length >= 50)
+	{
+		console.error("Too many revisions")
 		return "";
+	}
 
 	revisions.sort();
 	revisions.reverse();
