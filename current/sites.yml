@@ -118,11 +118,6 @@ sites:
     name: EponaFest
     tags: convention,italy
     updated: 2023-11-09
-  - description: The largest European MLP convention based in Germany.
-    link: galacon.pony-events.eu
-    name: GalaCon
-    tags: convention,germany
-    updated: 2023-11-09
   - description: The Czech MLP convention.
     link: www.czequestria.cz
     name: Czequestria
@@ -2086,6 +2081,154 @@ sites:
     description: Hosts Tiarawhy/Studiowhy projects
     tags: game,personal,restricted
     updated: 2025-08-28
+  - name: Ponyphonic
+    link: ponyphonic.com/
+    description: ""
+    tags: music,personal
+    updated: 2025-08-29
+  - name: "#SaveDerpy"
+    link: savederpy.com
+    description: Save Derpy movement. Formed during the "The Last Roundup"
+      controversy in 2012.
+    tags: dead
+    updated: 2025-08-29
+  - name: Cards Against Equestria (alt)
+    link: cardsagainstequestria.com
+    description: Ponified Cards Against Humanity
+    tags: dead,restricted,game
+    updated: 2025-08-29
+  - name: FlamingoRich / Zachary Rich
+    link: flamingorich.com
+    description: Personal site of the writer/director/producer of Double Rainboom
+    tags: art,personal
+    updated: 2025-08-29
+  - name: GalaCon
+    link: galacon.eu
+    description: The largest European MLP convention based in Germany.
+    tags: convention,germany
+    updated: 2025-08-29
+  - name: kucykowyminecraft.pl
+    link: kucykowyminecraft.pl
+    description: Polish MLP themed minecraft server.
+    tags: minecraft,game,dead
+    updated: 2025-08-29
+  - name: kucykowyteamspeak.pl
+    link: kucykowyteamspeak.pl
+    description: Teamspeak for the polish MLP themed minecraft server kucykowyminecraft.pl
+    tags: game,minecraft,dead
+    updated: 2025-08-29
+  - name: EquestriaNet
+    link: equestrianet.org
+    description: Spanish MLP news site.
+    tags: blog,dead,spanish
+    updated: 2025-08-29
+  - name: Etherella.com
+    link: etherella.com/scrapbook
+    description: The My Little Pony Scrapbook is a Generation 1 pony ID site that
+      first came into being in late 1998/early 1999.
+    tags: info
+    updated: 2025-08-29
+  - name: Hexstream Entertainment
+    link: hexstream.net
+    description: SFW and NSFW MLP content (art) collection.
+    tags: restricted,art
+    updated: 2025-08-30
+  - name: The Pony Events Federation
+    link: pony-events.eu
+    description: The Pony Events Federation is an association founded to
+      host/support fan events
+    tags: convention
+    updated: 2025-08-30
+  - name: Sonic Rainboom
+    link: sonicrainboom.com
+    description: Brazilian brony community
+    tags: portuguese,brazilian,community,redirect
+    updated: 2025-08-29
+  - name: Sonic Rainboom
+    link: sonicrainboom.com.br/
+    description: Brazilian brony community
+    tags: portuguese,brazilian,community
+    updated: 2025-08-29
+  - name: Legends Of Equestria
+    link: legendsofequestria.com
+    description: Legends Of Equestria free-to-play MMORPG
+    tags: game
+    updated: 2025-08-30
+  - name: Mane6 - Them's Fightin' Herds
+    link: mane6.com
+    description: >
+      Originally My Little Pony: Fighting Is Magic, a fighting game featuring
+      the mane 6. After a c&d, Lauren Faust helped to design original characters
+      and the game got renamed to Them's Fightin' Herds.
+    tags: dead,game
+    updated: 2025-08-29
+  - name: Lost Tales Of Equestria
+    link: losttalesofequestria.type.pl
+    description: Polish MLP forum
+    tags: poland,forum,dead
+    updated: 2025-08-29
+  - name: Neighsayer Patches
+    link: neighsayerpatches.com
+    description: Your one stop shop for all pone propaganda.
+    tags: store
+    updated: 2025-08-30
+  - name: MLP France
+    link: mlp-france.fr
+    description: Hosts MLP episodes, comics, EQG, etc., in French and English.
+    tags: episodes,dead,france
+    updated: 2025-08-31
+  - name: MlpRainbow
+    link: mlprainbow.wordpress.com
+    description: |-
+      French MLP news/blog site.
+      Original URL: mlprainbow.com
+    tags: blog,france
+    updated: 2025-08-31
+  - name: MlpRainbow
+    link: mlprainbow.com
+    description: French MLP news/blog site.
+    tags: blog,france,dead
+    updated: 2025-08-31
+  - name: Moonbutt Science Labs
+    link: moonbutt.science
+    description: |-
+      Woona. No faith, butt code.
+      Gitea instance.
+    tags: tech,dead
+    updated: 2025-08-31
+  - name: Commagray / Sasha Epona
+    link: mle.party
+    description: Personal site of Commagray / Sasha Epona.
+    tags: personal,dead
+    updated: 2025-08-31
+  - name: mlpwillbe4evr
+    link: mlpcon.com
+    description: Original host url of /mlp/ con. Now repurposed as mlpwillbe4evr
+      discord server link.
+    tags: convention,online,discord,dead,bad cert
+    updated: 2025-08-31
+  - name: Friendship Is Dragons
+    link: friendshipisdragons.com
+    description: "Comic ran from 2011 to 2024 spanning 2011 pages. Premise: MLP:FiM
+      doesn't exist, instead the world and the characters are all part of a D&D
+      campaign. The six player characters are playing the mane 6."
+    tags: art,comic
+    updated: 2025-08-31
+  - name: ""
+    link: sunbutt.faith
+    description: Used to have a matrix instance and a Pleroma instance
+    tags: dead
+    updated: 2025-08-31
+  - name: Poniville Live!
+    link: pvlive.me
+    description: Used to redirects to https://ponyvillelive.com/
+    tags: dead
+    updated: 2025-08-31
+  - name: NorseHorseCon
+    link: www.norsehorsecon.eu
+    description: MLP convention in Denmark.
+    tags: convention,denmark
+    updated: 2025-09-08
 sitelist:
   - "# Fan Works"
   - "## Blogs"
@@ -2105,6 +2248,7 @@ sitelist:
   - www.equestriaafterdark.org
   - brohoof.pl
   - poczta.ponie.es
+  - equestrianet.org
   - "## Art"
   - derpibooru.org
   - www.canterlotcomics.com
@@ -2119,6 +2263,7 @@ sitelist:
   - foalcon.com
   - equestriauntamed.com/
   - mylittlewallpaper.com
+  - friendshipisdragons.com
   - "### Derpibooru Alternates"
   - altboorus.org
   - manebooru.art
@@ -2203,6 +2348,11 @@ sitelist:
   - carddex-ptc.de
   - worldofequestria.pl
   - wolfpuncher.com
+  - cardsagainstequestria.com
+  - kucykowyminecraft.pl
+  - kucykowyteamspeak.pl
+  - mane6.com
+  - legendsofequestria.com
   - "### Secret Shipfic Folder"
   - www.secretshipfic.com
   - www.tsssf.net
@@ -2263,6 +2413,8 @@ sitelist:
   - little.my
   - pone.dev
   - oldponish.com
+  - moonbutt.science
+  - sunbutt.faith
   - "## Videos"
   - projectvinyl.net
   - pony.tube
@@ -2298,14 +2450,16 @@ sitelist:
   - pone.voyage
   - neighcon.net/
   - "## Europe"
+  - pony-events.eu
   - everfree-encore.eu
   - eponafest.it
-  - galacon.pony-events.eu
+  - galacon.eu
   - www.czequestria.cz
   - ponyconholland.com
   - www.ukponycon.co.uk
   - broniespoznan.pl
   - hopsfeatherfest.at
+  - www.norsehorsecon.eu
   - "## Online Cons"
   - ponyfest.horse
   - poniesonline.org
@@ -2314,6 +2468,7 @@ sitelist:
   - bronybash.online
   - midairponyfair.com
   - marecon.live
+  - mlpcon.com
   - "## Former Conventions"
   - bronycon.org
   - ponycon.nyc
@@ -2366,6 +2521,9 @@ sitelist:
   - horsecraft.xyz
   - ponymemes.org
   - rainbowfactory.pl
+  - savederpy.com
+  - sonicrainboom.com
+  - sonicrainboom.com.br/
   - "## Streaming"
   - www.bronystate.net
   - berrytube.tv
@@ -2376,6 +2534,7 @@ sitelist:
   - derpy.tv
   - stream.brony.eu
   - mlprewatch.stream
+  - pvlive.me
   - "## Forums + Roleplaying"
   - boards.4channel.org/mlp/
   - mlpforums.com
@@ -2396,6 +2555,7 @@ sitelist:
   - mlpol.net
   - fillychan.com
   - mlppolska.pl
+  - losttalesofequestria.type.pl
   - "## Fediverse + Mastodon"
   - fedi.ponysearch.eu
   - pon.ee
@@ -2424,6 +2584,8 @@ sitelist:
   - poniesholidays.org
   - bastion-brony.fr
   - www.breizhy-ponies.fr
+  - mlprainbow.wordpress.com
+  - mlprainbow.com
   - "## Wikis"
   - gyropedia.fandom.com/
   - htps://mlp-gaming.fandom.com/
@@ -2436,6 +2598,7 @@ sitelist:
   - mulpwiki.batpony.party
   - mylittlewiki.org
   - mlppreservationproject.com
+  - etherella.com/scrapbook
   - "## Poniverse"
   - poniverse.net
   - canterlotavenue.com
@@ -2455,6 +2618,7 @@ sitelist:
   - heartshine.gay
   - yayponies.eu
   - derpy.fr
+  - mlp-france.fr
   - "# Joke Sites"
   - horse.best
   - coco-pommel.org
@@ -2515,6 +2679,11 @@ sitelist:
   - mumbleetc.com
   - oddwarg.com
   - mittsies.com
+  - ponyphonic.com/
+  - flamingorich.com
+  - hexstream.net
+  - neighsayerpatches.com
+  - mle.party
   - "## Vylet Pony"
   - www.vyletpony.com
   - cutiemarks.net
